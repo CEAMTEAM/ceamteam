@@ -1,0 +1,86 @@
+#!/bin/bash
+
+set -e
+
+NAME=$(basename $0)
+RUN_SETUP=1
+
+echo-error() {
+  echo "$@" 1>&2
+}
+
+usage() {
+    cat << USAGE >&2
+Usage:
+    ${NAME} [-r] [-u]
+    -r | --rebuild       Recreate all containers and volumes
+    -u | --update        Update container images to the latest version
+    --setup              Always run initial setup scripts
+    --no-setup           Do not run initial setup scripts
+USAGE
+    exit 1
+}
+
+wp-cli() {
+    docker-compose run --rm wp "$@" --skip-plugins --skip-themes
+}
+
+setup() {
+    local NEW_URL="http://localhost:${HTTP_PORT}"
+    local OLD_URL="$( wp-cli option get siteurl | sed -e 's/[[:space:]]*$//' )"
+
+    if [ "$RUN_SETUP" -ne 2 ] && [ "$NEW_URL" == "$OLD_URL" ]; then
+        echo 'Site already configured.'
+        return 0
+    fi
+
+    echo 'Updating site URL...'
+    wp-cli search-replace "$OLD_URL" "$NEW_URL" --skip-columns=guid --format=count
+
+    echo "Disabling Divi's static CSS generation..."
+    wp-cli db query 'UPDATE wp_options SET option_value = REPLACE(option_value, "s:21:\"et_pb_static_css_file\";s:2:\"on\";", "s:21:\"et_pb_static_css_file\";s:3:\"off\";") WHERE option_name = "et_divi"'
+}
+
+# Make sure we're in the right directory
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+
+# Load ENV variables
+set -a
+[ -f .env ] && . .env
+set +a
+
+# Handle flags
+while test $# -gt 0; do
+    case "$1" in
+        -r | --rebuild)
+            docker-compose down -v
+            shift
+            ;;
+        -u | --update)
+            docker-compose pull
+            shift
+            ;;
+        --setup)
+            RUN_SETUP=2
+            shift
+            ;;
+        --no-setup)
+            RUN_SETUP=0
+            shift
+            ;;
+        --help)
+            usage
+            ;;
+        *)
+            echo-error "Unknown argument: $1"
+            usage
+            ;;
+    esac
+done
+
+# Start server
+docker-compose up -d \
+    && echo 'Waiting for files to mount...' \
+    && sleep "$MOUNT_TIMEOUT" \
+    && if [ "$RUN_SETUP" -ne 0 ]; then setup; fi \
+    && echo "Server running at http://localhost:${HTTP_PORT}"

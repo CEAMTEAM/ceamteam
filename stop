@@ -1,0 +1,47 @@
+#!/bin/bash
+
+set -e
+
+name=$(basename $0)
+
+echo-error() {
+  echo "$@" 1>&2
+}
+
+usage() {
+    cat << USAGE >&2
+Usage:
+    ${name} [-d]
+    -d | --destroy       Remove all containers and volumes
+USAGE
+    exit 1
+}
+
+# Make sure we're in the right directory
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+
+DESTROY=0
+
+# Handle flags
+while test $# -gt 0; do
+    case "$1" in
+        -d | --destroy)
+            DESTROY=1
+            shift
+            ;;
+        --help)
+            usage
+            ;;
+        *)
+            echo-error "Unknown argument: $1"
+            usage
+            ;;
+    esac
+done
+
+# Stop server
+if [ "$DESTROY" -eq 1 ]; then
+    docker-compose down -v
+else
+    docker-compose down
+fi
