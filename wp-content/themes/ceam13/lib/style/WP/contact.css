@@ -1,0 +1,12 @@
+/* Plugins
+
+-IN FIELD LABELS 	(https://github.com/dcneiner/In-Field-Labels-jQuery-Plugin/blob/master/src/jquery.infieldlabel.min.js)
+-CONTACT FORM 		(based around http://tutorialzine.com/2010/09/quick-feedback-form-php-jquery/)
+
+
+/* CONTACT FORM
+----------------------------------------------------------------------------------*/
+#jerks	{ display:none; }
+#response p	{ color:#f00; }	
+	
+	

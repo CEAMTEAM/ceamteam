@@ -1,0 +1,18 @@
+/* Block Stuff
+------------------------------------------------------------------------------------*/
+.block, .show	{ display:block; }
+.inline			{ display: inline-block; }
+.clear			{ clear:both; }
+.relative		{ position:relative; }
+.hide			{ display: none; }
+.hide-left		{ position:absolute; left:-9999em; }
+.neg-indent		{ height:0;line-height:0;text-indent:-999em;width:0;}
+.hidden			{ visibility: hidden; }
+
+
+	
+/* Floating and Centering
+------------------------------------------------------------------------------------*/
+.center	{ margin:0 auto; }
+.left 	{ float:left; }
+.right	{ float:right; }

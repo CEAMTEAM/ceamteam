@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "year": "I am record one",
+      "agency": "Fetched by AJAX"
+    },
+    {
+      "year": "I am record two",
+      "agency": "Cuz it's awesome"
+    },
+    {
+      "year": "I am record three",
+      "agency": "Yup, still AJAX"
+    }
+  ],
+  "queryRecordCount": 3,
+  "totalRecordCount": 3
+}

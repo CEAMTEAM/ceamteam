@@ -1,0 +1,8 @@
+#BUGS
+#--------------------------------------------------------------------------------------------
+
+Comment Page (11/05/11)
+	- TextArea (comment form) doesn't expand because of the Errors thrown by Heads_Up Grid and Audio.js
+		- Delete these from the homepage to make the Textarea expand again. 
+
+

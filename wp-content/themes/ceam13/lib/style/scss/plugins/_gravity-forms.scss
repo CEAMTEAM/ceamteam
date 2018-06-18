@@ -1,0 +1,127 @@
+.gform_wrapper {
+
+}
+
+.gform_wrapper ul {
+	margin: 0;
+}
+
+
+.gform_validation_container {
+	display: none;
+}
+
+.footerForm textarea {
+    /* height: 150px; */
+}
+
+
+div[id^="gform_wrapper"] .gfield { /* li */
+    padding-bottom: 1em;
+    list-style: none;
+}
+.gfield_contains_required {
+
+}
+.validation_message {
+    color: red;
+}
+
+.gfield_label {
+
+}
+
+.ginput_container input,
+.ginput_container textarea,
+[id=*"signup_"]{
+    background: #e8e8e2;
+    border-radius: .5em;
+    box-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
+input[id=*"signup_"]{ {
+	margin-bottom: .5em;
+}
+
+
+label[id=*"signup_"]{ {
+	font-weight: bold;
+}
+
+input[id=*"signup_"].checkbox {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    display: inline;
+    width: 30px;
+}
+
+
+.nbforms .radio-inline span,
+.nbforms .checkbox-inline span {
+  white-space: nowrap;
+  display: inline-block;
+	width: 25px;
+  margin-right: 60px;
+}
+
+
+.nbforms .radio-inline span input,
+#donation_email_opt_in  {
+  //position: absolute;
+  //left: -9999px;
+	background: transparent;
+	border-radius: none;
+	box-shadow: none;
+}
+
+#donation_email_opt_in  {
+  width: 5%;
+}
+
+.nbforms input[type=submit]:hover {
+	background-color: #f48f1e;
+}
+
+.nbforms .radio-inline span label {
+  display: block;
+  position: relative;
+  margin: 20px;
+  padding: 15px 30px 15px 62px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #6a8494;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+.nbforms .radio-inline span label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 32px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  transition: background-color .2s;
+}
+
+
+.nbforms .radio-inline span label:hover,
+.nbforms .radio-inline span input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+.nbforms .radio-inline span input:checked + label {
+  background-color: #ab576c;
+}
+
+.nbforms .radio-inline span input:checked + label::before {
+  background-color: #fff;
+}

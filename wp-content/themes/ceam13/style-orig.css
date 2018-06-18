@@ -1,0 +1,80 @@
+/*
+Theme Name: 	CEAM TEAM
+Theme URI: 		http://solvm.com
+Description:			Children's Educational Alliance of Missouri
+Author: 					Benjamin Gandhi-Shepard
+Version: 				1.0
+Tags: 						OOCSS, Modualr, Modernizer, Scaffold
+*/
+
+/*NORMALIZE (customized)
+------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("lib/style/core/reset.css");
+@import url("lib/style/core/fixes.css");
+
+
+/*
+-GRIDS
+-SPACING (formerly space.css)
+-TABLE
+-TYPOGRAPHY (formerly Content - based on Scale and Rhythm by iain lamb // http://lamb.cc/typograph/)
+-UTILITIES (formerly template)
+
+	all based on OOCSS // by stubbornella (Nicole Sullivan) // @ https://github.com/stubbornella/oocss/wiki
+------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import url("lib/style/core/grids.css");
+
+/*320 and UP (http://stuffandnonsense.co.uk/projects/320andup/)
+------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import url("lib/style/core/typography.css");
+
+/*WORPRESS - CSS broken into individual pages for their corresponding sections in wordpress. This betters organization and recognition
+------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import url("lib/style/WP/navigation.css"); /*styles for the navigation only*/
+@import url("lib/style/theme.css");
+
+/*PLUGINS - These are the css plugins for custom js features
+------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@import url("lib/style/plugins/gravity-forms.css");
+
+/*
+url("lib/style/plugins/royal-slider.css");
+url("lib/js/royal/royalslider/royalslider.css");
+url("lib/js/royal/royalslider/skins/default/rs-default.css");
+url("lib/js/royal/royalslider/skins/minimal-white/rs-minimal-white.css");
+*/
+
+/* url("lib/js/stacktable/stacktable.css"); */
+
+
+/*UTILITIES
+------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("lib/style/utilities/backgrounds.css");
+@import url("lib/style/utilities/buttons.css");
+@import url("lib/style/utilities/clear-fix.css");
+
+@import url("lib/style/utilities/images.css");
+@import url("lib/style/utilities/position.css");
+@import url("lib/style/utilities/round-corners.css");
+@import url("lib/style/utilities/shadows.css");
+@import url("lib/style/utilities/shapes.css");
+@import url("lib/style/utilities/special-characters.css");
+@import url("lib/style/utilities/tables.css");
+
+/*FONTS
+------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+url("lib/style/utilities/icons.css");
+url("lib/icons/stylesheets/general_enclosed_foundicons.css");
+*/
+@import url("/wp-content/themes/ceam13/lib/icons/style.css");
+
+
+/*JS
+------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("lib/js/fresco/css/fresco/fresco.css");

@@ -1,0 +1,9 @@
+/* Plugins
+
+-IN FIELD LABELS 	(https://github.com/dcneiner/In-Field-Labels-jQuery-Plugin/blob/master/src/jquery.infieldlabel.min.js)
+
+
+/* IN FIELD LABELS
+----------------------------------------------------------------------------------*/
+.inFieldXL  { position:absolute; top:1.5em; left:.25em;}
+.inField  { position:absolute; top:0; left:0;}

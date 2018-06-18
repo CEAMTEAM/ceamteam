@@ -1,0 +1,181 @@
+/* BOX SHADOWS - like border bottom without adding a 1px line to the box 
+---------------------------------------------------------------------------------------------------------------- */
+	.boxShadowBottom {
+		-webkit-box-shadow: inset 0px -1px 0px rgba(0,0,0,.1);
+		-moz-box-shadow: inset 0px -1px 0px rgba(0,0,0,.1);
+		box-shadow: inset 0px -1px 0px rgba(0,0,0,.1); 
+						
+		}
+		
+	.boxShadowBottomY {
+		-webkit-box-shadow: inset 0px -1px 0px #FFDC2E;
+		-moz-box-shadow: inset 0px -1px 0px #FFDC2E;
+		box-shadow: inset 0px -1px 0px #FFDC2E; 
+		
+		border-bottom-color/*\**/: #FFDC2E\9;
+		border-bottom-style/*\**/: solid\9;
+		border-bottom-width/*\**/: 1px\9;
+		
+		*border-bottom:1px solid #FFDC2E;
+		_border-bottom:1px solid #FFDC2E;		
+		}
+	
+	.boxShadowTop {
+		-webkit-box-shadow: inset 0px 1px 0px rgba(0,0,0,.1);
+		-moz-box-shadow: inset 0px 1px 0px rgba(0,0,0,.1);
+		box-shadow: inset 0px 1px 0px rgba(0,0,0,.1); 
+		
+		border-top-color/*\**/: #ccc\9;
+		border-top-style/*\**/: solid\9;
+		border-top-width/*\**/: 1px\9;
+		*border-top:1px solid #ccc;
+		_border-top:1px solid #ccc;
+		}
+
+		
+	.boxShadowLeft {
+		-webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1);
+		-moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1);
+		box-shadow: inset 1px 0 0 rgba(0,0,0,.1);
+		
+		border-left-color/*\**/: #ccc\9;
+		border-left-style/*\**/: solid\9;
+		border-top-width/*\**/: 1px\9;
+		*border-left:1px solid #ccc;
+		_border-left:1px solid #ccc;
+		}
+		
+
+	.boxShadowRight {
+		-webkit-box-shadow: inset -1px 0 0 rgba(0,0,0,.1);
+		-moz-box-shadow: inset -1px 0 0 rgba(0,0,0,.1);
+		box-shadow: inset -1px 0 0 rgba(0,0,0,.1);
+		
+		border-right-color/*\**/: #ccc\9;
+		border-rigth-style/*\**/: solid\9;
+		border-top-width/*\**/: 1px\9;
+		*border-right:1px solid #ccc;
+		_border-right:1px solid #ccc;
+		}
+
+
+/*
+TEXT SHADOW effects
+---------------------------------------------------------------------------------------------------------------- */
+/* http://nicewebtype.com/fonts/ambroise-with-le-monde-sans/ */
+
+	.text-shadow-w 	{ text-shadow: 1px 1px 1px #fff; }
+	
+	.text-shadow-b 	{ text-shadow: 1px 1px 1px #333; }
+		
+	.letterpress-wt { text-shadow:0 -1px 0 rgba(255,255,255,0.7); }
+	
+	.letterpress-wb { text-shadow:0 1px 0 rgba(255,255,255,0.9); }
+	
+	.letterpress-bt { text-shadow:0 -1px 0 rgba(51,51,51,0.7); }
+	
+	.letterpress-bb { text-shadow:0 1px 0 rgba(51,51,51,0.7); }
+	
+	.text-shadow1	{ text-shadow: 4.422px 0 0 #D4EE5E; }
+	
+	/* Yaron 
+	http://pronounce.yaronschoen.com/
+	*/
+	.text-shadow2	{
+		text-shadow: 	1px 2px 0 rgba(255, 255, 255, 0.8), 
+									6px 3px 0 #B2C0CB, 
+									6px 4px 0 #B2C0CB, 
+									6px 5px 0 #B2C0CB, 
+									6px 6px 0 #B2C0CB, 
+									6px 7px 0 #B2C0CB, 
+									6px 8px 0 #B2C0CB, 
+									6px 9px 0 #B2C0CB, 
+									6px 10px 0 #B2C0CB, 
+									6px 11px 0 #B2C0CB;
+									}
+	
+	.D3g	{
+		text-shadow:  0.01em 0.01em 0 #ccc, 
+									0.02em 0.02em 0 #ccc, 
+									0.03em 0.03em 0 #ccc, 
+									0.04em 0.04em 0 #ccc, 
+									0.05em 0.05em 0 #ccc, 
+									0.06em 0.06em 0 #ccc, 
+									0.07em 0.07em 0 #ccc, 
+									0.08em 0.08em 0 #ccc, 
+									0.09em 0.09em 0 #ccc, 
+									0.1em 0.1em 0 #ccc;
+									}
+		
+		
+		/*
+		http://www.purepleasuredesign.com/en/kontakt/
+		transition: all .25s ease-in;
+		*/
+		.pureShadow {
+			color:#fff;
+			text-shadow: 	0 1px 0 #CCC, 
+				0 2px 0 #C9C9C9, 
+				0 3px 0 #BBB, 
+				0 4px 0 #B9B9B9, 
+				0 5px 0 #AAA, 
+				0 6px 1px rgba(0, 0, 0, .1), 
+				0 0 5px rgba(0, 0, 0, .1), 
+				0 1px 3px rgba(0, 0, 0, .3), 
+				0 3px 5px rgba(0, 0, 0, .2), 
+				0 5px 10px rgba(0, 0, 0, .25), 
+				0 20px 20px rgba(0, 0, 0, .15);
+			}
+	/* Kyan 
+	http://kyan.com/
+	*/	
+	.bigShadow	{
+	    text-shadow: 1px 2px 0 #F9F9F7, 3px 6px 0 #E7E6E2;
+	    }
+	    
+	.bigShadowW	{
+	    text-shadow: 3px 6px 0 #fff;
+	    }
+	
+	.bigShadowY	{
+		text-shadow: 1px 2px 0 #F9F9F7, 3px 6px 0 #E7E6E2;
+	    text-shadow: 3px 6px 0 #FFDC2E;
+	    }    
+
+
+.dropShadowLg {
+	position: relative;
+	width: 100%;
+	/* background: #ccc; */
+	/* - make a white border around image
+padding: 2%;
+	width: 96%;
+*/
+	display: block;
+}
+
+.dropShadowLg:before, .dropShadowLg:after {
+	z-index: -1; 
+	position: absolute; 
+	content: "";
+	bottom: 1.25em;
+	left: 10px;
+	width: 50%; 
+	top: 80%;
+	max-width:500px;
+	background: rgba(0, 0, 0, 0.7); 
+	-webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);   
+	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-webkit-transform: rotate(-3deg);    
+	-moz-transform: rotate(-3deg);   
+	-o-transform: rotate(-3deg);
+}
+
+.dropShadowLg:after {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	right: 1em;
+	left: auto;
+}

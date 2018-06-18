@@ -1,0 +1,169 @@
+.col, .column, .unit { float:left; }
+
+
+/* 2 column layout // 480px
+------------------------------------------------------------------------------------*/
+.size1of1{float:none;}
+.size1of2{width:50%;}
+
+/* 3 column layout // 320px // 640px 
+------------------------------------------------------------------------------------*/
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+
+/* 4 column layout // 240px // 480px // 720px
+------------------------------------------------------------------------------------*/
+.size1of4{width:25%;}
+.size2of4{width:50%;}
+.size3of4{width:75%;}
+
+/* 5 column layout // 192px // 384px // 576px // 768px
+------------------------------------------------------------------------------------*/
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+
+/* 6 column layout // 160px // 320px // 480px // 640px // 800px 
+------------------------------------------------------------------------------------*/
+.size1of6{width:16.66666%}
+.size2of6{width:33.33333%;}
+.size3of6{width:50%;}
+.size4of6{width:66.66666%;}
+.size5of6{width:83.33333%;}
+
+/* 7 column layout // 137.142857143
+------------------------------------------------------------------------------------*/
+.size1of7{width:14.285714%;}
+.size2of7{width:28.571429%;}
+.size3of7{width:42.857143%;}
+.size4of7{width:57.142857%;}
+.size5of7{width:71.428571%;}
+.size6of7{width:85.714286%;}
+
+/* 8 column layout // 120px // 240px // 360px // 480px // 600px // 720px // 840px
+------------------------------------------------------------------------------------*/
+.size1of8{width:12.5%;}
+.size2of8{width:25%;}
+.size3of8{width:37.5%;}
+.size4of8{width:50%;}
+.size5of8{width:62.5%;}
+.size6of8{width:75%;}
+.size7of8{width:87.5%;}
+
+
+.lastUnit{
+	display:table-cell;
+	float:none;
+	width:auto;
+	*display:block;
+	*zoom:1;
+	_position:relative;
+	_left:-3px;
+	_margin-right:-3px;
+	}
+	
+	
+/* RESPONSIVE SETTINGS
+------------------------------------------------------------------------------------*/	
+		
+.width {
+	margin: 0 auto;
+	max-width: 1200px;
+	}
+
+
+/* MEDIA QUERIES
+------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1382px) {	/* Viewport is less than 1382 */
+
+
+
+}
+
+@media only screen and (max-width: 992px) {	/*  Viewport is less than 992  */
+	
+	.width { max-width: 960px; }
+	
+	.size1of4 { width: 33.3333%; }
+	.size1of2 { width: 50%; }
+
+}
+
+@media only screen and (max-width: 768px) {	 /* Viewport is less than 768 */
+
+	.width {max-width: 800px;}
+	
+	.size1of4 { width: 50%; }
+
+}
+
+@media only screen and (max-width: 600px) { 	/* Viewport is less than 600 */
+
+	.width { max-width: 560px; }
+	.unit { float:none; }
+	.size1of4, .size6of8, .size2of3, .size3of4 { width: 100%; }
+
+}
+
+@media only screen and (max-width: 480px) { 	/* Viewport is less than 480 */
+
+	.width {max-width:95%;}
+	
+}
+
+
+/* 2x -> Retina */
+
+/*
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),    
+only screen and (min--moz-device-pixel-ratio: 1.5), 
+only screen and (min-device-pixel-ratio: 1.5) {
+    
+}
+*/
+
+ /* iPhone [landscape ] */
+ 
+/*
+@media only screen and (max-device-width: 480px) and (orientation:landscape) {
+
+	.width {max-width:320px;}
+	
+}
+*/
+
+/* iPhone [portrait ] */
+
+/*
+@media only screen and (max-device-width: 480px) and (orientation:portrait) { 
+
+
+}
+*/
+
+/* iPad [portrait ] */
+
+/*
+@media only screen and (max-device-width: 768px) and (orientation:portrait) { 
+
+
+}
+*/
+
+/* iPad [portrait ] */
+
+/*
+@media only screen and (max-device-width: 768px) and (orientation:landscape) { 
+
+
+}
+*/
+
+
+
+
+
+/* END QUERIES
+------------------------------------------------------------------------------------*/

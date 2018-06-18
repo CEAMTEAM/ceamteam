@@ -1,0 +1,10 @@
+#
+# Enable Scaffold
+#------------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteCond %{REQUEST_URI} \.css$
+    RewriteRule ^(.+)$ /wp-content/themes/ceam13/lib/scaffold/parse.php?file=%{REQUEST_URI}&%{QUERY_STRING}
+</IfModule>

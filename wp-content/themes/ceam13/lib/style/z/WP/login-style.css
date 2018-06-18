@@ -1,0 +1,79 @@
+html {
+/* 	background: url("/wp-content/themes/academy2012/images/bgLogin2.jpg") center 0 repeat #fff !important; */
+	/*
+	background: url("/wp-content/themes/solvm1/images/logo.png") 0 0 repeat #fff !important;
+	background:-moz-linear-gradient(top, #E95C41, #E8E8E2) !important;
+	background:-moz-linear-gradient(top, #666, #fff);
+	background:-webkit-gradient(linear, left top, left bottom, from(#11032e), to(#2a0d65));
+	*/
+	/*_background:url("/wp-content/themes/Ethics/images/bg1pxTop.png") repeat-x scroll 0 0 #FFFFFF;*/
+	height:100%;
+	}
+body {
+/* 	background:url("/wp-content/themes/academy2012/images/bgLogin1.jpg") repeat-x 0 0 transparent !important;  */
+	min-height: 100%;
+	background-image: url(/wp-content/themes/ceam13/lib/images/web/classroom2.jpg)!important;
+	background-size: cover!important;
+	background-position:center center!important;
+	background-repeat: no-repeat!important;
+	}
+h1 a { background:none !important; }
+
+
+. login form { background: rbga(255,255,255,.5); }
+
+.login label { color: #333; }
+
+form p label { font-size:16px; }
+
+#nav, #backtoblog {
+	text-shadow: 0 1px 0 #FFFFFF;
+	text-shadow:none;
+	}
+
+#backtoblog {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom:none;
+	background:none;
+	height: 30px;
+	width: auto;
+	}
+#backtoblog a {
+	color:#E95C41 !important;
+	display: block;
+	padding: 8px 0 0 15px;
+	text-decoration: none;
+	}
+
+.login #nav a, .login #backtoblog a { color: #E95C41 !important; }
+
+input.button-primary, button.button-primary, a.button-primary {
+	background:#E95C41;
+	border:none;
+	-moz-border-radius:0;
+	-khtml-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	color:#FFFFFF;
+	font-weight:bold;
+	/*text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);*/
+	}
+
+#nav 	{clear: both;}
+#nav a	{ text-shadow:none;}
+.login #nav a:hover, .login #backtoblog a:hover	{ background:#E95C41; color: #fff !important; }
+
+#sm2-container { display: none;}
+
+/*
+=bg-gradient-moz	{
+	background:-moz-linear-gradient(top, #11032e, #2a0d65);
+	}
+
+=bg-gradient-webkit	{
+	background:-webkit-gradient(linear, left top, left bottom, from(#11032e), to(#2a0d65));
+	}
+
+*/

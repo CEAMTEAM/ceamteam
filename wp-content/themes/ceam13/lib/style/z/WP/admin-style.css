@@ -1,0 +1,10 @@
+#header-logo { 
+	/*background-image: url(/images/adminLogo.png) !important; */
+	width:120px; 
+	}
+	
+#wphead h1 a	{
+	color:#555;
+	text-shadow:0 -1px 0 rgba(255,255,255,0.7);
+	text-transform: uppercase;
+	}

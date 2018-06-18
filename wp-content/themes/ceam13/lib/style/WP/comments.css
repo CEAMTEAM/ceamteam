@@ -1,0 +1,192 @@
+/* COMMENTS
+----------------------------------------------------------------------------------*/	
+#comments		{ }
+
+.commentlist > li	{ }
+
+.commentlist	{ }	
+
+	.comment	{}
+	
+	.comment div p	{}
+	
+	.comment-margin	{ @include boxShadowBottom(.2); padding: 1.5em 0; }
+	
+	.even 	{}
+	.odd	{}
+	.alt	{ /*border-left: 1px solid #ddd; margin: 0; padding: 10px;*/ } 
+	
+	.thread-even{ /*background-color:$grey2;*/ } 
+	.thread-odd {} 
+	.thread-alt { /*background-color: $grey1;*/ }
+	
+	.depth-1	{} 
+	.depth-2	{}
+	.depth-3	{}
+				
+		.comment-author	{ } 
+		.vcard	{} 
+		
+			.fn	{ padding: 0; font-weight: 700;} 
+			.comment-date	{display:block; }
+			.url	{ }	
+			.says 	{ }	
+				
+			.avatar {@include beveledBorderLight(5px); } /*96 - 22padding - 2border - 2outline*/ /*Must be floated to keep baseline rhythm*/ /*size must be divisible by 24*/
+			.avatar-100 {} 
+			.photo {} 
+		
+		.comment-body	{  } 
+			.comment-body p	{  }
+		
+		.comment-meta{} 
+		.commentmetadata{ } 
+		
+			a.comment-edit-link  {  background-color:; color:;  text-align:center; width:100px;
+					&:hover { background-color:; color:; }
+					}
+		/*
+			.reply { display: inline;
+				a	{ background-color:aqua; color:;  text-align:center; width:100px;
+					&:hover { background-color:orange; color:; }
+					}
+				}
+		*/
+	.conversation	{
+		background: #f5f5f5; 
+		background: rgba(0,0,0, .1); /* firefox */
+		}
+		
+	/*
+	.children .comment-body {margin-left:3em}
+	.children .comment-body .children .comment-body {margin-left:6em;}
+	*/
+	.children	{ margin:0; 
+		
+	  /*li:nth-child(1)	{ background:none; }
+		li:nth-child(2)	{ background:none; }
+		li:nth-child(3)	{ background:none; }*/
+		
+		}
+			
+	.comment-author-admin{	} 
+	.byuser	{} 
+	.bypostauthor{	
+		  color:;
+		  a	{color:;}
+		  p	{color:;}	 
+	 } 
+		
+
+/* COMMENT FORM
+----------------------------------------------------------------------------------*/
+#respond	{ background: rgba(0,0,0,0.1);   
+
+	#reply-title 	{  
+	
+		small	{ 
+			a	{  }
+			}
+		}
+
+		
+	h6	{ color:blue; }
+	
+	form	{ 
+	
+		span.required	{ color:olive; }
+		
+		p	{ padding: 0 0 1.5em 0; }
+	
+		p.comment-notes	{}
+		
+		p.comment-form-author	{ }
+		
+		p.comment-form-email	{}
+		
+		p.comment-form-url	{}
+		
+		p.logged-in-as	{ 
+			a	{  }
+			}
+		
+		p.comment-form-comment	{ }
+		
+		p.form-allowed-tags	{}
+		
+		p.form-submit	{ }
+		
+		label	{ }
+
+		input, textarea	{  }
+		
+	}
+}
+
+#comment	{ height:1.3em; }
+
+#submit { 
+		width:8em;
+		&:hover { 
+			
+			}
+			
+		&:active { 
+			top:1px;
+			}	
+	}
+		
+
+/* REPLY COMMENT FORM - clicking the reply button puts the Comment Form inside .comment 
+----------------------------------------------------------------------------------*/
+.comment	{  
+	#respond	{ background: rgba(0,0,0,0.1);   
+	
+		#reply-title 	{  
+		
+			small	{ 
+				a	{  }
+				}
+			}
+	
+			
+		h6	{ color:blue; }
+		
+		form	{ width:100%;
+		
+			span.required	{ color:olive; }
+			
+			p	{ margin-left:0; margin-right:0; }
+		
+			p.comment-notes	{}
+			
+			p.comment-form-author	{ }
+			
+			p.comment-form-email	{}
+			
+			p.comment-form-url	{}
+			
+			p.logged-in-as	{ 
+				a	{ +textLink; }
+				}
+			
+			p.comment-form-comment	{ }
+			
+			p.form-allowed-tags	{}
+			
+			p.form-submit	{ 
+			
+				input{ background:; color:;
+					&:hover { background:; }
+					 }
+				}
+			
+			
+			label	{  }
+	
+			input, textarea	{ background:; border:; color:; display:inline; }
+			
+		}
+	}
+
+}

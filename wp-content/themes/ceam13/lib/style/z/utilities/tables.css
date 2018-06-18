@@ -1,0 +1,82 @@
+/** 
+ * Data Table 
+ * Allows you to align various table cells so that the alignment class can be placed on either the table, table row, or table cell 
+ * Cell takes precedence over table row and table
+ * Table row takes precedence over table
+ */
+.data{position:relative; zoom:1;vertical-align: top;text-align: left; width: 100%; /*border-right:solid 1px transparent;*//* border fixes a FF2 bug which causes the data table to overlay its borders*/}
+th {text-align: center; background: #777dac}
+
+/* td { width: 17%} */
+
+/* horizontal alignment */
+.txtC, table .txtC td, table .txtC th, .data .txtC th, .data .txtC td{text-align:center;}
+.txtL, table .txtL td, table .txtL th, .data .txtL th, .data .txtL td{text-align:left;}
+.txtR, table .txtR td, table .txtR th, .data .txtR th, .data .txtR td{text-align:right;}
+/* vertical alignment */
+.txtT, table .txtT td, table .txtT th, .data .txtT th, .data .txtT td{vertical-align:top;}
+.txtB, table .txtB td, table .txtB th, .data .txtB th, .data .txtB td{vertical-align:bottom;}
+.txtM, table .txtM td, table .txtM th, .data .txtM th, .data .txtM td{vertical-align:middle;}
+
+.data th,.data td{padding:.25em .5em}
+
+.table-style tr:nth-child(1n) { border-bottom:1px solid #e6e6e6;}
+
+.table-style tr:nth-child(2n) { background: #f5f5f5;}
+.table-style  tr:hover { /* background: yellow; */ }
+.table-style  th:first-child { text-align: left;}
+
+tbody:last-child tr:last-child td { padding:1em .5em; border-bottom:none;}
+
+thead span { display: block; font-weight: 100; }
+
+
+
+th a {
+  color: #fff;
+}
+th a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.dynatable-search {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.dynatable-pagination-links {
+  float: right;
+}
+
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+}
+
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+
+.dynatable-page-link {
+  cursor: pointer;
+}
+
+.dynatable-active-page {
+  background: #71AF5A;
+  border-radius: 5px;
+  color: #fff;
+}
+.dynatable-page-prev.dynatable-active-page,
+.dynatable-page-next.dynatable-active-page {
+  background: none;
+  color: #999;
+  cursor: text;
+}

@@ -1,0 +1,12 @@
+body	{
+				/*Kill scrollbars in FB*/
+	border:0;
+	overflow:hidden; 	/*Remove during testing to enable scrollbars*/
+	margin:0;
+	padding:0; 
+	}
+
+.fbpage	{	
+	width:520px; 		/*max FB width*/
+	}
+

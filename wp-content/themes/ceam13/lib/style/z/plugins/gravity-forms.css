@@ -1,0 +1,48 @@
+.gform_wrapper {
+	
+}
+
+.gform_wrapper ul {
+	margin: 0;
+}
+
+
+.gform_validation_container {
+	display: none;
+}
+
+.footerForm textarea {
+    /* height: 150px; */
+}
+
+
+div[id^="gform_wrapper"] .gfield { /* li */
+    padding-bottom: 1em;
+    list-style: none;
+}
+.gfield_contains_required {
+    
+}
+.validation_message {
+    color: red;
+}
+
+.gfield_label {
+    
+}
+
+.ginput_container input, 
+.ginput_container textarea,
+.nbInput input {
+    background: #e8e8e2;
+    border-radius: .5em;
+    box-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
+input.checkbox {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    display: inline;
+    width: 30px;
+}
