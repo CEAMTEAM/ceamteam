@@ -1,29 +1,29 @@
 <!doctype html>
 <html class="no-js" lang="">
-		<head>
-				<meta charset="utf-8">
-				<meta http-equiv="x-ua-compatible" content="ie=edge">
-				<title></title>
-				<meta name="description" content="">
-				<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-				<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto+Slab:400,700" rel="stylesheet">
-				
-				<link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css">
-				<script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto+Slab:400,700" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css">
+		<script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script>
 
-				<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="<?php get_site_url() ?>/favicon.ico">
-				<link rel="apple-touch-icon" sizes="57x57" href="<?php get_template_directory_uri() ?>/favicons/favicon-57.png">
-				<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php get_template_directory_uri() ?>/favicons/favicon-57.png">
-				<link rel="apple-touch-icon" sizes="72x72" href="<?php get_template_directory_uri() ?>/favicons/favicon-72.png">
-				<link rel="apple-touch-icon" sizes="114x114" href="<?php get_template_directory_uri() ?>/favicons/favicon-114.png">
-				<link rel="apple-touch-icon" sizes="120x120" href="<?php get_template_directory_uri() ?>/favicons/favicon-120.png">
-				<link rel="apple-touch-icon" sizes="144x144" href="<?php get_template_directory_uri() ?>/favicons/favicon-144.png">
-				<link rel="apple-touch-icon" sizes="152x152" href="<?php get_template_directory_uri() ?>/favicons/favicon-152.png">
-				<meta name="application-name" content="EaerthDance">
-				<meta name="msapplication-TileImage" content="<?php get_template_directory_uri() ?>/favicons/favicon-144.png">
-				<meta name="msapplication-TileColor" content="#708f41">
+		<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="<?php get_site_url() ?>/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="<?php get_template_directory_uri() ?>/favicons/favicon-57.png">
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php get_template_directory_uri() ?>/favicons/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="<?php get_template_directory_uri() ?>/favicons/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="<?php get_template_directory_uri() ?>/favicons/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="<?php get_template_directory_uri() ?>/favicons/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="<?php get_template_directory_uri() ?>/favicons/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="<?php get_template_directory_uri() ?>/favicons/favicon-152.png">
+		<meta name="application-name" content="EaerthDance">
+		<meta name="msapplication-TileImage" content="<?php get_template_directory_uri() ?>/favicons/favicon-144.png">
+		<meta name="msapplication-TileColor" content="#708f41">
 
 		<?php wp_head(); ?>
 
@@ -37,16 +37,16 @@
 			ga('send', 'pageview');
 		</script>
 
-		<!-- <script type='text/javascript'>
+		<script type='text/javascript'>
 			(function (d, t) {
 				var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
 				bh.type = 'text/javascript';
-				bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=4hnuxxxuogylouhp3fnvxq';
+				bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=wlf2xjjheykzxytly7orag';
 				s.parentNode.insertBefore(bh, s);
 				})(document, 'script');
-			</script> -->
-			
-		</head>
+		</script>
+		
+	</head>
 	<body <?php body_class('page'); ?>>
 
 		<!--header section-->
