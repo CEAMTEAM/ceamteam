@@ -1,0 +1,100 @@
+.believe
+  &__layer
+    height 100%
+
+  &__container
+    flex-direction column
+    height 100%
+
+    +below(600px)
+      //height 300vh
+
+  &__columns
+    align-items center
+    padding 5rem 0
+
+    +below(950px)
+      padding 2.5rem 0
+
+    +below(600px)
+      flex-direction column
+      padding 1rem 0
+
+  &__heading
+    color brown
+    flex 1
+
+    +below(600px)
+      flex none
+
+  &__content
+    align-items center
+    color brown
+    display flex
+    flex 1
+    padding 1rem
+
+  &__photo
+    align-items center
+    display flex
+    flex-direction column
+    padding 1rem 0 5rem 0
+
+    +below(950px)
+      padding-bottom 2.5rem
+
+    +below(600px)
+      //align-self center
+
+
+  &__image
+    align-self center
+    background-image url(img/groupJump.jpg)
+    background-repeat no-repeat
+    background-size cover
+    display flex
+    height 50vh
+    margin-bottom 1.5rem
+    width 50vw
+
+    +below(950px)
+      align-self center
+
+    +below(600px)
+      width 100vw
+
+  &__cta
+    //align-self flex-end
+    display flex
+    width 50vw
+
+    +below(950px)
+      display block
+      width inherit
+      //align-self center
+
+  &__button
+    background-color brown
+    color white
+    // margin-right 8rem
+    // margin-top 4rem
+    // padding .5rem 5.5rem
+
+  &__slogan
+    text-align center
+    width 100%
+    +ie11()
+      padding-top 3rem
+
+    svg
+      height 150px
+      width 150px
+
+      +below(500px)
+        width 100px
+
+      path
+        fill brown
+
+        +below(500px)
+          fill white

@@ -509,10 +509,6 @@
                     //show the loading
                     jQuery('#automatic_insert_mark').find('.ajax_loading').hide();
                     jQuery('#automatic_insert_mark').before(response.html);
-                    
-                    //hide send to manual order list buttton
-                    jQuery('#send_to_manual').slideUp();
-                    
 
                 },
             RemoveAutomaticOrderFallback: function (element)
@@ -659,35 +655,7 @@
                 {
                     jQuery('#order-post-type .ajax_loading .progress').html(current_page    +   ' of ' + APTO_AJAX_Pages);   
                                         
-                },
-                
-                
-                
-            automatic_order_Watch_input_change  :   function() 
-                {
-                    jQuery(document).ready(function() {
-                        
-                        jQuery('#order-post-type input, #order-post-type select').on('keyup change', function() {
-                            jQuery('#send_to_manual').slideUp();
-                        })
-                          
-                    })
-            
-                },
-            automatic_order_Send_to_Manual :  function()
-                {
-                    var agree   =   confirm("Manual Order list will be overwritten with automatic order. Are you sure you want to continue?");
-                    if (agree)
-                        {
-                            jQuery('form#apto_form_order').append('<input type="hidden"  name="automatic_order_send_to_manual" value="1" />');
-                            jQuery('form#apto_form_order').submit();
-                        }
-                        else
-                        {
-                            return false ;
-                        }                
-                },
-            
+                }
         }
         
 
@@ -796,7 +764,7 @@
                         APTO.sticky_toggle(jQuery(this).closest('li'));
                     })
         
-        jQuery('#sortable, #sortable_top, #sortable_bottom').on('mouseup', '.i_description', function () {
+        jQuery('ul#sortable, ul#sortable_top, ul#sortable_bottom').on('mouseup', '.i_description', function () {
                     
                         var parent_li = jQuery(this).closest('li'); 
                         if(jQuery(parent_li).hasClass('ui-sortable-helper'))

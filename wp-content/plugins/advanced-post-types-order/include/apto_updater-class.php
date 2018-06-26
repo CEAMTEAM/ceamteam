@@ -24,7 +24,7 @@
                     $settings  = APTO_functions::get_settings();
                     
                     //check the table                    
-                    if(!isset($settings['database_version']) || version_compare( $settings['database_version'], APTO_DB_VERSION , '<' )     ||  ! self::table_exists())
+                    if(!isset($settings['database_version']) || version_compare( $settings['database_version'], APTO_DB_VERSION , '<' ) )
                         self::update_tables();
                     
                     //check for settings
@@ -186,22 +186,18 @@
                         {
                             self::update_V3_5_4();
                         }
-                    
-                    if( version_compare( strval( '3.9.8' ), $settings['plugin_version'] , '<=' ) === TRUE)
+                        
+                    //More dummy further update examples
+                    /*
+                    if( version_compare( strval( '3.6' ), $settings['plugin_version'] , '<=' ) === TRUE)
                         {
-                            self::update_V3_9_8_1();
+                            self::update_V3_5_4();
                         }
-   
-                    if( version_compare( strval( '4.0.8' ), $settings['plugin_version'] , '>' ))
-                        {
-                            self::update_V4_0_8();
-                            $settings['plugin_version'] =   '4.0.8';
-                        }
-   
+                    */
                     
                     //update and further processing area
                     $settings['plugin_version']   =   APTO_VERSION; 
-                                
+                    
                     APTO_functions::update_settings($settings);  
                 }
             
@@ -538,27 +534,6 @@
                 
                 }    
             
-            
-            /**
-            * Check if the required tables exists
-            * 
-            */
-            static function table_exists()
-                {
-                    
-                    global $wpdb;
-                    
-                    $query = "SHOW TABLES LIKE '". $wpdb->prefix ."apto_sort_list';";
-                    $results    =   $wpdb->get_var($query);
-                    
-                    if(!empty($results))
-                        return TRUE;
-                    
-                    return FALSE;
-                    
-                }
-            
-            
             /**
             * @desc 
             * 
@@ -681,67 +656,6 @@
                                            
                         }
 
-                }
-                
-                
-            /**
-            * Change default sort switch_theme capability to manage_options
-            *     
-            */
-            static function update_V3_9_8_1()
-                {
-                    global $wpdb, $APTO; 
-                    
-                    $mysql_query = "SELECT ID FROM " . $wpdb->posts . " AS pt
-                                        JOIN " . $wpdb->postmeta . " AS pm ON pm.post_id = pt.ID
-                                        WHERE pt.post_type = 'apto_sort' AND pm.meta_key = '_capability' AND pm.meta_value = 'switch_themes'";
-                    $results =  $wpdb->get_results($mysql_query); 
-
-                    foreach($results    as  $result)
-                        {
-                                                         
-                            update_post_meta($result->ID, '_capability', 'manage_options');
-                                           
-                        }
-
-                }
-                
-            /**
-            * Update all sorts taxonomy meta, to include a include_children paramether
-            *     
-            */
-            static function update_V4_0_8()
-                {
-                    
-                    global $wpdb, $APTO; 
-                    
-                    $mysql_query = "SELECT * FROM " . $wpdb->posts . " AS pt
-                                        JOIN " . $wpdb->postmeta . " AS pm ON pm.post_id = pt.ID
-                                        WHERE pt.post_type = 'apto_sort' AND pt.post_parent < 1 AND pm.meta_key LIKE '_rules%'";
-                    $results =  $wpdb->get_results($mysql_query); 
-
-                    foreach($results    as  $result)
-                        {
-                            $meta_value =   unserialize( $result->meta_value );
-                            
-                            if (isset ($meta_value['taxonomy']) &&  count($meta_value['taxonomy']) > 0)
-                                {
-                                    $require_update =   FALSE;
-                                    foreach($meta_value['taxonomy'] as  $key    =>  $group_data)
-                                        {
-                                            //as default should be TRUE
-                                            if ( !isset($group_data['include_children']) )
-                                                {
-                                                    $meta_value['taxonomy'][$key]['include_children']   =   'TRUE';
-                                                    $require_update =   TRUE;
-                                                }
-                                        }
-                                    
-                                    if ( $require_update    === TRUE )
-                                        update_post_meta($result->ID, $result->meta_key , $meta_value);
-                                }
-                        }   
-                    
                 }
                 
         }

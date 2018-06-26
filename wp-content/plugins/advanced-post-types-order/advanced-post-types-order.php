@@ -5,7 +5,7 @@ Plugin URI: http://www.nsp-code.com
 Description: Order Post Types Objects using a Drag and Drop Sortable javascript capability
 Author: Nsp Code
 Author URI: http://www.nsp-code.com 
-Version: 4.0.8.2
+Version: 3.9.7
 */
 
 
@@ -13,14 +13,15 @@ Version: 4.0.8.2
     define('APTO_URL_PROTOCOL',     plugins_url('', __FILE__));
     define('APTO_URL',              str_replace(array('https:', 'http:'), "", APTO_URL_PROTOCOL));
 
-    define('APTO_VERSION',          '4.0.8.2');
+    define('APTO_VERSION',          '3.9.7');
     define('APTO_DB_VERSION',       '1.1');
-    define('APTO_APP_API_URL',      'https://www.nsp-code.com/index.php'); 
+    define('APTO_APP_API_URL',      'http://www.nsp-code.com/index.php'); 
+    define('APTO_SLUG',             basename(dirname(__FILE__)));
     
     define('APTO_PRODUCT_ID',       'APTO');
     define('APTO_SECRET_KEY',       '*#ioK@ud8*&#2');
-    define('APTO_INSTANCE',         preg_replace('/:[0-9]+/', '', str_replace(array ("https://" , "http://"), "", get_site_option('siteurl'))));
-
+    define('APTO_INSTANCE',         str_replace(array ("https://" , "http://"), "", get_site_option('siteurl')));
+    
     define('APTO_AJAX_OBJECTS_PER_PAGE',    3000);
       
     //load language files
@@ -40,7 +41,7 @@ Version: 4.0.8.2
         
     include_once(APTO_PATH . '/include/functions.php');
     include_once(APTO_PATH . '/include/apto-licence-class.php'); 
-    include_once(APTO_PATH . '/include/apto_plugin_updater.class.php'); 
+    include_once(APTO_PATH . '/include/updater.php'); 
 
     include_once(APTO_PATH . '/include/addons.php');
 
@@ -107,10 +108,8 @@ Version: 4.0.8.2
             
             if(!is_network_admin())
                 {
-                    
-                    //update run only on dashboard
-                    if ( is_admin() && !defined('DOING_AJAX' ) )
-                        APTO_updater::check_version_update(); 
+                    //check the required settings and database table
+                    APTO_updater::check_version_update(); 
                 }
                 else
                 {
@@ -122,15 +121,11 @@ Version: 4.0.8.2
             
             //load the APTO WPML class if WPML plugin is active
             if(defined('ICL_LANGUAGE_CODE') && defined('ICL_SITEPRESS_VERSION'))
-                include_once(APTO_PATH . 'include/utils/apto_wpml-class.php');
+                include_once(APTO_PATH . '/include/utils/apto_wpml-slass.php');
             
             //Polylang    
             if(defined('POLYLANG_VERSION'))
-                include_once(APTO_PATH . 'include/utils/class.apto.polylang.php');
-                
-            //WooCommerce
-            if(in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ))
-                include_once(APTO_PATH . 'include/utils/apto_woocommerce-class.php');
+                include_once(APTO_PATH . '/include/utils/class.apto.polylang.php');
             
             if(is_admin())
                 {
@@ -155,6 +150,7 @@ Version: 4.0.8.2
                         else
                         add_action( 'admin_menu', array($APTO_options_interface, 'create_plugin_options'), 100 );
 
+                    //add_action( 'admin_init', array( $APTO->functions, 'disable_post_types_order' ), -1 );
                     
                     $APTO->functions->disable_post_types_order();
                 }
@@ -206,6 +202,35 @@ Version: 4.0.8.2
             add_action( 'delete_term', array('APTO_functions', 'wp_delete_term'), 99, 4); 
 
         }
+     
+
+    
+    
+    function APTO_posts_groupby($groupby, $query) 
+        {
+            
+            //check for NOT IN taxonomy operator
+            if(isset($query->tax_query->queries) && APTO_query_utils::tax_queries_count($query->tax_query->queries) == 1 )
+                {
+                    if(isset($query->tax_query->queries[0]['operator']) && $query->tax_query->queries[0]['operator'] == 'NOT IN')
+                        $groupby = '';
+                }
+               
+            return($groupby);
+        }
+        
+    function APTO_posts_distinct($distinct, $query) 
+        {
+           
+            //check for NOT IN taxonomy operator
+            if(isset($query->tax_query->queries) && APTO_query_utils::tax_queries_count($query->tax_query->queries) == 1 )
+                {
+                    if(isset($query->tax_query->queries[0]['operator']) && $query->tax_query->queries[0]['operator'] == 'NOT IN')
+                        $distinct = 'DISTINCT';
+                }
+                   
+            return($distinct);
+        }    
 
     add_action('wp_loaded', 'init_APTO', 99 );
     function init_APTO() 
@@ -215,12 +240,12 @@ Version: 4.0.8.2
             if(!$APTO->licence->licence_key_verify())
                 return;
                             
-            add_filter('pre_get_posts',         array($APTO, 'pre_get_posts'));
-            add_filter('posts_orderby',         array($APTO, 'posts_orderby'), 99, 2);
+            add_filter('pre_get_posts', array($APTO, 'pre_get_posts'));
+            add_filter('posts_orderby', array($APTO, 'posts_orderby'), 99, 2);
                 
             add_filter('posts_orderby_request', array($APTO->functions, 'wp_ecommerce_orderby'), 99, 2);
-            add_filter('posts_groupby',         array($APTO, 'APTO_posts_groupby'), 99, 2);
-            add_filter('posts_distinct',        array($APTO, 'APTO_posts_distinct'), 99, 2);
+            add_filter('posts_groupby',         'APTO_posts_groupby', 99, 2);
+            add_filter('posts_distinct',        'APTO_posts_distinct', 99, 2);
                            
             //make sure the vars are set as default
             $options = $APTO->functions->get_settings();

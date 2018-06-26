@@ -1,0 +1,13 @@
+[class*="__columns"]
+  display flex
+
+  +below(950px)
+    flex-direction column
+
+.col3
+  columns 3
+  +ie11()
+    columns unset
+
+  +below(950px)
+    columns 2

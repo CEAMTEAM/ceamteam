@@ -11,8 +11,6 @@
             function start_el( &$output, $category, $depth = 0, $args = array(), $id = 0 ) {
                     $pad = str_repeat('&nbsp;', $depth * 2);
                     $cat_name = apply_filters('list_cats', $category->name, $category);
-                    
-                    $term_objects  =   get_objects_in_term(array($category->term_id),$category->taxonomy);
           
                     $link_argv  =   array(
                                             'sort_id'           =>  $args['sortID'],
@@ -41,7 +39,7 @@
                     $output .= $pad . $cat_name;
                     
                     if ( $args['show_count'] )
-                        $output .= '&nbsp;&nbsp;('. count($term_objects) .')';
+                        $output .= '&nbsp;&nbsp;('. $category->count .')';
 
                     $output .= "</option>\n";
                 }

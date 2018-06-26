@@ -31,18 +31,13 @@
                 
             function is_local_instance()
                 {
-                    
-                    if( defined('APTO_REQUIRE_KEY') &&  APTO_REQUIRE_KEY    === TRUE    )
-                        return FALSE;
-                    
                     $instance   =   trailingslashit(APTO_INSTANCE);
                     if(
                             stripos($instance, base64_decode('bG9jYWxob3N0Lw==')) !== FALSE
                         ||  stripos($instance, base64_decode('MTI3LjAuMC4xLw==')) !== FALSE
-                        ||  stripos($instance, base64_decode('LmRldg==')) !== FALSE
                         ||  stripos($instance, base64_decode('c3RhZ2luZy53cGVuZ2luZS5jb20=')) !== FALSE
                         
-
+                        ||  stripos($instance, base64_decode('LmRldg==')) !== FALSE
                         
                         )
                         {
@@ -79,39 +74,38 @@
                     
                     $license_key = $license_data['kye'];
                     $args = array(
-                                        'woo_sl_action'         => 'status-check',
-                                        'product_unique_id'     => APTO_PRODUCT_ID,
-                                        'licence_key'           => $license_key,
-                                        'domain'                => APTO_INSTANCE,
-                                    );
+                                                'sl_action'         => 'status-check',
+                                                'licence_key'       => $license_key,
+                                                'product_id'        => APTO_PRODUCT_ID,
+                                                'secret_key'        => APTO_SECRET_KEY,
+                                                'sl_instance'          => APTO_INSTANCE
+                                            );
                     $request_uri    = APTO_APP_API_URL . '?' . http_build_query( $args , '', '&');
-                    $data           = wp_remote_get( $request_uri,  array(
-                                                                            'timeout'     => 20,
-                                                                            'user-agent'  => 'WordPress/' . $wp_version . '; APTO/' . APTO_VERSION .'; ' . get_bloginfo( 'url' ),
-                                                                            ) );
+                    $data           = wp_remote_get( $request_uri, array(
+                                                                                    'timeout'     => 20,
+                                                                                    'user-agent'  => 'WordPress/' . $wp_version . '; APTO/' . APTO_VERSION .'; ' . get_bloginfo( 'url' ),
+                                                                                    ) );
                     
                     if(is_wp_error( $data ) || $data['response']['code'] != 200)
-                        return;
-                        
-                    $response_block = json_decode($data['body']);
-
-                    if(!is_array($response_block) || count($response_block) < 1)
-                        return;    
-                        
-                    $response_block = $response_block[count($response_block) - 1];
-                    if (is_object($response_block))
+                        return;   
+                    
+                    $data_body = json_decode($data['body']);
+                    if(isset($data_body->status))
                         {
-                            if($response_block->status_code == 'e312' || $response_block->status_code == 's203' ||  $response_block->status_code == 'e204')
+                            if($data_body->status == 'success')
                                 {
-                                    $license_data['kye']          = '';
+                                    if($data_body->status_code == 's203' || $data_body->status_code == 's204')
+                                        {
+                                            $license_data['kye']          = '';
+                                        }
                                 }
                                 
-                            if($response_block->status == 'error')
+                            if($data_body->status == 'error')
                                 {
                                     $license_data['kye']          = '';
-                                }       
+                                } 
                         }
-                          
+                    
                     update_site_option('apto_license', $license_data);
                     
                 }

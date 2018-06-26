@@ -1,0 +1,165 @@
+.single-post .feature__layer
+  height 50vh
+
+.single-board .feature__layer,
+.single-board .feature__container,
+.single-staff .feature__layer,
+.single-staff .feature__container
+  height 50vh
+
+  // +below(600px)
+  //   height 30vh
+
+.single-board .feature__heading,
+.single-staff .feature__heading
+  transform translateY(60px)
+
+  +below(600px)
+    transform: translateY(45px)
+
+
+.feature
+  &__layer
+    height 100vh
+    position relative
+    -webkit-transform translate3d(0,0,0)
+    background-repeat no-repeat
+    background-size cover
+    background-positon center
+
+  &__container
+    align-items center
+    flex-direction column
+    height 100vh
+    max-width 100vw
+    width 100vw
+    justify-content flex-start
+    text-align center
+    display flex
+    align-items center
+    background-color transparent
+    position absolute
+    z-index 1
+    max-width 100%
+    +ie11()
+      z-index 0
+
+  &__link
+    color white
+    display flex
+    font-family roboto condensed
+    font-size 2rem
+    text-shadow 1px 1px 0 black
+
+  &__main
+    display flex
+    flex-direction column
+    height 100%
+    justify-content center
+    max-width 100%
+
+
+  &__main svg
+    margin 0 auto
+    //width 120px
+    width 250px
+    padding-bottom 2.5rem
+    filter drop-shadow(-1px 1px 0px charcoal)
+
+    +below(820px)
+      width 120px
+
+      +landscape()
+        padding-top 2.5rem
+        //width 80px
+        width 150px
+
+    +ie11()
+      // height 200px
+      // width 200px
+      height 200px
+      width 200px
+
+    path
+      fill white
+
+  &__heading
+    color white
+    font-family cursive
+    font-size 10rem
+    padding 0
+
+    +below(600px)
+      font-size 5rem
+
+    +below(880px)
+      +landscape()
+        font-size 5rem
+
+  &__subheading
+    color white
+    font-weight 400
+
+.home .feature&__main svg
+  margin 0 auto
+  //width 120px
+  width 400px
+  padding-bottom 2.5rem
+  filter drop-shadow(-1px 1px 0px charcoal)
+
+  +below(820px)
+    width 220px
+
+    +landscape()
+      padding-top 2.5rem
+      //width 80px
+      width 300px
+
+  +ie11()
+    // height 200px
+    // width 200px
+    height 400px
+    width 400px
+
+  path
+    fill white
+
+
+.crossfade
+  background-size cover
+  background-position center center
+  position absolute
+  top 0
+  left 0
+  height 100vh
+  width 100vw
+  background-repeat no-repeat
+
+  &:nth-of-type(3)
+    animation xfade 12s 0s infinite
+
+  &:nth-of-type(2)
+    animation xfade 12s 4s infinite
+
+  &:nth-of-type(1)
+    animation xfade 12s 8s infinite
+
+
+@keyframes xfade
+  0%
+    opacity 0
+
+  20%
+    opacity 1
+
+  33%
+    opacity 1
+
+  53%
+    opacity 0
+
+  100%
+    opacity 0
+
+.home .feature__main
+  justify-content flex-end

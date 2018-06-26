@@ -2,6 +2,8 @@
 # wp-content/themes/THEME_NAME/style.css
 
 .env
+.data
+build
 
 # node
 node_modules

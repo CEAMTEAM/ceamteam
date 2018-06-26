@@ -11,7 +11,7 @@
             function front_reorder($atts)
                 {
                     extract( shortcode_atts( array(
-                                            'capability'    => 'manage_options',
+                                            'capability'    => 'install_plugins',
                                             'sort_id'       =>  '',
 
                                             'taxonomy'      =>  '',

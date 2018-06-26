@@ -7,10 +7,9 @@
             function __construct()
                 {
                     global $APTO;
-                    $this->conditional_rules    = &$APTO->conditional_rules;
-
+                    $this->conditional_rules    = &$APTO->conditional_rules; 
                 }
-
+                
             function __destruct()
                 {
                 
@@ -37,7 +36,7 @@
                        
                      $all_post_types    =   apply_filters('apto_get_post_types', $all_post_types);
                      
-                    return $all_post_types;    
+                     return $all_post_types;    
                     
                 }
             
@@ -79,7 +78,7 @@
                                             
                                             '_wpml_synchronize'         =>  'no',
                                             
-                                            '_capability'               =>  'manage_options'
+                                            '_capability'               =>  'switch_themes'
                                         );
                     $settings          = wp_parse_args( $settings, $defaults );
                     
@@ -118,7 +117,7 @@
                     if(!empty($sortID))
                         $current_sort_statuses_setting   =  get_post_meta($sortID, '_status', TRUE);
                         
-                    if(empty($current_sort_statuses_setting)    ||  !is_array($current_sort_statuses_setting)   ||  count($current_sort_statuses_setting) < 1 )
+                    if(empty($current_sort_statuses_setting))
                         $current_sort_statuses_setting  =   $statuses;
                         else
                         {
@@ -225,13 +224,7 @@
                                             'plugin_version'                =>  1,
                                             'database_version'              =>  1,
                                             'show_reorder_interfaces'       =>  array(),
-                                            
-                                            'ignore_supress_filters'        =>  '',
-                                            'ignore_sticky_posts'           =>  '',
-                                            'navigation_sort_apply'         =>  '',
-                                            'create_logs'                   =>  '',
-                                            'bbpress_replies_reverse_order' =>  '',
-                                            'woocommerce_upsells_sort'      =>  ''
+                                            'navigation_sort_apply'         =>  ''
                                         );
                     $settings          = wp_parse_args( $settings, $defaults );
                     
@@ -576,12 +569,6 @@
                                         );
                     $post_column_filters          = wp_parse_args( $post_column_filters, $defaults );
                             
-                    //try the cache
-                    global $APTO;
-                    $arguments_hash =   md5( serialize($sort_filters) . serialize($post_column_filters) );
-                    if ( isset($APTO->cache['get_sorts_by_filters']) && isset($APTO->cache['get_sorts_by_filters'][$arguments_hash]) )
-                        return $APTO->cache['get_sorts_by_filters'][$arguments_hash];
-                    
                     //try to identify other sorts which match this
                             
                     //get all sort items
@@ -625,8 +612,6 @@
                                         ORDER BY FIELD(PM2.meta_value, 'simple', 'multiple'),  ". $wpdb->posts .".ID ASC  ";
                     $sort_items =   $wpdb->get_results($mysql_query);   
                     
-                    //set a cahce for later usage
-                    $APTO->cache['get_sorts_by_filters'][$arguments_hash]   =   $sort_items;
                     
                     return $sort_items;
                     
@@ -655,7 +640,6 @@
                     * 
                     */
                     $query_post_type = $this->query_get_post_types($query, $partial_match);
-                    
                     //check for 'any' sort post types
                     if(array_search('any', $query_post_type) === FALSE  && array_search('any', $sort_rules['post_type']) !== FALSE)
                         {
@@ -753,10 +737,6 @@
                                                     //check for operator match
                                                     if($tax_rule['operator'] != $query_tax['operator'])
                                                         continue;
-                                                        
-                                                    //check for operator match
-                                                    if(isset($query_tax['include_children']) &&  $this->str_to_bool($tax_rule['include_children']) !== $query_tax['include_children'])
-                                                        continue;
                                                     
                                                     //check for terms
                                                     $differences = array_diff($query_tax_terms, $tax_rule['terms']);
@@ -833,13 +813,8 @@
                                                 }
                                                 else
                                                 {
-                                                    
-                                                    //Allow dynamic values for this meta, if use !* 
-                                                    if((string)$meta_rule['value']  !=  '!*')
-                                                        {
-                                                            if((string)$meta_rule['value'] !== (string)$query_meta['value'])
-                                                                continue;    
-                                                        }
+                                                    if((string)$meta_rule['value'] !== (string)$query_meta['value'])
+                                                        continue;    
                                                 }
                                                 
                                             //check compare if exists
@@ -1173,8 +1148,6 @@
                                 $query_post_types[]  =   'post';
                         }
                         
-                    
-                    $query_post_types   =   apply_filters('APTO/query_get_post_types', $query_post_types, $query, $_if_empty_set_post_types );
                                             
                     return  $query_post_types;    
                 }
@@ -1451,7 +1424,7 @@
                                                     {
                                                         $mysql_query .=   $wpdb->posts . ".ID NOT IN (
                                                                                     SELECT object_id
-                                                                                    FROM " . $wpdb->term_relationships ."
+                                                                                    FROM tr" . $q_inner_count ."
                                                                                     WHERE term_taxonomy_id IN (". implode(",", $query_terms) ."))";
                                                     }
                                                 else if($rule_tax['operator'] == 'AND')
@@ -1759,74 +1732,6 @@
             
             
             /**
-            * Return arguments for a query, per sort settings
-            * 
-            * @param mixed $sort_view_id
-            */
-            function query_arguments_from_sort_settings( $sort_view_id )
-                {
-                    
-                    $args   =   array();
-                    
-                    $sort_view_settings =   $this->get_sort_view_settings($sort_view_id);
-                    
-                    $sort_view_data     =   get_post($sort_view_id);
-                    $sortID             =   $sort_view_data->post_parent;
-                    
-                    $sort_settings      =   $this->get_sort_settings($sortID);
-                    
-                    switch ( $sort_view_settings['_view_selection'] )
-                        {
-                            
-                            case 'archive'   :
-                                                
-                                                if (! empty($sort_settings['_rules']['post_type']))
-                                                    $args['post_type']  =   $sort_settings['_rules']['post_type'];
-                                                                 
-                                                break;
-                                                
-                            case 'taxonomy'   :
-                                                
-                                                if (! empty($sort_settings['_rules']['post_type']))
-                                                    $args['post_type']  =   $sort_settings['_rules']['post_type'];
-                                                    
-                                                $args['tax_query']  =   array(
-                                                                                array(
-                                                                                        'taxonomy' => $sort_view_settings['_taxonomy'],
-                                                                                        'field'    => 'term_id',
-                                                                                        'terms'    => array( $sort_view_settings['_term_id'] )
-                                                                                        )
-                                                                                
-                                                                                );
-                                                                 
-                                                break;
-                            
-                            case 'simple'   :
-                                                
-                                                if (! empty($sort_settings['_rules']['post_type']))
-                                                    $args['post_type']  =   $sort_settings['_rules']['post_type'];
-                                                    
-                                                if (! empty($sort_settings['_rules']['taxonomy']))
-                                                    {
-                                                        $args['tax_query']  =   $sort_settings['_rules']['taxonomy'];
-                                                        $args['relation']   =   $sort_settings['_rules']['taxonomy_relation'];
-                                                    }
-                                                
-                                                //++++ MetaData to be implemented
-                                                
-                                                break;
-                            
-                        }
-                    
-                    $args['posts_per_page']     =   -1;
-                    $args['posts_status']       =   'any';
-                    
-                    return $args;
-                       
-                }
-            
-            
-            /**
             * Retrieve the sort view ID
             *     
             * @param mixed $sortID      This is the main sort ID holder
@@ -1840,13 +1745,6 @@
                     
                     // Parse incoming $args into an array and merge it with $defaults
                     $attr = wp_parse_args( $attr, $defaults );
-                    
-                    //try the cache
-                    global $APTO;
-                    $arguments_hash =   md5( $sortID . serialize($attr) );
-                    if ( isset($APTO->cache['get_sort_view_id_by_attributes']) && isset($APTO->cache['get_sort_view_id_by_attributes'][$arguments_hash]) )
-                        return $APTO->cache['get_sort_view_id_by_attributes'][$arguments_hash];
-                    
                     
                     $sort_view_ID = '';
                     
@@ -1875,10 +1773,6 @@
                     $mysql_query    .=  "  LIMIT 1 ";
                     
                     $sort_view_ID = $wpdb->get_var($mysql_query);
-                    
-                    //set a cahce for later usage
-                    $APTO->cache['get_sort_view_id_by_attributes'][$arguments_hash]   =   $sort_view_ID;
-                     
                              
                     return $sort_view_ID;   
                     
@@ -1908,12 +1802,7 @@
             
             function exists_sorts_with_autosort_on()
                 {
-                    global $wpdb, $APTO;
-                    
-                    if ( isset($APTO->cache['exists_sorts_with_autosort_on']))
-                        return $APTO->cache['exists_sorts_with_autosort_on'];
-                    
-                    $APTO->cache['exists_sorts_with_autosort_on']   =   FALSE;
+                    global $wpdb;
                     
                     $mysql_query = "SELECT ". $wpdb->posts .".ID FROM ". $wpdb->posts ."
                                         INNER JOIN ". $wpdb->postmeta ." AS PM ON (". $wpdb->posts .".ID = PM.post_id)
@@ -1923,10 +1812,7 @@
                                                 AND PM.meta_key = '_autosort' AND PM.meta_value = 'yes'";
                     $sort_items =   $wpdb->get_results($mysql_query); 
                     if(count($sort_items) > 0)   
-                        {
-                            $APTO->cache['exists_sorts_with_autosort_on']   =   TRUE;
-                            return TRUE;
-                        }
+                        return TRUE;
                         else
                         return FALSE;
                 }
@@ -1953,7 +1839,7 @@
                                                                                             ),
                                                 'Administrator'             =>    array(
                                                                                             'title'         =>  __('Administrator', 'apto'),
-                                                                                            'capability'    =>  'manage_options'
+                                                                                            'capability'    =>  'switch_themes'
                                                                                             )                                                                                                                                                             
                                                 );
                    $roles_capability = apply_filters('apto_get_roles_capability', $roles_capability);
@@ -2956,27 +2842,6 @@
                                     die();
                                 } 
                         }   
-                }
-                
-           
-           
-           /**
-           * Convert a string TRUE/FALSE to boolean
-           * 
-           * @param mixed $string
-           */
-           function str_to_bool( $string )
-                {
-                    $string =   strtolower($string);
-                    switch ($string)
-                        {
-                            case 'true' :
-                                            return TRUE;
-                                            break;
-                            default :
-                                            return FALSE;
-                                            break;
-                        }
                 }
             
         }

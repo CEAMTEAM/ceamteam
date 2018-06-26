@@ -1,0 +1,125 @@
+.nav
+  &__layer
+    background-color slate
+
+    &:after
+      content: ''
+      display block
+      height 100px
+      width 100%
+      background-image linear-gradient(hsla(0, 0, 0%, .6), trans)
+      position absolute
+      top 80px
+      left 0
+      z-index -1
+
+      +below(950px)
+        display none
+
+      +ie11()
+        background-color lighten(green, 10%)
+        background-image none
+        height 59px
+        //z-index 2
+
+    &.nav--active
+
+      //transform translateY(-300%)
+      background-color lighten(green, 5%)
+      // overflow-y scroll
+
+      width  100vw
+      position fixed
+
+      // top 0px
+      // left 0px
+      // right 0px
+      // bottom 0px
+
+      overflow scroll
+
+      z-index 1
+
+      +below(950px)
+        height 87vh
+
+      &:after
+        content: ''
+        display block
+        height 0px
+        width 100%
+
+      .nav__container
+        display block
+        padding-bottom 5rem
+
+  &__container
+    justify-content space-around
+    position relative
+
+    +below(950px)
+      display none
+
+    li
+      list-style none
+
+    a
+      color gold
+      display inline-block
+      font-size 1.25rem
+      font-family: Condensed.font
+      padding .5rem 1rem
+      text-shadow 1px 1px 0 black
+      width 100%
+
+      &:hover
+        background-color gold 
+        color white
+
+    .menu-item-has-children
+      position relative
+
+      &:hover
+        background-color gold
+        color white
+
+        > a + .sub-menu
+          color darkSlate
+          display block
+          background-color gold
+
+      a
+        width 100%
+        height 100%
+
+    .menu-item
+      // li
+
+    .sub-menu
+      display none
+      position absolute
+      top 100%
+      left 0
+      z-index 10
+
+      +below(950px)
+        display block
+        padding-left 1.5rem
+        position relative
+
+      a
+        width 400px
+
+        +below(950px)
+          width 100%
+
+// .current-menu-item
+//   &.page-item-4, //home
+//   &.page-item-7, //solutions
+//   &.page-item-9, //promise
+//   &.page-item-11,//about
+//   &.page-item-13,//contact
+//   &.page-item-2  //news
+//
+//     a
+//       color: $green

@@ -1,0 +1,59 @@
+.footer
+  &__layer
+    background-color white
+    height 100px
+
+  &__container
+    height 100%
+    justify-content space-between
+
+  &__item
+    align-items center
+    display flex
+    padding 0 1rem
+
+    +below(600px)
+      margin 0 auto
+      padding 0 .5rem
+
+      &:nth-of-type(2)
+        display none
+
+  &__item svg
+    // margin-right .75rem
+    width 60px
+
+    path
+      fill brown
+
+  // &__heading
+  //   color brown
+  //   font-family cursive
+  //   font-size 2rem
+  //   padding 0 .75rem
+  //   text-shadow none
+
+  &__heading
+    padding 0 0 15px 15px
+
+    svg.earthdance-letters
+      margin-right .75rem
+      width 220px
+
+      +below(850px)
+        width 135px
+
+      +below(600px)
+        margin 0
+
+  &__copyright
+    display none
+
+  &__address
+    display none
+
+  &__privacy
+    padding-bottom 0
+
+    +below(600px)
+      display none

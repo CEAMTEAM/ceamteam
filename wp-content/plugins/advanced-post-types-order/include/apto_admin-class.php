@@ -20,8 +20,7 @@
                     //load archive drag&drop sorting dependencies
                     add_action( 'admin_enqueue_scripts',                    array(&$this, 'pto_interface_sort_check'), 10 );
                     
-                    add_action( 'wp_ajax_update-post-type-interface-sort',  array(&$this, 'savePostTypeInterfaceOrder') );
-                    
+                    add_action( 'wp_ajax_update-post-type-interface-sort',  array(&$this, 'savePostTypeInterfaceOrder') );  
                 }
             
             function __destruct()
@@ -194,12 +193,8 @@
                     wp_enqueue_script('jquery-ui-sortable');
                     wp_enqueue_script('cpt', APTO_URL . '/js/apto-pt-interface.js', array('jquery'));    
                     
-                    $post_type  =   isset( $wp_query->query['post_type'] ) ?  $wp_query->query['post_type'] :   '';
-                    if (empty ( $post_type ) )
-                        $post_type  =   $screen->post_type;
-                    
                     $vars = array(
-                                    'post_type'     =>  $post_type, // get_query_var('post_type'),
+                                    'post_type'     =>  get_query_var('post_type'),
                                     'taxonomy'      =>  $taxonomy,
                                     'term_id'       =>  $term_id,
                                     'paged'         =>  $paged,
@@ -247,11 +242,10 @@
                         die();
                                         
                     //retrieve a list of all objects for current POST data
-                    //++ Maybe All ?!
                     $args   =   array(
                                         'post_type'         =>  $post_type,
                                         'posts_per_page'    =>  -1,
-                                        'post_status'       =>  array('publish', 'pending', 'draft', 'private', 'future', 'inherit'),
+                                        'post_status'       =>  array('publish', 'pending', 'draft', 'private', 'future'),
                                         'orderby'           =>  array( 'menu_order' => 'ASC', 'post_date' => 'DESC' ),
                                         'fields'            =>  'ids'
                                             );

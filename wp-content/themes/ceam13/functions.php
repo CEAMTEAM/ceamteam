@@ -441,7 +441,8 @@ function add_lighbox_rel( $attachment_link ) {
 	add_action('wp_print_scripts', 'run_js');
 
 	// Add this function call for RoyalSlider to work on the homepage
-	register_new_royalslider_files(1);
+	
+	// register_new_royalslider_files(1);
 
 //----------------------------------------------------------------------------
 

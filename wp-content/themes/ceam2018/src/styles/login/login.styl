@@ -1,0 +1,81 @@
+body.login
+  min-height 100%
+  background-image url(/wp-content/themes/earthdance_17/img/oldShed.jpg)!important
+  background-size cover !important
+  background-positioncenter center !important
+  background-repeat no-repeat !important
+  position relative
+
+  &:before
+    background-image url(/wp-content/themes/earthdance_17/svg/earthdance-logo.svg)!important
+    content: ""
+    position absolute
+    top 4em
+    left 3em
+    width 15em
+    height 6em
+    background-repeat no-repeat
+
+  h1 a
+    background none !important
+
+  .login form
+    background rbga(brown,.5)
+
+  .login label
+    color brown
+
+  form p label
+    font-size 16px
+
+  #nav,
+  #backtoblog
+    text-shadow 0 1px 0 white
+    text-shadow none
+
+
+  #backtoblog
+    position absolute
+    top 0
+    left 0
+    border-bottom none
+    background none
+    height 30px
+    width auto
+
+  #backtoblog a
+    color green !important
+    display block
+    padding 8px 0 0 15px
+    text-decoration none
+
+
+  .login #nav a,
+  .login #backtoblog a
+    color green !important
+
+
+  input.button-primary,
+  button.button-primary,
+  a.button-primary
+    background green
+    border none
+    border-radius 0
+    color white
+    font-weight bold
+
+
+  #nav
+    clear both
+
+  #nav a
+    text-shadow none
+
+  .login #nav a:hover,
+  .login #backtoblog a:hover
+    background green
+    color white !important
+
+
+  #sm2-container
+    display none

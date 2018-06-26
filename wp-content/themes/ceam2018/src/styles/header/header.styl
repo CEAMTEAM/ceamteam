@@ -1,0 +1,153 @@
+.header
+  &__bg
+    background-color darkSlate
+    //border-bottom 1px solid hsla(0, 0, 0%, .4)
+
+    +below(950px)
+      height 13vh
+      display flex
+
+  &__layer
+    position fixed
+    top 0
+    left 0
+    width 100vw
+    z-index 1
+
+    +ie11()
+      width 100%
+
+  &__container
+    align-items center
+    justify-content space-between
+    padding-bottom .5rem
+    padding-top .5rem
+
+    +below(600px)
+      padding .5rem
+
+    +ie11()
+      height 80px
+      // background-color red
+      // display block
+
+  &__logo-box
+    align-items center
+    display flex
+
+  &__logo
+    align-items center
+    color white
+    display flex
+    font-family: Condensed.font
+    font-size 2.5rem
+
+    +below(500px)
+      font-size 1.5rem
+
+    &:hover
+      color gold
+
+      svg path
+        fill white
+
+    span
+      padding 0 .5rem
+      transform translateY(6px)
+
+  &__logo svg
+
+    margin 0 1rem
+    width 70px
+
+    +below(850px)
+      width 35px
+
+    +below(600px)
+      margin 0
+
+    path
+      fill gold
+
+
+  &__logo svg.earthdance-letters
+
+    margin-right .75rem
+    width 220px
+
+    +below(850px)
+      width 135px
+
+    +below(600px)
+      margin 0
+
+    path
+      fill white
+
+  &__tagline
+    color white
+    font-family: Condensed.font
+    font-size 1.5rem
+    font-weight 100
+
+    +below(1090px)
+      font-size 1.25rem
+
+    +below(950px)
+      display none
+
+  &__utility
+    align-items center
+    display flex
+    font-family: Condensed.font
+
+    +below(1060px)
+      display flex
+      flex-direction column
+
+  &__links
+    // +below(1060px)
+    //   display flex
+    //   flex-direction column
+
+  &__social
+    align-items center
+    display flex
+
+    +below(950px)
+      display none
+
+  &__link
+    color white
+    fill white
+    font-weight normal
+    padding 0 .5rem
+
+  &__icon
+    fill white
+
+    &.hamburger
+      display none
+      z-index 100
+      margin-top 15px
+
+      +below(950px)
+        display inline-block
+
+        .icon.icon--ei-navicon,
+        .icon.icon--ei-close
+          fill white
+
+
+.donateBtn
+  +below(660px)
+    display none
+
+
+.hide
+  display none
+
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)
+  .header__layer
+    position relative

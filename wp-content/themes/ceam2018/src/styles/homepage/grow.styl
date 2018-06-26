@@ -1,0 +1,114 @@
+.grow
+  &__layer
+    background-color white
+    height 100%
+
+  &__container
+    align-items center
+    flex-direction column
+    height 100%
+    justify-content space-around
+
+  &__heading
+    color brown
+
+    +below(600px)
+      padding 2rem 0
+
+    span
+      display flex
+
+  &__columns
+    padding-bottom 5rem
+
+    +below(950px)
+      padding-bottom 2.5rem
+
+    +below(600px)
+      align-items center
+      padding-bottom 2rem
+
+    &:nth-of-type(odd)
+      .grow__content
+        padding-left 2.5rem
+
+        +below(600px)
+          padding-left 1rem
+
+    &:nth-of-type(even)
+      flex-direction row-reverse
+      width 100%
+
+      .grow__content
+        padding-right 2.5rem
+
+        +below(600px)
+          padding-right 0
+
+  &__columns.zipper
+    width 100%
+
+    +below(950px)
+      flex-direction column
+
+    +below(600px)
+      flex-direction column
+
+  &__pic
+    background-position center center
+    background-repeat no-repeat
+    background-size cover
+    border 20px solid fog
+    flex 1 0 0%
+    height 100%
+    padding 6rem 0
+
+    &.setHeight
+      height 500px
+
+    +below(950px)
+      padding 8rem 0
+
+    +below(600px)
+      padding 4rem 0
+      width 65%
+
+  &__subheading
+    color white
+
+
+  &__content
+    flex 1 0 0%
+    display flex
+    flex-direction column
+    justify-content center
+    padding 0 2.5rem
+
+    +below(950px)
+      align-items center
+      display block
+      padding 1rem 0 0 0
+      text-align center
+
+    +below(600px)
+      align-items center
+      width 100%
+
+  &__button
+    display inline-block
+    background-color green
+    border 3px solid green
+    color white
+
+    &:hover
+      // background-color white
+      // box-shadow none
+      // border 3px solid green
+      // color green
+
+.padding-top-4-rem
+  padding-top 4rem
+
++ie11()
+  .page-id-14323 .grow__content
+    flex none

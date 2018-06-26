@@ -1,0 +1,43 @@
+.list
+  &__layer
+    //background-color red
+
+  &__item
+    display flex
+    margin-bottom 2rem
+
+    +below(750px)
+      background-color white
+      flex-direction column
+      padding 0 2rem
+
+  &__content
+    padding 0 0 0 2rem
+    //width 66%
+
+    +below(750px)
+      padding 0
+      width 100%
+
+  &__image
+    background-color white
+    background-size contain
+    background-repeat no-repeat
+    background-position center
+    border 10px solid white
+    height 200px
+    min-width 200px
+
+    +below(750px)
+      margin 0 auto
+
+  &__heading
+    color brown
+    padding 0
+    font-size 1.5rem
+    text-align left
+    text-shadow none
+
+    +below(750px)
+      padding-top 1rem
+      // text-align center

@@ -143,23 +143,17 @@
             if(isset($tax_data['relation']))
                 unset($tax_data['relation']);
             
-            /**
-            * We expect 2 txonomies, product_visibility and a custom one
-            */
-                  
+            if(count($tax_data) !=  2)
+                return $query;
+                
             //we need product_cat and product_visibility taxonomy
             //format is taxonomy => number of terms it should expect to be found, or false to replace
-            $search_for_taxonomies  =   array();
-            $product_taxonomies                          =   get_object_taxonomies( 'product');
-            foreach ($product_taxonomies as  $key    =>  $product_taxonomy)
-                {
-                    $search_for_taxonomies[ $product_taxonomy ] =   1;
-                }
-            $search_for_taxonomies['product_visibility']    =   FALSE;
+            $search_for_taxonomies  =   array(
+                                                'product_cat'           =>  1,  
+                                                'product_visibility'    =>  false
+                                                );
             
-            $search_for_taxonomies  =   apply_filters( 'APTO/query_filter_valid_data/woocommerce_taxonomies', $search_for_taxonomies, $query );
-            
-            foreach($tax_data   as  $key    =>  $item_tax_data)
+            foreach($tax_data   as  $item_tax_data)
                 {
                     if(isset($search_for_taxonomies[ $item_tax_data['taxonomy'] ]))
                         {
@@ -170,13 +164,13 @@
                                         return $query;
                                 }
                                 
-                            unset( $tax_data[ $key ] );
+                            unset($search_for_taxonomies[ $item_tax_data['taxonomy'] ]);
                         }
                     
                 }
             
-            //we expect an empty array
-            if ( count($tax_data)   !== 0 )
+            //check if found required
+            if (count($search_for_taxonomies)   >   0)
                 return $query;
                 
             //At this point we are sure is the query we looking for. Unset the product_visibility
@@ -185,13 +179,13 @@
                     if(is_array($item_tax_data) &&  isset($item_tax_data['taxonomy'])   &&  $item_tax_data['taxonomy']   ==  'product_visibility')
                         {
                              unset($query->tax_query->queries[$key]);
+                             break;
                         }
                 }
             
             return $query;
                 
         }
- 
         
     //ignore the gallery edit images order which is set locally, independent from images archvie order
     add_filter('ajax_query_attachments_args', 'apto_ajax_query_attachments_args', 99);
@@ -250,19 +244,5 @@
             
             return $options;
         }
-        
-    /**
-    * Turn off the custom sorting when using "YITH WooCommerce Ajax Search Premium"  on AJAX calls
-    */
-    add_filter( 'ywcas_query_arguments', 'apto_ywcas_query_arguments', 99, 2 );
-    function apto_ywcas_query_arguments( $args, $search_key )
-        {
-            
-            $args['ignore_custom_sort']   = TRUE;
-            
-            return $args;
-                
-        }
-    
 
 ?>

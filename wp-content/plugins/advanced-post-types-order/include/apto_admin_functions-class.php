@@ -32,7 +32,7 @@
                     $settings  = APTO_functions::get_settings(); 
                     
                     //apply a filter to allow capability overwrite; usefull when in multisite environment
-                    $admin_capability = apply_filters('apto_reorder_capability', 'manage_options');
+                    $admin_capability = apply_filters('apto_reorder_capability', 'switch_themes');
                     
                     //put a menu for all custom_type
                     $ignore = array (
@@ -137,9 +137,7 @@
                                 else
                                 {
                                     $link_query         =   parse_url($location_menus_item[2]);
-                                    parse_str($link_query['query'], $output);
-                                    
-                                    $post_type  =   $output['post_type'];
+                                    parse_str($link_query['query']);
                                 }
                             $locations[$location_menus_item[2]] =   array(
                                                                                             'slug'      =>  sanitize_title($location_menus_item[2]),  
@@ -337,7 +335,7 @@
                                 }
                         }
                         
-                    if( isset($apto_system_messages['relocate'])    &&  is_array ( $apto_system_messages['relocate'] )   &&  count($apto_system_messages['relocate']) > 0)
+                    if(count($apto_system_messages['relocate']) > 0)
                         {
                             array_unshift($apto_system_messages['relocate'], __( "Advanced Post Types Order - At least one menu has changed:", 'apto' ));
                             add_action('admin_notices', array($this, 'relocate_nottices'));
@@ -369,7 +367,7 @@
                 {
                     global $apto_system_messages;
             
-                    if( ! isset($apto_system_messages['relocate'])    ||  ! is_array ( $apto_system_messages['relocate'] )  || count($apto_system_messages['relocate']) < 1 )
+                    if(count($apto_system_messages['relocate']) < 1)
                         return;
                     
                     echo "<div id='notice' class='updated fade'><p>". implode("</p><p>", $apto_system_messages['relocate'] )  ."</p></div>";
@@ -624,8 +622,6 @@
                                         $taxonomy_1_item['taxonomy'] ==  $taxonomy_2_item['taxonomy']
                                         &&
                                         $taxonomy_1_item['operator'] ==  $taxonomy_2_item['operator']
-                                        &&
-                                        $taxonomy_1_item['include_children'] ===  $taxonomy_2_item['include_children']
                                         && 
                                         count($terms_1)  ==  count($terms_2)
                                         &&

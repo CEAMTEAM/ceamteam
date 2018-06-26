@@ -101,7 +101,7 @@
                                                 $this->licence_deactivate_form();  
                                        ?>
                                        
-                                       <form id="form_data" name="form" method="post">   
+                                        <form id="form_data" name="form" method="post">   
                                             <br />
                                             <h2 class="subtitle"><?php _e( "Show / Hide re-order interface", 'apto' ) ?></h2>                              
                                             <table class="form-table">
@@ -159,32 +159,9 @@
                                                         <td>
                                                             <label>
                                                             <input type="checkbox" id="navigation_sort_apply" <?php if (isset($options['navigation_sort_apply']) && $options['navigation_sort_apply'] == "1") {echo ' checked="checked"';} ?> value="1" name="navigation_sort_apply">
-                                                            <?php _e("Apply the sort to default Next / Previous site-wide navigation.", 'apto') ?> <?php _e('For advanced Next / Previous navigation check', 'cpt') ?> &nbsp;<a href="http://www.nsp-code.com/advanced-post-types-order-api/" target="_blank"><?php _e('read more', 'cpt') ?></a></label>
+                                                            <?php _e("Apply the sort to default Next / Previous site-wide navigation.", 'apto') ?> <?php _e('For advanced Next / Previous navigation check', 'cpt') ?> <a href="http://www.nsp-code.com/advanced-post-types-order-api/" target="_blank"><?php _e('API page', 'cpt') ?></a></label>
                                                         </td>
                                                     </tr>
-                                                    
-                                                    <?php if (in_array( 'bbpress/bbpress.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { ?>
-                                                    <tr valign="top">
-                                                        <th scope="row" style="text-align: right;"><label for="bbpress_replies_reverse_order"><?php _e( "bbPress Replies", 'apto' ) ?></label></th>
-                                                        <td>
-                                                            <label>
-                                                            <input type="checkbox" id="bbpress_replies_reverse_order" <?php if (isset($options['bbpress_replies_reverse_order']) && $options['bbpress_replies_reverse_order'] == "1") {echo ' checked="checked"';} ?> value="1" name="bbpress_replies_reverse_order">
-                                                            <?php _e("Reverse the order of bbPress replies, show newest posts first", 'apto') ?>.</label>
-                                                        </td>
-                                                    </tr>
-                                                    <?php } ?>
-                                                    
-                                                    <?php if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { ?>
-                                                    <tr valign="top">
-                                                        <th scope="row" style="text-align: right;"><label for="woocommerce_upsells_sort"><?php _e( "WooCommerce Up-sells Sort", 'apto' ) ?></label></th>
-                                                        <td>
-                                                            <label>
-                                                            <input type="checkbox" id="woocommerce_upsells_sort" <?php if (isset($options['woocommerce_upsells_sort']) && $options['woocommerce_upsells_sort'] == "1") {echo ' checked="checked"';} ?> value="1" name="woocommerce_upsells_sort">
-                                                            <?php _e("Allow drag & drop for WooCommerce Up-sells products", 'apto') ?>.</label> &nbsp;<a href="http://www.nsp-code.com/woocommerce-up-sells-sort/" target="_blank"><?php _e('read more', 'cpt') ?></a></label>
-                                                        </td>
-                                                    </tr>
-                                                    <?php } ?>
-                                                    
                                                     
                                                     <tr valign="top">
                                                         <th scope="row" style="text-align: right;"><label for="create_logs"><?php _e( "Create Logs", 'apto' ) ?></label></th>
@@ -195,6 +172,17 @@
                                                         </td>
                                                     </tr>
                                                     
+                                                    <?php if (is_plugin_active('bbpress/bbpress.php')) { ?>
+                                                    <tr valign="top">
+                                                        <th scope="row" style="text-align: right;"><label for="bbpress_replies_reverse_order"><?php _e( "bbPress Replies", 'apto' ) ?></label></th>
+                                                        <td>
+                                                            <label>
+                                                            <input type="checkbox" id="bbpress_replies_reverse_order" <?php if (isset($options['bbpress_replies_reverse_order']) && $options['bbpress_replies_reverse_order'] == "1") {echo ' checked="checked"';} ?> value="1" name="bbpress_replies_reverse_order">
+                                                            <?php _e("Reverse the order of bbPress replies, show newest posts first", 'apto') ?>.</label>
+                                                        </td>
+                                                    </tr>
+                                                    <?php } ?>
+
                                                 </tbody>
                                             </table>
                                             
@@ -256,14 +244,13 @@
                             
                             global $apto_form_submit_messages;
                             
-                            $options['show_reorder_interfaces']         =   $_POST['show_reorder_interfaces'];
+                            $options['show_reorder_interfaces']     =   $_POST['show_reorder_interfaces'];
                         
-                            $options['ignore_supress_filters']          = isset($_POST['ignore_supress_filters'])           ? intval($_POST['ignore_supress_filters'])   : ''; 
-                            $options['ignore_sticky_posts']             = isset($_POST['ignore_sticky_posts'])              ? intval($_POST['ignore_sticky_posts'])   : ''; 
-                            $options['navigation_sort_apply']           = isset($_POST['navigation_sort_apply'])            ? intval($_POST['navigation_sort_apply'])   : ''; 
-                            $options['create_logs']                     = isset($_POST['create_logs'])                      ? intval($_POST['create_logs'])   : ''; 
-                            $options['bbpress_replies_reverse_order']   = isset($_POST['bbpress_replies_reverse_order'])    ? intval($_POST['bbpress_replies_reverse_order'])   : '';
-                            $options['woocommerce_upsells_sort']        = isset($_POST['woocommerce_upsells_sort'])         ? intval($_POST['woocommerce_upsells_sort'])   : '';
+                            $options['ignore_supress_filters']  = isset($_POST['ignore_supress_filters'])   ? intval($_POST['ignore_supress_filters'])   : ''; 
+                            $options['ignore_sticky_posts']     = isset($_POST['ignore_sticky_posts'])      ? intval($_POST['ignore_sticky_posts'])   : ''; 
+                            $options['navigation_sort_apply']   = isset($_POST['navigation_sort_apply'])    ? intval($_POST['navigation_sort_apply'])   : ''; 
+                            $options['create_logs']             = isset($_POST['create_logs'])              ? intval($_POST['create_logs'])   : ''; 
+                            $options['bbpress_replies_reverse_order']  = isset($_POST['bbpress_replies_reverse_order'])    ? intval($_POST['bbpress_replies_reverse_order'])   : '';
                                                         
                             $this->APTO->functions->update_settings($options);   
                             
@@ -340,10 +327,11 @@
 
                             //build the request query
                             $args = array(
-                                                'woo_sl_action'         => 'deactivate',
-                                                'product_unique_id'     => APTO_PRODUCT_ID,
-                                                'licence_key'           => $license_key,
-                                                'domain'                => APTO_INSTANCE,
+                                                'sl_action'         => 'deactivate',
+                                                'licence_key'       => $license_key,
+                                                'product_id'        => APTO_PRODUCT_ID,
+                                                'secret_key'        => APTO_SECRET_KEY,
+                                                'sl_instance'          => APTO_INSTANCE
                                             );
                             $request_uri    = APTO_APP_API_URL . '?' . http_build_query( $args , '', '&');
                             $data           = wp_remote_get( $request_uri,  array(
@@ -356,22 +344,14 @@
                                     $apto_form_submit_messages[] .= __('There was a problem connecting to ', 'apto') . APTO_APP_API_URL;
                                     return;  
                                 }
-                            
-                            $response_block = json_decode($data['body']);
-
-                            if(!is_array($response_block) || count($response_block) < 1)
+                                
+                            $data_body = json_decode($data['body']);
+                            if(isset($data_body->status))
                                 {
-                                    $apto_form_submit_messages[] = __('There was a problem with the data block received from ' . APTO_APP_API_URL, 'apto');
-                                        return;   
-                                }
-
-                            $response_block = $response_block[count($response_block) - 1];
-                            if (is_object($response_block))
-                                {
-                                    if($response_block->status == 'success' && $response_block->status_code == 's201')
+                                    if($data_body->status == 'success' && $data_body->status_code == 's201')
                                         {
                                             //the license is active and the software is active
-                                            $apto_form_submit_messages[] = $response_block->message;
+                                            $apto_form_submit_messages[] = $data_body->message;
                                             
                                             $license_data = get_site_option('apto_license');
                                             
@@ -383,18 +363,22 @@
                                         }
                                         else
                                         {
-                                            $apto_form_submit_messages[] = __('There was a problem deactivating the licence on other side, however locally the key is now removed: ', 'apto') . $response_block->message;
+                                            $apto_form_submit_messages[] = __('There was a problem deactivating the licence: ', 'apto') . $data_body->message;
                                             
-                                            $license_data = get_site_option('apto_license');
+                                            //if message code is e104  force de-activation
+                                            if ($data_body->status_code == 'e102' || $data_body->status_code == 'e104')
+                                                {
+                                                     $license_data = get_site_option('apto_license');
                                             
-                                            //save the license
-                                            $license_data['kye']          = '';
-                                            $license_data['last_check']   = time();
-                                            
-                                            update_site_option('apto_license', $license_data);
+                                                    //save the license
+                                                    $license_data['kye']          = '';
+                                                    $license_data['last_check']   = time();
+                                                    
+                                                    update_site_option('apto_license', $license_data);
+                                                }
                                             
                                             return;
-                                        }    
+                                        }   
                                 }
                                 else
                                 {
@@ -422,13 +406,14 @@
                                 
                             //build the request query
                             $args = array(
-                                                'woo_sl_action'         => 'activate',
-                                                'product_unique_id'     => APTO_PRODUCT_ID,
-                                                'licence_key'           => $license_key,
-                                                'domain'                => APTO_INSTANCE,
+                                                'sl_action'         => 'activate',
+                                                'licence_key'       => $license_key,
+                                                'product_id'        => APTO_PRODUCT_ID,
+                                                'secret_key'        => APTO_SECRET_KEY,
+                                                'sl_instance'          => APTO_INSTANCE
                                             );
                             $request_uri    = APTO_APP_API_URL . '?' . http_build_query( $args , '', '&');
-                            $data           = wp_remote_get( $request_uri,  array(
+                            $data           = wp_remote_get( $request_uri, array(
                                                                                     'timeout'     => 20,
                                                                                     'user-agent'  => 'WordPress/' . $wp_version . '; APTO/' . APTO_VERSION .'; ' . get_bloginfo( 'url' ),
                                                                                     ) );
@@ -438,22 +423,14 @@
                                     $apto_form_submit_messages[] .= __('There was a problem connecting to ', 'apto') . APTO_APP_API_URL;
                                     return;  
                                 }
-                            
-                            $response_block = json_decode($data['body']);
-
-                            if(!is_array($response_block) || count($response_block) < 1)
-                                {
-                                    $apto_form_submit_messages[] = __('There was a problem with the data block received from ' . APTO_APP_API_URL, 'apto');
-                                        return;   
-                                }    
                                 
-                            $response_block = $response_block[count($response_block) - 1];
-                            if (is_object($response_block))
+                            $data_body = json_decode($data['body']);
+                            if(isset($data_body->status))
                                 {
-                                    if($response_block->status == 'success' && ( $response_block->status_code == 's100' || $response_block->status_code == 's101' ) )
+                                    if($data_body->status == 'success' && $data_body->status_code == 's200')
                                         {
                                             //the license is active and the software is active
-                                            $apto_form_submit_messages[] = $response_block->message;
+                                            $apto_form_submit_messages[] = $data_body->message;
                                             
                                             $license_data = get_site_option('apto_license');
                                             
@@ -469,17 +446,15 @@
                                         }
                                         else
                                         {
-                                            $apto_form_submit_messages[] = __('There was a problem activating the licence: ', 'apto') . $response_block->message;
+                                            $apto_form_submit_messages[] = __('There was a problem activating the licence: ', 'apto') . $data_body->message;
                                             return;
-                                        }       
+                                        }   
                                 }
                                 else
                                 {
                                     $apto_form_submit_messages[] = __('There was a problem with the data block received from ' . APTO_APP_API_URL, 'apto');
                                     return;
-                                }    
-                            
-                            
+                                }
                         }   
                     
                 }

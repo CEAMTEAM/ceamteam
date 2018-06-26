@@ -1,0 +1,98 @@
+// Vars
+base-font-size = 20px
+base-line-height = 1.5
+
+// ff-prater-script-web
+//condensed = "Roboto Condensed"
+//slab = "Roboto Slab"
+
+
+// Typefaces
+Slab = {
+  font: 'Roboto Slab'\, sans-serif,
+  weight: {
+    normal: regular,
+    bold: bold
+  }
+}
+
+Condensed = {
+  font: 'Roboto Condensed'\, serif,
+  weight: {
+    light: thin,
+    normal: regular,
+    bold: bold
+  }
+}
+
+
+// Line height function
+line-height-function()
+  base-font-size * base-line-height
+
+// Var must be specified after returning the line-height function
+cal-line-height = line-height-function()
+
+
+html
+  font-size base-font-size
+  -moz-osx-font-smoothing grayscale
+  -webkit-font-smoothing antialiased
+
+body
+  color charcoal
+  font-family: Slab.font
+  font-size base-font-size
+  line-height base-line-height
+  margin 0
+
+
+// Anchor text
+a
+  color gold
+  text-decoration none
+
+  &:hover
+    color nightgreen
+    text-decoration none
+
+p
+  // padding-bottom 1rem
+
+
+
+// Content Areas
+[class*='__content']
+  margin 0 auto
+  padding-top 3rem
+  width 80%
+
+  +below(600px)
+    width 100%
+  // Add margin bottom to all elements inside this container
+  & > *
+    margin-bottom 1.5rem
+
+
+[class*='__subcontent']
+  & > *
+    margin-bottom 1.5rem
+
+
+//TYPOGRAPHY for WP TinyMCE Editor
+//Text editor formatting to match live site
+
+
+.wp-autoresize
+  line-height 1.5
+  font-family: Slab.font
+  font-size base-font-size
+  padding 0 1.5em !important
+  margin 0 auto
+  max-width 650px
+
+  p
+    margin-bottom 1.5rem
+
+  li
+    padding 0
