@@ -5,6 +5,7 @@
   "scripts": {
     "start": "NODE_ENV=development node ./wp-content/themes/ceam2018/scripts/start.js",
     "dev": "NODE_ENV=development node ./wp-content/themes/ceam2018/scripts/dev.js",
+    "prod": "NODE_ENV=production node ./wp-content/themes/ceam2018/scripts/prod.js",
     "build": "NODE_ENV=production node ./wp-content/themes/ceam2018/scripts/build.js",
     "postinstall": "npm run build"
   },
