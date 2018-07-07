@@ -62,8 +62,8 @@
 					</div>
 					<div class="header__utility">
 						<div class="header__links">
-							<a href="<?php the_field('google_map_url', 'option'); ?>" class="header__link">Location</a>
-							<a href="tel:<?php the_field('phone_number', 'option'); ?>" class="header__link">Phone</a>
+							<a href="<?php the_field('google_map_url', 'option'); ?>" class="header__link">1310 Papin Street, Suite 106 STL, MO 63103</a>
+							<a href="tel:<?php the_field('phone_number', 'option'); ?>" class="header__link">314-454-6544</a>
 						</div>
 						<div class="header__social">
 							<a href="<?php the_field('facebook_url', 'option'); ?>" class="header__icon" target="blank">
@@ -72,12 +72,12 @@
 							<a href="<?php the_field('twitter_url', 'option'); ?>" class="header__icon" target="blank">
 								<div data-icon="ei-sc-twitter" data-size="m"></div>
 							</a>
-							<a href="<?php the_field('instagram_url', 'option'); ?>" class="header__icon" target="blank">
+							<!-- <a href="<?php the_field('instagram_url', 'option'); ?>" class="header__icon" target="blank">
 								<div data-icon="ei-sc-instagram" data-size="m"></div>
 							</a>
 							<a href="<?php the_field('flickr_url', 'option'); ?>" class="header__icon" target="blank">
 								<div data-icon="ei-camera" data-size="m"></div>
-							</a>
+							</a> -->
 						</div>
 				</div>
 					<a href="#" class="header__icon hamburger">
