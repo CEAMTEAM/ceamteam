@@ -1,36 +1,92 @@
-[class*="__button"],
-[class*="__button"]:focus,
-.gform_wrapper .gform_footer input.button,
-.gform_wrapper .gform_footer input[type=submit],
-.gform_wrapper .gform_page_footer input.button,
-.gform_wrapper .gform_page_footer input[type=submit]
-  border 3px solid trans
+[class*="__button"]
+  background-color accent
+  //border 2px solid currentColor
   border-radius 5px
-  box-shadow -1px 1px 0 black
+  color white
+  display inline-block
+  //font-weight normal
+  overflow hidden
   padding .5rem 1rem
+  position relative
+  text-decoration none
   text-shadow 1px 1px 0 black
+  transition .2s transform ease-in-out
+  will-change transform
+  z-index 0
+
+  &.white
+    color white
+
+    &::after
+      background-color white
+
+  &::after
+    background-color grape
+    border-radius 5px
+    content: ''
+    display block
+    height 100%
+    width 100%
+    position absolute
+    left 0
+    top 0
+    transform translate(-100%, 0) rotate(10deg)
+    transform-origin top left
+    transition .2s transform ease-out
+    will-change transform
+    z-index -1
+
+  &:hover::after
+    transform translate(0, 0)
 
   &:hover
-    border 3px solid currentColor
-    background-color white
-    color currentColor
-
-.gform_wrapper .gform_footer input.button,
-.gform_wrapper .gform_footer input[type=submit],
-.gform_wrapper .gform_page_footer input.button,
-.gform_wrapper .gform_page_footer input[type=submit]
-  background-color green
-
-  &:hover
-    border 3px solid currentColor
-    background-color white
-    color currentColor
+    //border 2px solid transparent
+    color white
+    transform scale(1.05)
+    will-change transform
 
 
-a.donateBtn
-  //background-color gold
-  //color darkGreen
 
-  &:hover
-    //background-color darkGreen
-    text-decoration underline
+
+// [class*="__button"],
+// [class*="__button"]:focus,
+// .gform_wrapper .gform_footer input.button,
+// .gform_wrapper .gform_footer input[type=submit],
+// .gform_wrapper .gform_page_footer input.button,
+// .gform_wrapper .gform_page_footer input[type=submit]
+//   border 3px solid trans
+//   border-radius 5px
+//   // box-shadow -1px 1px 0 black
+//   padding .5rem 1rem
+//   text-shadow 1px 1px 0 black
+
+//   //display inline-block
+//   background-color accent
+//   border 3px solid accent
+//   color white
+
+//   &:hover
+//     border 3px solid currentColor
+//     background-color white
+//     color grape
+//     text-shadow none
+
+// .gform_wrapper .gform_footer input.button,
+// .gform_wrapper .gform_footer input[type=submit],
+// .gform_wrapper .gform_page_footer input.button,
+// .gform_wrapper .gform_page_footer input[type=submit]
+//   background-color green
+
+//   &:hover
+//     border 3px solid currentColor
+//     background-color white
+//     color currentColor
+
+
+// a.donateBtn
+//   //background-color gold
+//   //color darkGreen
+
+//   &:hover
+//     //background-color darkGreen
+//     text-decoration underline

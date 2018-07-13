@@ -2,8 +2,8 @@
 <div class="footer__layer">
   <div class="footer__container">
     <div class="footer__item">
-      <?php include "includes/logo.php" ?>
       <p class="footer__heading"><span>ceam</span></p>
+      <?php include "includes/logo.php" ?>
       <p class="footer__copyright">© <?php echo date("Y"); ?></p>
       <p class="footer__address"><?php the_field('address', 'option'); ?></p>
     </div>
