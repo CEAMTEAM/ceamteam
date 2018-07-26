@@ -71,3 +71,31 @@
 
     &::after
       background-color transparent
+
+.sideBySideGallery
+  display flex
+  align-items center
+  flex-direction row
+
+  &__content
+    flex 1
+    padding 1rem 2rem
+
+  &__heading
+    color orange
+    display inline-block
+    padding 0
+    margin 0
+    font-size 2.5rem
+
+    a:hover
+      color grape
+      text-shadow -1px 1px 0 white
+
+  &__subheading
+    padding 0
+    text-shadow -1px 1px 0 grey
+
+  .frame-border
+    //flex 1
+    margin 2rem 0

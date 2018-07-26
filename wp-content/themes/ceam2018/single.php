@@ -5,9 +5,9 @@
   <div class="feature__layer" style="background-image: url(<?php echo get_full_image_src(); ?>);"></div>
 <?php } else {?>
 
-  <div class="feature__layer" style="background-image: url(/wp-content/uploads/2009/12/oldShed.jpg);"></div>
+  <div class="feature__layer" style="background-image: url(/wp-content/uploads/2018/07/child-02.jpg);"></div>
 <?php } ?>
-
+  
 <div class="page">
 	<div class="page__container">
     <div class="page__content-padding">

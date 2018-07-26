@@ -21,8 +21,10 @@ function custom_theme_setup() {
   // CUSTOM SETTINGS
   // Login Page Styles
   include 'functions/custom-login-page.php';
+
   // Post Editor Styles
-  include 'functions/custom-post-editor-styles.php';
+  // include 'functions/custom-post-editor-styles.php';
+
   // Get thumbnail function
   include 'functions/get-thumbnail-src.php';
 

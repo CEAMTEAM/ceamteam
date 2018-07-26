@@ -53,6 +53,7 @@
     flex-direction column
     height 100%
     justify-content center
+    align-items center
     padding 4rem 2rem
     max-width 100%
 
@@ -60,7 +61,7 @@
   &__main svg
     //margin 0 auto
     //width 120px
-    width 250px
+    width 100px
     // padding-bottom 2.5rem
     filter drop-shadow(-1px 1px 0px charcoal)
 
@@ -86,6 +87,25 @@
     font-family: Condensed.font
     font-size 6rem
     padding 0
+    text-align center
+    text-shadow 1px 1px 0 black
+    text-transform uppercase
+    width 100%
+
+    +below(600px)
+      font-size 5rem
+
+    +below(880px)
+      +landscape()
+        font-size 5rem
+
+.home .feature
+  &__heading
+    color white
+    font-family: Condensed.font
+    font-size 6rem
+    padding 0
+    text-align right
     text-shadow 1px 1px 0 black
     text-transform uppercase
     width 50%
@@ -97,29 +117,33 @@
       +landscape()
         font-size 5rem
 
-.home .feature&__main svg
-  //margin 0 auto
-  //width 120px
-  width 100px
-  //padding-bottom 2.5rem
-  filter drop-shadow(-1px 1px 0px charcoal)
+  &__main 
+    align-items flex-start
+    justify-content space-around
 
-  +below(820px)
-    width 220px
+    svg
+      //margin 0 auto
+      //width 120px
+      width 100px
+      //padding-bottom 2.5rem
+      filter drop-shadow(-1px 1px 0px charcoal)
 
-    +landscape()
-      padding-top 2.5rem
-      //width 80px
-      width 300px
+      +below(820px)
+        width 220px
 
-  +ie11()
-    // height 200px
-    // width 200px
-    height 400px
-    width 400px
+        +landscape()
+          padding-top 2.5rem
+          //width 80px
+          width 300px
 
-  path
-    fill white
+      +ie11()
+        // height 200px
+        // width 200px
+        height 400px
+        width 400px
+
+      path
+        fill white
 
 
 .crossfade
@@ -157,6 +181,3 @@
 
 //   100%
 //     opacity 0
-
-.home .feature__main
-  justify-content space-around

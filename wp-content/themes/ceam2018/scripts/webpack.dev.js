@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const AssetsPlugin = require("assets-webpack-plugin");
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
-const OptimCSS = require("optimize-css-assets-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 const themePath = "./wp-content/themes/ceam2018";
 
@@ -78,6 +78,9 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    minimizer: [new OptimizeCSSAssetsPlugin({})]
+  },
   plugins: [
     // new webpack.HotModuleReplacementPlugin(),
     new webpack.EnvironmentPlugin({
@@ -88,13 +91,13 @@ module.exports = {
       path: path.resolve(__dirname, "../build"),
       filename: "assets.json"
     }),
-    new OptimCSS(),
+    //new OptimizeCSSAssetsPlugin(),
     new MiniCSSExtractPlugin({
       filename: "bundle.css",
       path: path.resolve(__dirname, "../build")
     }),
     new BrowserSyncPlugin({
-      notify: false,
+      notify: true,
       host: "localhost",
       port: 4000,
       // logLevel: "silent",

@@ -33,7 +33,7 @@ while($loop1->have_posts()) : $loop1->the_post(); ?>
 <div class="page fogBg">
 	<div class="page__container">
     <div class="page__content">
-      <div class="gallery__layer">
+
 
 
         <?php endwhile; wp_reset_postdata(); ?>
@@ -51,20 +51,20 @@ while($loop1->have_posts()) : $loop1->the_post(); ?>
           $loop2 = new WP_Query( $args );
           while($loop2->have_posts()) : $loop2->the_post(); ?>
 
-          <div class="gallery__item">
-              <a href="<?php the_permalink(); ?>" class="gallery__button" style="background-image: url(<?php echo get_field('board_photo'); ?>);">
-                <span><?php the_title()?>
-                <?php if (get_field( "board_postion" ) != "Member-at-Large") {
-                  echo "/ " . get_field('board_postion');
-                } ?>
-
-              </span>
-              </a>
+          <div class="sideBySideGallery">
+            <div class="frame-border">
+              <div class="frame-inset" style="background-image: url(<?php echo get_field( "board_photo" ); ?>);"></div>
+            </div>
+              
+            <div class="sideBySideGallery__content">
+              <h2 class="sideBySideGallery__heading"><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
+              <h3 class="sideBySideGallery__subheading"><?php echo get_field('board_career'); ?></h3>
+            </div>
           </div>
 
         <?php endwhile; wp_reset_postdata(); ?>
 
-      </div>
+ 
     </div>
   </div>
 </div>
