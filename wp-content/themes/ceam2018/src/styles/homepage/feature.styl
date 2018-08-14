@@ -100,6 +100,9 @@
         font-size 5rem
 
 .home .feature
+  &__container
+    align-items flex-start
+
   &__heading
     color white
     font-family: Condensed.font
@@ -108,10 +111,15 @@
     text-align left
     text-shadow 1px 1px 0 black
     text-transform uppercase
-    width 50%
+    width 100%
+
+    +below(700px)
+      font-size 5rem
+      width 100%
 
     +below(600px)
-      font-size 5rem
+      font-size 3rem
+      width 100%
 
     +below(880px)
       +landscape()
@@ -120,6 +128,10 @@
   &__main 
     align-items flex-start
     justify-content space-around
+    
+    +below(700px)
+      padding-left 0
+      padding-right 0
 
     svg
       //margin 0 auto
@@ -129,7 +141,7 @@
       filter drop-shadow(-1px 1px 0px charcoal)
 
       +below(820px)
-        width 220px
+        width 110px
 
         +landscape()
           padding-top 2.5rem
@@ -145,6 +157,9 @@
       path
         fill white
 
+.feature__button
+  +below(700px)
+    font-size 1.5rem
 
 .crossfade
   background-size cover

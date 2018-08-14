@@ -33,6 +33,7 @@
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+			//ga('create', 'UA-24190198-26', 'ceamteam.org');
 			ga('create', 'xx-xxxxxxxx-xx', 'auto');
 			ga('send', 'pageview');
 		</script>
@@ -62,8 +63,8 @@
 					</div>
 					<div class="header__utility">
 						<div class="header__links">
-							<a href="<?php the_field('google_map_url', 'option'); ?>" class="header__link">1310 Papin Street, Suite 106 STL, MO 63103</a>
-							<a href="tel:<?php the_field('phone_number', 'option'); ?>" class="header__link">314-454-6544</a>
+							<a href="<?php the_field('google_map_url', 'option'); ?>" class="header__link">Location</a>
+							<a href="tel:<?php the_field('phone_number', 'option'); ?>" class="header__link">Phone</a>
 						</div>
 						<div class="header__social">
 							<a href="<?php the_field('facebook_url', 'option'); ?>" class="header__icon" target="blank">

@@ -9,7 +9,7 @@
 
         <?php include "src/svg/ceam-logo.php" ?>
 
-        <h1 class="feature__heading"><?php the_title( ); ?></h1>
+        <h1 class="feature__heading">VIDEOS</h1>
 
       </div>
     </div>
@@ -22,7 +22,7 @@
 
         <?php include "src/svg/ceam-logo.php" ?>
 
-        <h1 class="feature__heading"><?php the_title( ); ?></h1>
+        <h1 class="feature__heading">VIDEOS</h1>
 
       </div>
     </div>
@@ -36,7 +36,11 @@
       <?php
         // Loop 2
         $paged = get_query_var('paged') ? get_query_var('paged') : 1;
-        $args = array('post_type' => 'post', 'posts_per_page' => 10, 'paged' => $paged);
+        $args = array(
+          'post_type' => 'post', 
+          'category_name' => 'videos',
+          'posts_per_page' => 10, 
+          'paged' => $paged);
         $loop = new WP_Query( $args );
 
         while ( $loop->have_posts() ) : $loop->the_post();?>
