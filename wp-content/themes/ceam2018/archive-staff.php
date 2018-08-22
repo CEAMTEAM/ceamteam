@@ -34,8 +34,6 @@ while($loop1->have_posts()) : $loop1->the_post(); ?>
 	<div class="page__container">
     <div class="page__content">
       
-
-
         <?php endwhile; wp_reset_postdata(); ?>
 
           <?php
