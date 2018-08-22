@@ -1,0 +1,105 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+    <div class="supsystic-item supsystic-item-autoheight">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    {% set columns = [
+                        'ID',
+                        environment.translate('Title'),
+                        environment.translate('Created'),
+                        environment.translate('Shortcode'),
+                        environment.translate('PHP'),
+                        environment.translate('Actions')]
+                    %}
+                    <table id="tables" class="wp-list-table widefat" style="min-width: 100%;">
+                        <thead>
+                        <tr>
+							<th scope="col">
+								<input type="checkbox" id="check_all" name="check_all">
+							</th>
+                            {% for column in columns %}
+                                <th scope="col">{{ column }}</th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for table in tables %}
+                            <tr id="table-{{ table.id }}" data-table-id="{{ table.id }}">
+								<td>
+									<input type="checkbox" class="tableCheckbox" id="check_{{ table.id }}" data-table-id="{{ table.id }}" name="check_{{ table.id }}">
+								</td>
+                                <td>
+                                    {{ table.id }}
+                                </td>
+                                <td>
+                                    <a href="{{ environment.generateUrl('tables', 'view', { 'id': table.id }) }}" data-toggle="tooltip" title="{{ environment.translate('Edit table "%s"') | format(table.title) }}">
+                                        {{ table.title }}
+                                    </a>
+                                    <i class="fa fa-fw fa-pencil"></i>
+                                </td>
+                                <td>
+                                    {{ table.created_at | date('F jS \\@ H:i') }}
+                                </td>
+                                <td>
+                                    <input type="text" class="shortcode" readonly value="[{{ environment.config.get('shortcode_name') }} id='{{ table.id }}']">
+                                </td>
+                                <td>
+                                    <input type="text" class="shortcode" readonly value="{{ "<?php echo supsystic_tables_get(%s); ?>" | format(table.id) }}">
+                                </td>
+                                <td>
+                                    <a class="button button-small"
+                                       href="{{ environment.generateUrl('tables', 'view', { 'id': table.id }) }}">
+                                        <i class="fa fa-fw fa-pencil"></i>
+                                        <!-- /.fa fa-fw fa-pencil -->
+                                    </a>
+                                    <!-- /.button -->
+                                    <a class="button button-small delete-table"
+                                       href="#">
+                                        <i class="fa fa-fw fa-trash-o"></i>
+                                        <!-- /.fa fa-fw fa-pencil -->
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <!-- /.wp-list-table widefat -->
+                </div>
+                <!-- /.col-xs-12 -->
+				<div class="col-xs-12">
+					<button class="button group_button" id="delete-group" disabled>
+						<i class="fa fa-fw fa-trash-o"></i>{{ environment.translate('Delete selected') }}
+					</button>
+					<button class="button group_button {% if environment.isPro() == false %}pro-notify{% endif %}"
+						data-dialog="#import_exportProFeatureDialog"
+						data-dtitle="{{ environment.translate('Export') }}"
+						data-dwidth="480"
+					 	id="export-group" disabled>
+							<i class="fa fa-fw fa-upload"></i><span>{{ environment.translate('Export selected') }}</span>
+					</button>
+					<button class="button group_button {% if environment.isPro() == false %}pro-notify{% endif %}"
+						data-dialog="#import_exportProFeatureDialog"
+						data-dtitle="{{ environment.translate('Import') }}"
+						data-dwidth="480"
+					 	id="import-group">
+							<i class="fa fa-fw fa-download"></i><span>{{ environment.translate('Import') }}</span>
+					</button>
+				</div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+
+		{# PRO notification dialogs #}
+        <div id="import_exportProFeatureDialog" class="supsystic-plugin" style="display: none;">
+            {% set url = '<a target="_blank" href="' ~ build_pro_url({ 'utm_medium': notify }) ~ '" style="color: #000;">' ~ environment.translate('PRO version') ~ '</a>' %}
+            {% set url2 = '<a target="_blank" href="' ~ build_pro_url({ 'utm_medium': notify }) ~ '" style="color: #000;" class="button supsystic-button"><span class="ui-button-text">' ~ environment.translate('Get PRO') ~ '</span></a>' %}
+            <p>{{ environment.translate('Please be advised that this feature available only in %s.')|format(url)|raw }}</p>
+            <p>{{ environment.translate('You can %s today and have all PRO features of data tables!')|format(url2)|raw }}</p>
+        </div>
+		{{ environment.getDispatcher().dispatch('tables-index-footer') }}
+    </div>
+    <!-- /.supsystic-item -->
+{% endblock %}

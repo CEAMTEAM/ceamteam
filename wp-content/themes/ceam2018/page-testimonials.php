@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!--feature section-->
 <?php if (get_full_image_src()) { ?>
 <!--feature section-->
   <div class="feature__layer" style="background-image: url(<?php echo get_full_image_src(); ?>);">
@@ -28,88 +29,35 @@
   </div>
 <?php } ?>
 
-
-<div class="page__layer">
+<div class="page fogBg">
 	<div class="page__container">
-		<div class="page__content">
-			<?php
-				$query = 'testimonial';
-				$queryObject = new WP_Query(
-				array(
-				'post_type' => 'cpt_testimonial',
-				'posts_per_page' => -1
-				//'order' => 'DESC'
-				));
+    <div class="page__content">
 
-				// The Loop...
-				if ($queryObject->have_posts()) { while ($queryObject->have_posts()) { $queryObject->the_post(); ?>
+      <?php
+        // Loop 2
+        $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+        $args = array('post_type' => 'cpt_testimonial', 'posts_per_page' => 10, 'paged' => $paged);
+        $loop = new WP_Query( $args );
 
-				<article class="line boxShadowBottom">
-					<div class="unit size1of4">
-						<?php if(has_post_thumbnail()) { ?><div class="pt1"><?php the_post_thumbnail('medium', array('class' => 'borderShadowBottom')); ?></div><?php } ?>
-					</div>
-					<div class="unit size3of4 pb1">
-						<h2 class="em2 pad1to1sm"><?php the_title();?></h2>
-						<?php the_content();?>
-					</div>
-				</article>
+        while ( $loop->have_posts() ) : $loop->the_post();?>
 
-			<?php	} }?>
+        <div class="sideBySideGallery">
+          <div class="frame-border">
+            <div class="frame-inset" style="background-image: url(<?php echo get_full_image_src(); ?>);"></div>
+          </div>
+            
+          <div class="sideBySideGallery__content">
+            <h2 class="sideBySideGallery__heading"><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
+            <h3 class="sideBySideGallery__subheading"><?php the_excerpt() ?></h3>
+          </div>
+        </div>
 
-		</div>
-	</div>
-</div>
+      <?php endwhile; wp_reset_postdata(); ?>
 
-<?php get_footer(); ?>
-
-
-
-<?php get_header(); ?>
-
-<div>
-
-
-	<?php if (have_posts()) : while (have_posts()) : the_post();?>
-
-
-
-	<?php // if(has_post_thumbnail()) { the_post_thumbnail('feature-border', array('class' => 'borderLight'));} ?>
-
-		<div id="entry" class="center size3of4 listOn">
-			<h2 class="em2 pad1to1sm boxShadowBottom"><?php single_post_title(); ?></h2>
-			<?php // the_content();?>
-		</div>
-
-	<?php endwhile; endif; ?>
-
-	<div class="line center size2of3">
-
-			<?php
-				$query = 'testimonial';
-				$queryObject = new WP_Query(
-				array(
-				'post_type' => 'cpt_testimonial',
-				'posts_per_page' => -1
-				//'order' => 'DESC'
-				));
-
-				// The Loop...
-				if ($queryObject->have_posts()) { while ($queryObject->have_posts()) { $queryObject->the_post(); ?>
-
-				<article class="line boxShadowBottom">
-					<div class="unit size1of4">
-						<?php if(has_post_thumbnail()) { ?><div class="pt1"><?php the_post_thumbnail('medium', array('class' => 'borderShadowBottom')); ?></div><?php } ?>
-					</div>
-					<div class="unit size3of4 pb1">
-						<h2 class="em2 pad1to1sm"><?php the_title();?></h2>
-						<?php the_content();?>
-					</div>
-				</article>
-
-				<?php	} }?>
-
-		</div>
-
+      <?php wp_pagenavi( array( 'query' => $loop ) ); ?>
+ 
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
