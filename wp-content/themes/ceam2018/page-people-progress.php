@@ -40,37 +40,39 @@
 
     <?php endwhile; endif; ?>
 
-	</div>
-</div>
 
-<!--grow section-->
-<div class="grow__layer">
-  <h2 class="grow__heading"><?php echo get_field( "Lead_in_heading" ); ?></h2>
-  <div class="grow__container">
-    <?php if( have_rows('lead_in_items') ): while ( have_rows('lead_in_items') ) : the_row();
 
-      // vars
-      $image = get_sub_field('image');
-      $heading = get_sub_field('heading');
-      $text = get_sub_field('content');
-      $url = get_sub_field('button_url');
-      $urlText = get_sub_field('button_text');
-    ?>
+    <!--grow section-->
+    <div class="grow__layer">
+      <h2 class="grow__heading"><?php echo get_field( "Lead_in_heading" ); ?></h2>
+      <div class="grow__container">
+        <?php if( have_rows('lead_in_items') ): while ( have_rows('lead_in_items') ) : the_row();
 
-      <div class="grow__columns zipper">
-        <div class="grow__pic" style="background-image: url(<?php echo $image?>);"></div>
-        <div class="grow__content">
-          <h3 class="grow__subheading"><?php echo $heading ?></h3>
-          <div class="grow__text">
-            <?php echo $text ?>
+          // vars
+          $image = get_sub_field('image');
+          $heading = get_sub_field('heading');
+          $text = get_sub_field('content');
+          $url = get_sub_field('button_url');
+          $urlText = get_sub_field('button_text');
+        ?>
+
+          <div class="grow__columns zipper">
+            <div class="grow__pic" style="background-image: url(<?php echo $image?>);"></div>
+            <div class="grow__content">
+              <h3 class="grow__subheading"><?php echo $heading ?></h3>
+              <div class="grow__text">
+                <?php echo $text ?>
+              </div>
+              <p><a href="<?php echo $url ?>" class="grow__button"><?php echo $urlText ?></a></p>
+            </div>
           </div>
-          <p><a href="<?php echo $url ?>" class="grow__button"><?php echo $urlText ?></a></p>
-        </div>
+
+        <?php endwhile; else : endif; ?>
+
       </div>
+    </div>
 
-    <?php endwhile; else : endif; ?>
-
-  </div>
+	</div>
 </div>
 
 <?php get_footer(); ?>
