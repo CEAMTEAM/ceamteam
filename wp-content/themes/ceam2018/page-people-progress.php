@@ -39,9 +39,11 @@
     </div>
 
     <?php endwhile; endif; ?>
+  </div>
+</div>
 
-
-
+<div class="page__layer">
+	<div class="page__container">
     <!--grow section-->
     <div class="grow__layer">
       <h2 class="grow__heading"><?php echo get_field( "Lead_in_heading" ); ?></h2>
