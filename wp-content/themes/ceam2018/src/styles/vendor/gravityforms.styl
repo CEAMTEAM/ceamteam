@@ -1,0 +1,31 @@
+.gform_wrapper 
+  ul
+    list-style none
+
+  .gfield,
+  [class*="address_"]
+    padding-top 1rem
+
+  label
+    //
+
+  input,
+  select
+    font-size 1rem
+    padding .25rem
+    width 100%
+
+  [class*="ginput_"],
+  .name_first,
+  .name_last
+    display flex
+    flex-direction column
+
+    label
+      order 1
+
+    input, select
+      order 2
+
+input[type="checkbox"]
+  width 1rem
