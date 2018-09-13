@@ -26,7 +26,6 @@
             <?php echo get_field( "featured_button_text" ); ?>
           </a>
         </p>
-        <?php include "src/svg/ceam-logo.php" ?>
 
       </div>
     </div>

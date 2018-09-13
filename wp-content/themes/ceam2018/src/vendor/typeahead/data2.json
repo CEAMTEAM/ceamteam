@@ -1,0 +1,7775 @@
+[
+    {
+        "year": "2013",
+        "agency": "ACADEMIE LAFAYETTE",
+        "school": "ACADEMIE LAFAYETTE",
+        "percentage": "87.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ACADEMY FOR INTEGRATED ARTS",
+        "school": "ACADEMY FOR INTEGRATED ARTS",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "ADAIR CO. R-I",
+        "school": "ADAIR CO. HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADAIR CO. R-I",
+        "school": "ADAIR CO. ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ADAIR CO. R-II",
+        "school": "1050 ADAIR CO. HIGH",
+        "percentage": "95.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADAIR CO. R-II",
+        "school": "ADAIR CO. ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADRIAN R-III",
+        "school": "ADRIAN ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADRIAN R-III",
+        "school": "ADRIAN SR. HIGH",
+        "percentage": "93.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADVANCE R-IV",
+        "school": "ADVANCE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ADVANCE R-IV",
+        "school": "ADVANCE HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "AFFTON 101",
+        "school": "MESNIER PRIMARY SCH.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AFFTON 101",
+        "school": "GOTSCH INTERMEDIATE SCH.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AFFTON 101",
+        "school": "ROGERS MIDDLE",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AFFTON 101",
+        "school": "AFFTON HIGH",
+        "percentage": "94.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ALBANY R-III",
+        "school": "VIRGINIA E. GEORGE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ALBANY R-III",
+        "school": "ALBANY MIDDLE",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "ALBANY R-III",
+        "school": "ALBANY HIGH",
+        "percentage": "66.8",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "ALLEN VILLAGE",
+        "school": "ALLEN VILLAGE SCHOOL",
+        "percentage": "95.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTA VISTA CHARTER SCH.",
+        "school": "ALTA VISTA ELEMENTARY SCHOOL",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTA VISTA CHARTER SCH.",
+        "school": "ALTA VISTA MIDDLE SCHOOL",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTA VISTA CHARTER SCH.",
+        "school": "ALTA VISTA CHARTER SCHOOL",
+        "percentage": "76.8",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTENBURG 48",
+        "school": "ALTENBURG ELEM.",
+        "percentage": "98.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTON R-IV",
+        "school": "ALTON ELEM.",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ALTON R-IV",
+        "school": "ALTON HIGH",
+        "percentage": "68.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "APPLETON CITY R-II",
+        "school": "APPLETON CITY ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "APPLETON CITY R-II",
+        "school": "APPLETON CITY HIGH",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ARCADIA VALLEY R-II",
+        "school": "ARCADIA VALLEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ARCADIA VALLEY R-II",
+        "school": "ARCADIA VALLEY MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ARCADIA VALLEY R-II",
+        "school": "ARCADIA VALLEY HIGH",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ARCHIE R-V",
+        "school": "CASS CO. ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ARCHIE R-V",
+        "school": "ARCHIE HIGH",
+        "percentage": "94.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ASH GROVE R-IV",
+        "school": "BOIS D'ARC ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ASH GROVE R-IV",
+        "school": "ASH GROVE HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ASH GROVE R-IV",
+        "school": "ASH GROVE ELEM.",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ATLANTA C-3",
+        "school": "ATLANTA ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ATLANTA C-3",
+        "school": "ATLANTA HIGH",
+        "percentage": "66.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "AURORA R-VIII",
+        "school": "ROBINSON ELEM.",
+        "percentage": "89",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "AURORA R-VIII",
+        "school": "ROBINSON INTERMEDIATE",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "AURORA R-VIII",
+        "school": "AURORA HIGH",
+        "percentage": "80.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "AURORA R-VIII",
+        "school": "PATE EARLY CHILDHOOD CTR.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "AURORA R-VIII",
+        "school": "AURORA JR. HIGH",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "AVA R-I",
+        "school": "AVA MIDDLE",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AVA R-I",
+        "school": "AVA ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AVA R-I",
+        "school": "AVA HIGH",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "AVENUE CITY R-IX",
+        "school": "AVENUE CITY ELEM.",
+        "percentage": "98.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "AVILLA R-XIII",
+        "school": "AVILLA ELEM.",
+        "percentage": "97.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "B. BANNEKER ACADEMY",
+        "school": "B. BANNEKER ACADEMY",
+        "percentage": "36.9",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "BAKERSFIELD R-IV",
+        "school": "BAKERSFIELD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BAKERSFIELD R-IV",
+        "school": "BAKERSFIELD HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BALLARD R-II",
+        "school": "BALLARD ELEM.",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BALLARD R-II",
+        "school": "BALLARD HIGH",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BAYLESS",
+        "school": "BAYLESS ELEMENTARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BAYLESS",
+        "school": "BAYLESS SR. HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BAYLESS",
+        "school": "BAYLESS MIDDLE SCHOOL",
+        "percentage": "58.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "BELL CITY R-II",
+        "school": "BELL CITY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELL CITY R-II",
+        "school": "BELL CITY HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELLEVIEW R-III",
+        "school": "BELLEVIEW ELEM.",
+        "percentage": "76.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "GLADDEN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "HILLCREST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "KENTUCKY TRAIL ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "SCOTT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "CAMBRIDGE ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "BELTON HIGH -FRESHMAN CTR.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "MILL CREEK UPPER ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "BELTON HIGH",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "YEOKUM MIDDLE",
+        "percentage": "67.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BELTON 124",
+        "school": "BELTON-OZANAM SOUTHLAND COOP.",
+        "percentage": "47.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "BERNIE R-XIII",
+        "school": "BERNIE ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BERNIE R-XIII",
+        "school": "BERNIE HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BETTER LEARNING COMM ACADEMY",
+        "school": "BETTER LEARNING COMM ACADEMY",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "BEVIER C-4",
+        "school": "BEVIER ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BEVIER C-4",
+        "school": "BEVIER HIGH",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BILLINGS R-IV",
+        "school": "BILLINGS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BILLINGS R-IV",
+        "school": "BILLINGS SR. HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BISMARCK R-V",
+        "school": "BISMARCK R-V ELEM.",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BISMARCK R-V",
+        "school": "BISMARCK R-V HIGH",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLACKWATER R-II",
+        "school": "BLACKWATER ELEM.",
+        "percentage": "82.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLAIR OAKS R-II",
+        "school": "BLAIR OAKS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLAIR OAKS R-II",
+        "school": "BLAIR OAKS HIGH",
+        "percentage": "97.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLAIR OAKS R-II",
+        "school": "BLAIR OAKS MIDDLE SCHOOL",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLOOMFIELD R-XIV",
+        "school": "BLOOMFIELD MIDDLE",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLOOMFIELD R-XIV",
+        "school": "BLOOMFIELD ELEM.",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLOOMFIELD R-XIV",
+        "school": "BLOOMFIELD HIGH",
+        "percentage": "73.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BLOOMFIELD R-XIV",
+        "school": "JUVENILE CTR.",
+        "percentage": "25",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE EYE R-V",
+        "school": "BLUE EYE ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE EYE R-V",
+        "school": "BLUE EYE MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE EYE R-V",
+        "school": "BLUE EYE HIGH",
+        "percentage": "88.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "CORDILL-MASON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "DANIEL YOUNG ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "DELTA WOODS MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "FRANKLIN SMITH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "JAMES LEWIS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "JAMES WALKER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "LUCY FRANKLIN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "SUNNY POINTE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "THOMAS J. ULTICAN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "VOY SPEARS, JR. ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "WILLIAM BRYANT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "WILLIAM YATES ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "BRITTANY HILL MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "CHAPEL LAKES ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "MORELAND RIDGE MIDDLE",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "BLUE SPRINGS SOUTH HIGH",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "JOHN NOWLIN ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "BLUE SPRINGS HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "SUNNY VALE MIDDLE",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "LIGGETT TRAIL EDUCATION CENTER",
+        "percentage": "86.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BLUE SPRINGS R-IV",
+        "school": "FRESHMAN CTR. -G. BAKER BLDG.",
+        "percentage": "82.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BOLIVAR R-I",
+        "school": "BOLIVAR HIGH",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BOLIVAR R-I",
+        "school": "BOLIVAR INTERMEDIATE SCH.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BOLIVAR R-I",
+        "school": "BOLIVAR MIDDLE",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BOLIVAR R-I",
+        "school": "BOLIVAR PRIMARY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BONCL R-X",
+        "school": "BONCL Elem.",
+        "percentage": "59.2",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "BOONVILLE R-I",
+        "school": "BOONVILLE HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BOONVILLE R-I",
+        "school": "LAURA SPEED ELLIOTT MIDDLE",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BOONVILLE R-I",
+        "school": "DAVID BARTON ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BOONVILLE R-I",
+        "school": "HANNAH COLE PRIMARY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BOSWORTH R-V",
+        "school": "BOSWORTH ELEM.",
+        "percentage": "82.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BOSWORTH R-V",
+        "school": "BOSWORTH HIGH",
+        "percentage": "57.1",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "BOWLING GREEN R-I",
+        "school": "BOWLING GREEN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BOWLING GREEN R-I",
+        "school": "FRANKFORD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BOWLING GREEN R-I",
+        "school": "BOWLING GREEN MIDDLE",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BOWLING GREEN R-I",
+        "school": "BOWLING GREEN HIGH",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BRADLEYVILLE R-I",
+        "school": "BRADLEYVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRADLEYVILLE R-I",
+        "school": "BRADLEYVILLE HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON ELEM. EAST",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON JR. HIGH",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON INTERMEDIATE",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON ELEM. WEST",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON HIGH",
+        "percentage": "83.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BRANSON R-IV",
+        "school": "BRANSON PRIMARY",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BRAYMER C-4",
+        "school": "BRAYMER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRAYMER C-4",
+        "school": "BRAYMER HIGH",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRECKENRIDGE R-I",
+        "school": "BRECKENRIDGE ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRECKENRIDGE R-I",
+        "school": "BRECKENRIDGE HIGH",
+        "percentage": "82.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BRENTWOOD",
+        "school": "MCGRATH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRENTWOOD",
+        "school": "BRENTWOOD HIGH",
+        "percentage": "98.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRENTWOOD",
+        "school": "BRENTWOOD MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRENTWOOD",
+        "school": "MARK TWAIN ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRONAUGH R-VII",
+        "school": "BRONAUGH ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BRONAUGH R-VII",
+        "school": "BRONAUGH HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BROOKFIELD R-III",
+        "school": "BROOKFIELD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BROOKFIELD R-III",
+        "school": "BROOKFIELD MIDDLE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BROOKFIELD R-III",
+        "school": "BROOKFIELD HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "BROOKSIDE CHARTER SCH.",
+        "school": "BROOKSIDE CHARTER MIDDLE SCHL",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "BROOKSIDE CHARTER SCH.",
+        "school": "BROOKSIDE CHARTER SCH.",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BRUNSWICK R-II",
+        "school": "BRUNSWICK ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BRUNSWICK R-II",
+        "school": "BRUNSWICK HIGH",
+        "percentage": "84.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUCHANAN CO. R-IV",
+        "school": "RUSHVILLE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BUCHANAN CO. R-IV",
+        "school": "DEKALB JR.-SR. HIGH",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUCKLIN R-II",
+        "school": "BUCKLIN HIGH",
+        "percentage": "89.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUCKLIN R-II",
+        "school": "BUCKLIN ELEM.",
+        "percentage": "84.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUNKER R-III",
+        "school": "BUNKER HIGH",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "BUNKER R-III",
+        "school": "BUNKER ELEM.",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUTLER R-V",
+        "school": "BUTLER HIGH",
+        "percentage": "86.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "BUTLER R-V",
+        "school": "BUTLER ELEM.",
+        "percentage": "60.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CABOOL R-IV",
+        "school": "CABOOL ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CABOOL R-IV",
+        "school": "CABOOL HIGH",
+        "percentage": "93.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CABOOL R-IV",
+        "school": "CABOOL MIDDLE",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CAINSVILLE R-I",
+        "school": "CAINSVILLE ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAINSVILLE R-I",
+        "school": "CAINSVILLE HIGH",
+        "percentage": "85.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CALHOUN R-VIII",
+        "school": "CALHOUN ELEM.",
+        "percentage": "72.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CALHOUN R-VIII",
+        "school": "CALHOUN HIGH",
+        "percentage": "67.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CALLAO C-8",
+        "school": "CALLAO ELEM.",
+        "percentage": "56.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "HAWTHORN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "OAK RIDGE INTERMEDIATE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "OSAGE BEACH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "CAMDENTON MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "CAMDENTON HIGH",
+        "percentage": "83.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "DOGWOOD ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "HURRICANE DECK ELEM.",
+        "percentage": "74",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMDENTON R-III",
+        "school": "JUVENILE JUSTICE CTR.",
+        "percentage": "25",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMERON R-I",
+        "school": "PARKVIEW ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMERON R-I",
+        "school": "CAMERON HIGH",
+        "percentage": "94.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMERON R-I",
+        "school": "CAMERON MIDDLE",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMPBELL R-II",
+        "school": "CAMPBELL ELEM.",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAMPBELL R-II",
+        "school": "CAMPBELL HIGH",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CANTON R-V",
+        "school": "CANTON ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CANTON R-V",
+        "school": "CANTON HIGH",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "BLANCHARD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "FRANKLIN ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "CLIPPARD ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "ALMA SCHRADER ELEM.",
+        "percentage": "88",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "CENTRAL JR. HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "CENTRAL HIGH",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "CENTRAL MIDDLE",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CAPE GIRARDEAU 63",
+        "school": "JEFFERSON ELEM.",
+        "percentage": "72",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION PRIMARY K-1",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION JR. HIGH",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION HIGH",
+        "percentage": "93.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION PRIMARY 2-3",
+        "percentage": "92",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION INTERMEDIATE",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CARL JUNCTION R-I",
+        "school": "CARL JUNCTION SATELLITE",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARONDELET LEADERSHIP ACADEMY",
+        "school": "CARONDELET LEADERSHIP ACADEMY",
+        "percentage": "58.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "CARROLLTON R-VII",
+        "school": "ADAMS PRIMARY SCHOOL",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARROLLTON R-VII",
+        "school": "CARROLLTON ELEMENTARY SCHOOL",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARROLLTON R-VII",
+        "school": "MIDDLE SCHOOL",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARROLLTON R-VII",
+        "school": "SENIOR HIGH",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "PLEASANT VALLEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "STEADLEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "COLUMBIAN ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "FAIRVIEW ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "MARK TWAIN ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "CARTHAGE HIGH SCHOOL",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "CARTHAGE JR. HIGH",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CARTHAGE R-IX",
+        "school": "CARTHAGE MIDDLE SCHOOL",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARUTHERSVILLE 18",
+        "school": "CARUTHERSVILLE MIDDLE",
+        "percentage": "65.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARUTHERSVILLE 18",
+        "school": "CARUTHERSVILLE HIGH",
+        "percentage": "60.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CARUTHERSVILLE 18",
+        "school": "CARUTHERSVILLE ELEM.",
+        "percentage": "43.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "CASSVILLE R-IV",
+        "school": "CASSVILLE INTERMEDIATE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CASSVILLE R-IV",
+        "school": "CASSVILLE HIGH",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CASSVILLE R-IV",
+        "school": "CASSVILLE MIDDLE",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CASSVILLE R-IV",
+        "school": "EUNICE THOMAS ELEM.",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "BOONE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "RED BRIDGE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "INDIAN CREEK ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "CENTER SR. HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "CENTER MIDDLE",
+        "percentage": "79.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "CENTER ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTER 58",
+        "school": "CENTER ALTERNATIVE",
+        "percentage": "7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTERVILLE R-I",
+        "school": "CENTERVILLE ELEM.",
+        "percentage": "87.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRAL R-III",
+        "school": "CENTRAL ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRAL R-III",
+        "school": "CENTRAL HIGH",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRAL R-III",
+        "school": "CENTRAL MIDDLE",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRAL R-III",
+        "school": "WEST ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRALIA R-VI",
+        "school": "CENTRALIA INTERMEDIATE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRALIA R-VI",
+        "school": "CHANCE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRALIA R-VI",
+        "school": "CHESTER BOREN MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CENTRALIA R-VI",
+        "school": "CENTRALIA HIGH",
+        "percentage": "86.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CHADWICK R-I",
+        "school": "CHADWICK ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHADWICK R-I",
+        "school": "CHADWICK HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHAFFEE R-II",
+        "school": "CHAFFEE ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHAFFEE R-II",
+        "school": "CHAFFEE JR.-SR. HIGH",
+        "percentage": "73.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CHARLESTON R-I",
+        "school": "CHARLESTON MIDDLE",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CHARLESTON R-I",
+        "school": "CHARLESTON HIGH",
+        "percentage": "63.2",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CHARLESTON R-I",
+        "school": "WARREN E. HEARNES ELEM.",
+        "percentage": "61.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILHOWEE R-IV",
+        "school": "CHILHOWEE ELEM.",
+        "percentage": "93.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILHOWEE R-IV",
+        "school": "CHILHOWEE HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILLICOTHE R-II",
+        "school": "DEWEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILLICOTHE R-II",
+        "school": "FIELD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILLICOTHE R-II",
+        "school": "CHILLICOTHE MIDDLE",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILLICOTHE R-II",
+        "school": "CENTRAL ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CHILLICOTHE R-II",
+        "school": "CHILLICOTHE HIGH",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CITY GARDEN MONTESSORI",
+        "school": "CITY GARDEN MONTESSORI SCHOOL",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARK CO. R-I",
+        "school": "RUNNING FOX ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARK CO. R-I",
+        "school": "BLACK HAWK ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARK CO. R-I",
+        "school": "CLARK CO. HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARK CO. R-I",
+        "school": "CLARK CO. MIDDLE",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARKSBURG C-2",
+        "school": "CLARKSBURG ELEM.",
+        "percentage": "84.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARKTON C-4",
+        "school": "CLARKTON ELEM.",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLARKTON C-4",
+        "school": "CLARKTON HIGH",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLAYTON",
+        "school": "GLENRIDGE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLAYTON",
+        "school": "MERAMEC ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLAYTON",
+        "school": "RALPH M. CAPTAIN ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLAYTON",
+        "school": "CLAYTON HIGH",
+        "percentage": "98.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLAYTON",
+        "school": "WYDOWN MIDDLE",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLEARWATER R-I",
+        "school": "CLEARWATER MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLEARWATER R-I",
+        "school": "CLEARWATER HIGH",
+        "percentage": "83.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLEARWATER R-I",
+        "school": "CLEARWATER ELEMENTARY",
+        "percentage": "79",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLEVER R-V",
+        "school": "CLEVER HIGH",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLEVER R-V",
+        "school": "CLEVER ELEM.",
+        "percentage": "66",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLIMAX SPRINGS R-IV",
+        "school": "CLIMAX SPRINGS ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLIMAX SPRINGS R-IV",
+        "school": "CLIMAX SPRINGS HIGH",
+        "percentage": "81.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON",
+        "school": "HENRY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON",
+        "school": "CLINTON INTERMEDIATE SCHOOL",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON",
+        "school": "CLINTON SR. HIGH",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON",
+        "school": "CLINTON MIDDLE",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON CO. R-III",
+        "school": "CLINTON CO. R-III MIDDLE",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON CO. R-III",
+        "school": "PLATTSBURG HIGH",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CLINTON CO. R-III",
+        "school": "ELLIS ELEM.",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CAMP R-I",
+        "school": "COLE CAMP MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CAMP R-I",
+        "school": "COLE CAMP ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CAMP R-I",
+        "school": "COLE CAMP HIGH",
+        "percentage": "88.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CO. R-I",
+        "school": "COLE CO. R-I ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CO. R-I",
+        "school": "COLE CO. R-I MIDDLE",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CO. R-I",
+        "school": "RUSSELLVILLE HIGH",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CO. R-V",
+        "school": "EUGENE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLE CO. R-V",
+        "school": "EUGENE HIGH",
+        "percentage": "93.2",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": " ROBERT E. LEE ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "CENTER FOR GIFTED EDUCATION",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "JOHN RIDGEWAY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "MARY PAXTON KEELEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "MIDWAY HEIGHTS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "SMITHTON MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "TWO MILE PRAIRIE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "FAIRVIEW ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "MILL CREEK ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "NEW HAVEN ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "ROCK BRIDGE ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "CEDAR RIDGE ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "ULYSSES S. GRANT ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "JEFFERSON JR. HIGH",
+        "percentage": "90.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "SHEPARD BLVD. ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "WEST BLVD. ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "BLUE RIDGE ELEM.",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "WEST JR. HIGH",
+        "percentage": "78.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "RUSSELL BLVD. ELEM.",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "DERBY RIDGE ELEM.",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "ROCK BRIDGE SR. HIGH",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "PARKADE ELEM.",
+        "percentage": "69.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "DAVID H. HICKMAN HIGH",
+        "percentage": "61.8",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "ANN HAWKINS GENTRY MIDDLE",
+        "percentage": "55",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "JOHN B. LANGE MIDDLE",
+        "percentage": "53",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "OAKLAND JR. HIGH",
+        "percentage": "40",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "THOMAS BENTON ELEM.",
+        "percentage": "33.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "JUVENILE JUSTICE CTR.",
+        "percentage": "28.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "ALPHA HART LEWIS",
+        "percentage": "25.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COLUMBIA 93",
+        "school": "FREDERICK DOUGLASS HIGH",
+        "percentage": "17.5",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COMMUNITY R-VI",
+        "school": "COMMUNITY HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COMMUNITY R-VI",
+        "school": "COMMUNITY ELEM.",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CONCORDIA R-II",
+        "school": "CONCORDIA ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CONCORDIA R-II",
+        "school": "CONCORDIA HIGH",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CONFLUENCE ACADEMIES",
+        "school": "OLD NORTH",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CONFLUENCE ACADEMIES",
+        "school": "SOUTH CITY",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CONFLUENCE ACADEMIES",
+        "school": "CONFLUENCE PREPARATORY ACADEMY",
+        "percentage": "34.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "CONFLUENCE ACADEMIES",
+        "school": "WALNUT PARK",
+        "percentage": "10.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "CONSTRUCTION CAREERS CENTER",
+        "school": "CONSTRUCTION CAREERS CENTER",
+        "percentage": "16.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "COOPER CO. R-IV",
+        "school": "BUNCETON ELEM.",
+        "percentage": "81.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COOPER CO. R-IV",
+        "school": "BUNCETON HIGH",
+        "percentage": "65",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COOTER R-IV",
+        "school": "COOTER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COOTER R-IV",
+        "school": "COOTER HIGH",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "COUCH R-I",
+        "school": "COUCH ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "COUCH R-I",
+        "school": "COUCH HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "COWGILL R-VI",
+        "school": "COWGILL ELEM.",
+        "percentage": "97",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAIG R-III",
+        "school": "CRAIG ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAIG R-III",
+        "school": "CRAIG HIGH",
+        "percentage": "84",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CRANE R-III",
+        "school": "CRANE MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRANE R-III",
+        "school": "CRANE ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRANE R-III",
+        "school": "CRANE HIGH",
+        "percentage": "75.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-I",
+        "school": "BOURBON ELEMENTARY SCHOOL",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-I",
+        "school": "BOURBON MIDDLE SCHOOL",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-I",
+        "school": "BOURBON HIGH SCHOOL",
+        "percentage": "65.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-II",
+        "school": "CUBA ELEM.",
+        "percentage": "88",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-II",
+        "school": "CUBA HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CRAWFORD CO. R-II",
+        "school": "CUBA MIDDLE",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CROCKER R-II",
+        "school": "CROCKER ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "CROCKER R-II",
+        "school": "CROCKER HIGH",
+        "percentage": "75.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "CROSSROADS ACAD OF KANSAS CITY",
+        "school": "CROSSROADS ACAD OF KANSAS CITY",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "CRYSTAL CITY 47",
+        "school": "CRYSTAL CITY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "CRYSTAL CITY 47",
+        "school": "CRYSTAL CITY HIGH",
+        "percentage": "82.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DADEVILLE R-II",
+        "school": "DADEVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DADEVILLE R-II",
+        "school": "DADEVILLE SR. HIGH",
+        "percentage": "90.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DALLAS CO. R-I",
+        "school": "LONG LANE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DALLAS CO. R-I",
+        "school": "BUFFALO HIGH",
+        "percentage": "95.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DALLAS CO. R-I",
+        "school": "MALLORY ELEM.",
+        "percentage": "93",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DALLAS CO. R-I",
+        "school": "BUFFALO MIDDLE",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DAVIS R-XII",
+        "school": "DAVIS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DELASALLE CHARTER SCHOOL",
+        "school": "DELASALLE CHARTER SCHOOL",
+        "percentage": "24.2",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "DELLA LAMB ELEM.",
+        "school": "DELLA LAMB ELEM.",
+        "percentage": "42.9",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "DELTA C-7",
+        "school": "DELTA C-7 HIGH",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DELTA C-7",
+        "school": "DELTA C-7 ELEM.",
+        "percentage": "79.5",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DELTA R-V",
+        "school": "DELTA HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DELTA R-V",
+        "school": "DELTA ELEM.",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DENT-PHELPS R-III",
+        "school": "DENT-PHELPS ELEM.",
+        "percentage": "98.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DERRICK THOMAS ACADEMY",
+        "school": "DERRICK THOMAS COLLEGE PREP",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "DERRICK THOMAS ACADEMY",
+        "school": "DERRICK THOMAS JR. ACADEMY",
+        "percentage": "66.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DERRICK THOMAS ACADEMY",
+        "school": "DERRICK THOMAS ELEM. ACADEMY",
+        "percentage": "52.1",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "DESOTO 73",
+        "school": "DESOTO SR. HIGH",
+        "percentage": "83.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DESOTO 73",
+        "school": "VINELAND ELEM.",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DESOTO 73",
+        "school": "DESOTO JR. HIGH",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DESOTO 73",
+        "school": "ATHENA ELEM.",
+        "percentage": "78.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DEXTER R-XI",
+        "school": "SOUTHWEST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DEXTER R-XI",
+        "school": "CENTRAL ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DEXTER R-XI",
+        "school": "DEXTER HIGH",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DEXTER R-XI",
+        "school": "T. S. HILL MIDDLE",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DIAMOND R-IV",
+        "school": "DIAMOND MIDDLE",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DIAMOND R-IV",
+        "school": "DIAMOND HIGH",
+        "percentage": "78.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DIAMOND R-IV",
+        "school": "DIAMOND ELEM.",
+        "percentage": "64",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DIXON R-I",
+        "school": "DIXON HIGH",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DIXON R-I",
+        "school": "DIXON MIDDLE",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DIXON R-I",
+        "school": "DIXON ELEM.",
+        "percentage": "67.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "DONIPHAN R-I",
+        "school": "DONIPHAN ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DONIPHAN R-I",
+        "school": "DONIPHAN MIDDLE",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DONIPHAN R-I",
+        "school": "DONIPHAN HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DORA R-III",
+        "school": "DORA ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DORA R-III",
+        "school": "DORA HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DREXEL R-IV",
+        "school": "DREXEL ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DREXEL R-IV",
+        "school": "DREXEL HIGH",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DUNKLIN R-V",
+        "school": "PEVELY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "DUNKLIN R-V",
+        "school": "HERCULANEUM HIGH",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "DUNKLIN R-V",
+        "school": "SENN-THOMAS MIDDLE",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST BUCHANAN CO. C-1",
+        "school": "EAST BUCHANAN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST BUCHANAN CO. C-1",
+        "school": "EAST BUCHANAN MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST BUCHANAN CO. C-1",
+        "school": "EAST BUCHANAN HIGH",
+        "percentage": "86.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST CARTER CO. R-II",
+        "school": "EAST CARTER CO. R-II HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST CARTER CO. R-II",
+        "school": "EAST CARTER CO. R-II ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST CARTER CO. R-II",
+        "school": "EAST CARTER CO. R-II MIDDLE",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST LYNNE 40",
+        "school": "EAST LYNNE ELEM.",
+        "percentage": "95.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST NEWTON CO. R-VI",
+        "school": "EAST NEWTON HIGH",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST NEWTON CO. R-VI",
+        "school": "TRIWAY",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST NEWTON CO. R-VI",
+        "school": "GRANBY",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST PRAIRIE R-II",
+        "school": "A. J. MARTIN ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST PRAIRIE R-II",
+        "school": "EAST PRAIRIE JR. HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST PRAIRIE R-II",
+        "school": "EAST PRAIRIE HIGH",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EAST PRAIRIE R-II",
+        "school": "R. A. DOYLE ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EL DORADO SPRINGS R-II",
+        "school": "EL DORADO SPRINGS HIGH",
+        "percentage": "88.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EL DORADO SPRINGS R-II",
+        "school": "EL DORADO SPRINGS ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EL DORADO SPRINGS R-II",
+        "school": "EL DORADO SPRINGS MIDDLE",
+        "percentage": "63.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "ELDON R-I",
+        "school": "ELDON UPPER ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ELDON R-I",
+        "school": "ELDON HIGH",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ELDON R-I",
+        "school": "ELDON MIDDLE",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "ELDON R-I",
+        "school": "SOUTH ELEM.",
+        "percentage": "59",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "ELSBERRY R-II",
+        "school": "IDA CANNON MIDDLE",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "ELSBERRY R-II",
+        "school": "CLARENCE CANNON ELEM.",
+        "percentage": "86",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "ELSBERRY R-II",
+        "school": "ELSBERRY HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EMINENCE R-I",
+        "school": "EMINENCE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EMINENCE R-I",
+        "school": "EMINENCE HIGH",
+        "percentage": "95.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EVERTON R-III",
+        "school": "EVERTON ELEM.",
+        "percentage": "84.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EVERTON R-III",
+        "school": "EVERTON HIGH",
+        "percentage": "80.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EVERTON R-III",
+        "school": "EVERTON MIDDLE",
+        "percentage": "80.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EWING MARION KAUFFMAN SCHOOL",
+        "school": "EWING MARION KAUFFMAN SCHOOL",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "EXCELSIOR SPRINGS 40",
+        "school": "ELKHORN ELEMENTARY",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EXCELSIOR SPRINGS 40",
+        "school": "LEWIS ELEMENTARY",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EXCELSIOR SPRINGS 40",
+        "school": "WESTVIEW ELEMENTARY",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EXCELSIOR SPRINGS 40",
+        "school": "EXCELSIOR SPRINGS HIGH",
+        "percentage": "84.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "EXCELSIOR SPRINGS 40",
+        "school": "EXCELSIOR SPRINGS MIDDLE",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "EXETER R-VI",
+        "school": "EXETER ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "EXETER R-VI",
+        "school": "EXETER HIGH",
+        "percentage": "70.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIR GROVE R-X",
+        "school": "FAIR GROVE ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIR GROVE R-X",
+        "school": "FAIR GROVE MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIR GROVE R-X",
+        "school": "FAIR GROVE HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIR PLAY R-II",
+        "school": "FAIR PLAY HIGH",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIR PLAY R-II",
+        "school": "FAIR PLAY ELEM.",
+        "percentage": "67.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIRFAX R-III",
+        "school": "FAIRFAX ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIRFAX R-III",
+        "school": "FAIRFAX HIGH",
+        "percentage": "94.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAIRVIEW R-XI",
+        "school": "FAIRVIEW ELEM.",
+        "percentage": "83.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "ROOSEVELT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "JEFFERSON ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "WASHINGTON-FRANKLIN ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "LINCOLN INTERMEDIATE",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "FARMINGTON SR. HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "FARMINGTON MIDDLE",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "TRUMAN KINDERGARTEN",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FARMINGTON R-VII",
+        "school": "JUVENILE DETENTION CTR.",
+        "percentage": "12.2",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "FAYETTE R-III",
+        "school": "LAURENCE J. DALY ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FAYETTE R-III",
+        "school": "FAYETTE HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FAYETTE R-III",
+        "school": "WM. N. CLARK MIDDLE",
+        "percentage": "55.7",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "VOGT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "COMBS ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "HALLS FERRY ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "COMMONS LANE ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "ROBINWOOD ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "WEDGWOOD ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "JOHNSON WABASH ELEM.",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "CROSS KEYS MIDDLE",
+        "percentage": "73.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "MCCLUER NORTH HIGH",
+        "percentage": "72.5",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "COOL VALLEY ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "HOLMAN ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "MCCLUER SOUTH-BERKELEY HIGH",
+        "percentage": "68.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "PARKER ROAD ELEM.",
+        "percentage": "65.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "DUCHESNE ELEM.",
+        "percentage": "65",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "MCCLUER HIGH",
+        "percentage": "65",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "CENTRAL ELEM.",
+        "percentage": "64.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "BERMUDA ELEM.",
+        "percentage": "62.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "LEE HAMILTON ELEM.",
+        "percentage": "62.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "GRIFFITH ELEM.",
+        "percentage": "60.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "FERGUSON MIDDLE",
+        "percentage": "54.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "WALNUT GROVE ELEM.",
+        "percentage": "52.9",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "AIRPORT ELEM.",
+        "percentage": "47.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "FERGUSON-FLORISSANT R-II",
+        "school": "BERKELEY MIDDLE",
+        "percentage": "47.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "FESTUS R-VI",
+        "school": "FESTUS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FESTUS R-VI",
+        "school": "FESTUS MIDDLE",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FESTUS R-VI",
+        "school": "FESTUS INTERMEDIATE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FESTUS R-VI",
+        "school": "FESTUS SR. HIGH",
+        "percentage": "93.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORDLAND R-III",
+        "school": "FORDLAND ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORDLAND R-III",
+        "school": "FORDLAND HIGH",
+        "percentage": "88.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FORDLAND R-III",
+        "school": "FORDLAND MIDDLE",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FORSYTH R-III",
+        "school": "FORSYTH ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORSYTH R-III",
+        "school": "FORSYTH MIDDLE",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORSYTH R-III",
+        "school": "FORSYTH HIGH",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "BUCKNER ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "INDIAN TRAILS ELEM.",
+        "percentage": "91",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "BLUE HILLS ELEM.",
+        "percentage": "84",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "ELM GROVE ELEM.",
+        "percentage": "82",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "FIRE PRAIRIE MIDDLE",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "FORT OSAGE HIGH",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "CLER-MONT ELEM.",
+        "percentage": "66",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "OSAGE TRAIL MIDDLE",
+        "percentage": "62.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FORT OSAGE R-I",
+        "school": "MCCUNE SCHOOL FOR BOYS",
+        "percentage": "25",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "RAYMOND & NANCY HODGE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "FOX ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "GEORGE GUFFEY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "MERAMEC HEIGHTS ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "ROCKPORT HEIGHTS ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "LONE DELL ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "SHERWOOD ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "RIDGEWOOD MIDDLE",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "RICHARD SIMPSON ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "FOX MIDDLE",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "ANTONIA ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "CLYDE HAMRICK ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "SECKMAN MIDDLE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "SECKMAN ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "ANTONIA MIDDLE SCHOOL",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "SECKMAN SR. HIGH",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FOX C-6",
+        "school": "FOX SR. HIGH",
+        "percentage": "88.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "CASTLIO ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "DANIEL BOONE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "JOHN WELDON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "WARREN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "BARNWELL MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "BECKY-DAVID ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "BRYAN MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "FAIRMOUNT ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "HENDERSON ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "FRANCIS HOWELL MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "HOLLENBECK MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "INDEPENDENCE ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "CENTRAL ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "FRANCIS HOWELL HIGH",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "SAEGER MIDDLE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "FRANCIS HOWELL CENTRAL HIGH",
+        "percentage": "88.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "FRANCIS HOWELL NORTH HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANCIS HOWELL R-III",
+        "school": "HARVEST RIDGE ELEM.",
+        "percentage": "72.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FRANKLIN CO. R-II",
+        "school": "FRANKLIN CO. ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FREDERICKTOWN R-I",
+        "school": "FREDERICKTOWN INTERMEDIATE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FREDERICKTOWN R-I",
+        "school": "FREDERICKTOWN MIDDLE",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FREDERICKTOWN R-I",
+        "school": "FREDERICKTOWN HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FREDERICKTOWN R-I",
+        "school": "FREDERICKTOWN ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FRONTIER SCHOOL OF INNOVATION",
+        "school": "FRONTIER SCHL OF EXCELLENCE-M",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "FRONTIER SCHOOL OF INNOVATION",
+        "school": "FRONTIER SCHL OF INNOVATION-M",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "FRONTIER SCHOOL OF INNOVATION",
+        "school": "FRONTIER SCHL OF EXCELLENCE-U",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FRONTIER SCHOOL OF INNOVATION",
+        "school": "FRONTIER SCHOOL OF INNOVATION",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUWMALT WEST MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "OSTMANN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "ST. PETERS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "EMGE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT SOUTH MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "HAWTHORN ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "LEWIS & CLARK ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "MOUNT HOPE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "MID RIVERS ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "PROGRESS SOUTH ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "DR. BERNARD J. DUBRAY MIDDLE",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "PHEASANT POINT ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "WESTHOFF ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT SOUTH HIGH",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT WEST HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "TWIN CHIMNEYS ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT NORTH HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "ROCK CREEK ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT EAST HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FOREST PARK ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "FT. ZUMWALT NORTH MIDDLE",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "JOSEPH L. MUDD ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FT. ZUMWALT R-II",
+        "school": "DARDENNE ELEM.",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FULTON 58",
+        "school": "BUSH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FULTON 58",
+        "school": "MCINTIRE ELEM.",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FULTON 58",
+        "school": "BARTLEY ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "FULTON 58",
+        "school": "FULTON SR. HIGH",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "FULTON 58",
+        "school": "FULTON MIDDLE",
+        "percentage": "56.4",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "GAINESVILLE R-V",
+        "school": "GAINESVILLE ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GAINESVILLE R-V",
+        "school": "GAINESVILLE HIGH",
+        "percentage": "88.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GALENA R-II",
+        "school": "GALENA HIGH",
+        "percentage": "81.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GALENA R-II",
+        "school": "GALENA-ABESVILLE ELEM.",
+        "percentage": "60.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "GALLATIN R-V",
+        "school": "COVEL D. SEARCY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GALLATIN R-V",
+        "school": "GALLATIN HIGH",
+        "percentage": "88.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE C-4",
+        "school": "GASCONADE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-I",
+        "school": "HERMANN MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-I",
+        "school": "HERMANN HIGH",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-I",
+        "school": "HERMANN ELEM.",
+        "percentage": "74",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-II",
+        "school": "GERALD ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-II",
+        "school": "OWENSVILLE ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-II",
+        "school": "OWENSVILLE HIGH",
+        "percentage": "83.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GASCONADE CO. R-II",
+        "school": "OWENSVILLE MIDDLE",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GATEWAY SCIENCE ACAD/ST LOUIS",
+        "school": "GATEWAY SCIENCE ACAD/MID/HIGH",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "GATEWAY SCIENCE ACAD/ST LOUIS",
+        "school": "GATEWAY SCIENCE ACAD/ST LOUIS",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GENESIS SCHOOL INC.",
+        "school": "GENESIS SCHOOL INC.",
+        "percentage": "53.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "GIDEON 37",
+        "school": "GIDEON HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GIDEON 37",
+        "school": "GIDEON ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GILLIAM C-4",
+        "school": "GILLIAM ELEM.",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GILMAN CITY R-IV",
+        "school": "GILMAN CITY ELEM.",
+        "percentage": "95.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GILMAN CITY R-IV",
+        "school": "GILMAN CITY HIGH",
+        "percentage": "92.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GLASGOW",
+        "school": "GLASGOW HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GLASGOW",
+        "school": "GLASGOW ELEMENTARY.",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GLENWOOD R-VIII",
+        "school": "GLENWOOD ELEM.",
+        "percentage": "96.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GOLDEN CITY R-III",
+        "school": "GOLDEN CITY ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GOLDEN CITY R-III",
+        "school": "GOLDEN CITY HIGH",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GORDON PARKS ELEM.",
+        "school": "GORDON PARKS ELEM.",
+        "percentage": "52.9",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "GORIN R-III",
+        "school": "GORIN ELEM.",
+        "percentage": "86.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "PRAIRIE BRANCH ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "STONY POINT ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "GRAIN VALLEY NORTH MIDDLE SCHL",
+        "percentage": "97",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "MATTHEWS ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "GRAIN VALLEY HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "GRAIN VALLEY MIDDLE",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAIN VALLEY R-V",
+        "school": "SNI-A-BAR ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRAND CENTER ARTS ACADEMY",
+        "school": "GRAND CENTER ARTS ACADEMY",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "BELVIDERE ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "MARTIN CITY ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "GRANDVIEW SR. HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "GRANDVIEW MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "CONN-WEST ELEM.",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "MEADOWMERE ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "BUTCHER-GREENE ELEM.",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW C-4",
+        "school": "GRANDVIEW ALTERNATIVE SCH.",
+        "percentage": "0",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW R-II",
+        "school": "GRANDVIEW MIDDLE",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW R-II",
+        "school": "GRANDVIEW ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRANDVIEW R-II",
+        "school": "GRANDVIEW HIGH",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "GREEN CITY R-I",
+        "school": "GREEN CITY HIGH",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GREEN CITY R-I",
+        "school": "GREEN CITY ELEM.",
+        "percentage": "61.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "GREEN FOREST R-II",
+        "school": "GREEN FOREST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREEN RIDGE R-VIII",
+        "school": "GREEN RIDGE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREEN RIDGE R-VIII",
+        "school": "GREEN RIDGE HIGH",
+        "percentage": "96.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENFIELD R-IV",
+        "school": "GREENFIELD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENFIELD R-IV",
+        "school": "GREENFIELD HIGH",
+        "percentage": "83.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENVILLE R-II",
+        "school": "WILLIAMSVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENVILLE R-II",
+        "school": "GREENVILLE ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENVILLE R-II",
+        "school": "GREENVILLE HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GREENVILLE R-II",
+        "school": "GREENVILLE JR. HIGH",
+        "percentage": "78.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "GRUNDY CO. R-V",
+        "school": "GRUNDY CO. ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "GRUNDY CO. R-V",
+        "school": "GRUNDY CO. HIGH",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HALE R-I",
+        "school": "HALE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HALE R-I",
+        "school": "HALE HIGH",
+        "percentage": "91.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HALFWAY R-III",
+        "school": "HALFWAY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HALFWAY R-III",
+        "school": "HALFWAY SECONDARY",
+        "percentage": "91.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HALLSVILLE R-IV",
+        "school": "HALLSVILLE INTERMEDIATE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HALLSVILLE R-IV",
+        "school": "HALLSVILLE HIGH",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HALLSVILLE R-IV",
+        "school": "HALLSVILLE MIDDLE",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HALLSVILLE R-IV",
+        "school": "HALLSVILLE PRIMARY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAMILTON R-II",
+        "school": "HAMILTON MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAMILTON R-II",
+        "school": "HAMILTON ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAMILTON R-II",
+        "school": "PENNEY HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HANCOCK PLACE",
+        "school": "HANCOCK PLACE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HANCOCK PLACE",
+        "school": "HANCOCK SR. HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HANCOCK PLACE",
+        "school": "HANCOCK PLACE MIDDLE",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "EUGENE FIELD ELEM.",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "VETERANS ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "OAKWOOD ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "A. D. STOWELL ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "MARK TWAIN ELEM.",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "HANNIBAL SR. HIGH",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HANNIBAL 60",
+        "school": "HANNIBAL MIDDLE",
+        "percentage": "55.7",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "HARDEMAN R-X",
+        "school": "HARDEMAN ELEM.",
+        "percentage": "98.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HARDIN-CENTRAL C-2",
+        "school": "HARDIN-CENTRAL ELEM.",
+        "percentage": "95.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HARDIN-CENTRAL C-2",
+        "school": "HARDIN-CENTRAL HIGH",
+        "percentage": "83.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISBURG R-VIII",
+        "school": "HARRISBURG HIGH",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISBURG R-VIII",
+        "school": "HARRISBURG ELEM.",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISBURG R-VIII",
+        "school": "HARRISBURG MIDDLE",
+        "percentage": "59.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "EARLY CHILDHOOD CTR.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "MCEOWEN ELEM.",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "HARRISONVILLE HIGH",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "HARRISONVILLE MIDDLE",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "HARRISONVILLE ELEM.",
+        "percentage": "73",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HARRISONVILLE R-IX",
+        "school": "EVERETT WADE JUVENILE CTR.",
+        "percentage": "25",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HARTVILLE R-II",
+        "school": "GROVESPRING ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HARTVILLE R-II",
+        "school": "HARTVILLE HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HARTVILLE R-II",
+        "school": "HARTVILLE ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAYTI R-II",
+        "school": "MATHIS ELEM.",
+        "percentage": "72",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAYTI R-II",
+        "school": "WALLACE ELEM.",
+        "percentage": "64.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAYTI R-II",
+        "school": "HAYTI HIGH",
+        "percentage": "60.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "BARRINGTON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "COLD WATER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "GARRETT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "JAMESTOWN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "RUSSELL ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "TWILLMAN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "WALKER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "JURY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "KEEVEN ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "LAWSON ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "MCCURDY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "LUSHER ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "TOWNSEND ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "JANA ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "NORTHWEST MIDDLE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "ARMSTRONG ELEM.",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "ARROWPOINT ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "WEST MIDDLE",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "EAST MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "GRANNEMANN ELEM.",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "CENTRAL MIDDLE",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "LARIMORE ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "MCNAIR ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "BROWN ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "NORTH MIDDLE",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "HAZELWOOD WEST HIGH",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "HAZELWOOD CENTRAL HIGH",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "SOUTHEAST MIDDLE",
+        "percentage": "70.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HAZELWOOD",
+        "school": "HAZELWOOD EAST HIGH",
+        "percentage": "58.2",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "HENRY CO. R-I",
+        "school": "WINDSOR ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HENRY CO. R-I",
+        "school": "WINDSOR HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HERMITAGE R-IV",
+        "school": "HERMITAGE ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HERMITAGE R-IV",
+        "school": "HERMITAGE MIDDLE",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HERMITAGE R-IV",
+        "school": "HERMITAGE HIGH",
+        "percentage": "78.2",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "TRUMAN ELEM.",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "WARFORD ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "JOHNSON ELEM.",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "INGELS ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "SYMINGTON ELEM.",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "RUSKIN HIGH SCHOOL",
+        "percentage": "69.2",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "DOBBS ELEM.",
+        "percentage": "62.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "BURKE ELEM.",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "SANTA FE ELEM.",
+        "percentage": "49.3",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "SMITH-HALE COLLEGE PREP",
+        "percentage": "15",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKMAN MILLS C-1",
+        "school": "HICKMAN MILLS JUNIOR HIGH",
+        "percentage": "5.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKORY CO. R-I",
+        "school": "SKYLINE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKORY CO. R-I",
+        "school": "SKYLINE MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HICKORY CO. R-I",
+        "school": "SKYLINE HIGH",
+        "percentage": "95.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HIGBEE R-VIII",
+        "school": "HIGBEE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HIGBEE R-VIII",
+        "school": "HIGBEE HIGH",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HIGH POINT R-III",
+        "school": "HIGH POINT ELEM.",
+        "percentage": "83.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "HILLSBORO MIDDLE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "HILLSBORO ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "HILLSBORO JR. HIGH",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "HILLSBORO HIGH",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "HILLSBORO PRIMARY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HILLSBORO R-III",
+        "school": "JUVENILE DETENTION CTR.",
+        "percentage": "31.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HOGAN PREPARATORY ACADEMY",
+        "school": "HOGAN PREPARATORY ACAD MIDDLE",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "HOGAN PREPARATORY ACADEMY",
+        "school": "HOGAN PREPARATORY ACADEMY",
+        "percentage": "51.4",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLCOMB R-III",
+        "school": "HOLCOMB ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLCOMB R-III",
+        "school": "HOLCOMB HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLDEN R-III",
+        "school": "HOLDEN ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLDEN R-III",
+        "school": "HOLDEN MIDDLE",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLDEN R-III",
+        "school": "HOLDEN HIGH",
+        "percentage": "80.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLLIDAY C-2",
+        "school": "HOLLIDAY ELEM.",
+        "percentage": "87.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLLISTER R-V",
+        "school": "HOLLISTER EARLY CHILDHOOD CTR",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLLISTER R-V",
+        "school": "HOLLISTER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLLISTER R-V",
+        "school": "HOLLISTER MIDDLE",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOLLISTER R-V",
+        "school": "HOLLISTER HIGH",
+        "percentage": "76.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HOPE ACADEMY",
+        "school": "HOPE ACADEMY",
+        "percentage": "20",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HOPE ACADEMY",
+        "school": "Hope Academy -Bennington Camp",
+        "percentage": "0",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "HOPE LEADERSHIP ACADEMY",
+        "school": "HOPE LEADERSHIP ACADEMY",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "HOUSTON R-I",
+        "school": "HOUSTON HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOUSTON R-I",
+        "school": "HOUSTON ELEM.",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "HOUSTON R-I",
+        "school": "HOUSTON MIDDLE",
+        "percentage": "67.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HOWELL VALLEY R-I",
+        "school": "HOWELL VALLEY ELEM.",
+        "percentage": "97.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HUDSON R-IX",
+        "school": "HUDSON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HUMANSVILLE R-IV",
+        "school": "HUMANSVILLE HIGH",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HUMANSVILLE R-IV",
+        "school": "HUMANSVILLE ELEM.",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HUME R-VIII",
+        "school": "HUME ELEM.",
+        "percentage": "92.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HUME R-VIII",
+        "school": "HUME HIGH",
+        "percentage": "72.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "HURLEY R-I",
+        "school": "HURLEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "HURLEY R-I",
+        "school": "HURLEY HIGH",
+        "percentage": "69.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "IBERIA R-V",
+        "school": "IBERIA ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "IBERIA R-V",
+        "school": "IBERIA HIGH",
+        "percentage": "81.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "WILLIAM CHRISMAN HIGH",
+        "percentage": "68.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "LITTLE BLUE ELEM.",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "BRYANT ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "SUGAR CREEK ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "SANTA FE TRAIL ELEM.",
+        "percentage": "97.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "JOHN W. LUFF ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "SPRING BRANCH ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "MILL CREEK ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "BLACKBURN ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "SYCAMORE HILLS ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "THOMAS HART BENTON ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "OTT ELEM.",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "PROCTER ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "WILLIAM SOUTHERN ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "RANDALL ELEM.",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "BINGHAM MIDDLE",
+        "percentage": "70",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "GLENDALE ELEM.",
+        "percentage": "69.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "BRIDGER MIDDLE",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "PIONEER RIDGE MIDDLE",
+        "percentage": "68.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "TRUMAN HIGH",
+        "percentage": "67.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "KORTE ELEM.",
+        "percentage": "65.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "FAIRMOUNT ELEM.",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "THREE TRAILS ELEM.",
+        "percentage": "55.7",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "CLIFFORD H. NOWLIN MIDDLE",
+        "percentage": "37.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "INDEPENDENCE 30",
+        "school": "VAN HORN HIGH",
+        "percentage": "36.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "IRON CO. C-4",
+        "school": "VIBURNUM HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "IRON CO. C-4",
+        "school": "VIBURNUM ELEM.",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "GORDONVILLE ATTENDANCE CTR.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "MILLERSVILLE ATTENDANCE CTR.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "SOUTH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "NORTH ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "WEST LANE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "RUSSELL HAWKINS JR. HIGH",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "JACKSON SR. HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "JACKSON MIDDLE",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JACKSON R-II",
+        "school": "ORCHARD DRIVE ELEM.",
+        "percentage": "78",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JAMAA LEARNING CENTER",
+        "school": "JAMAA LEARNING CENTER",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "JAMESTOWN C-1",
+        "school": "JAMESTOWN C-I ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JAMESTOWN C-1",
+        "school": "JAMESTOWN C-I HIGH",
+        "percentage": "79.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JASPER CO. R-V",
+        "school": "JASPER CO. ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JASPER CO. R-V",
+        "school": "JASPER HIGH",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON C-123",
+        "school": "JEFFERSON ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON C-123",
+        "school": "JEFFERSON HIGH",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "WEST ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "SOUTH ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "CEDAR HILL ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "PIONEER TRAIL ELEMENTARY",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "CLARENCE LAWSON ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "MOREAU HEIGHTS ELEM.",
+        "percentage": "86.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "BELAIR ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "NORTH ELEM.",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "JEFFERSON CITY HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "THORPE J. GORDON ELEM.",
+        "percentage": "77.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "LEWIS AND CLARK MIDDLE",
+        "percentage": "63.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "CALLAWAY HILLS ELEM.",
+        "percentage": "61.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "THOMAS JEFFERSON MIDDLE",
+        "percentage": "59.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CITY",
+        "school": "EAST ELEM.",
+        "percentage": "52.9",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CO. R-VII",
+        "school": "PLATTIN PRIMARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CO. R-VII",
+        "school": "TELEGRAPH INTERMEDIATE",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CO. R-VII",
+        "school": "DANBY-RUSH TOWER MIDDLE",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JEFFERSON CO. R-VII",
+        "school": "JEFFERSON HIGH SCHOOL",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "FAIRVIEW PRIMARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "KENNETH C. HANRAHAN ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "WOODLAND ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "NORTHVIEW ELEM.",
+        "percentage": "76",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "GARY GORE ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "JENNINGS JR. HIGH",
+        "percentage": "63.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "JENNINGS HIGH",
+        "percentage": "51.4",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "JENNINGS",
+        "school": "FAIRVIEW INTERMEDIATE",
+        "percentage": "35.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "JOHNSON CO. R-VII",
+        "school": "CREST RIDGE MIDDLE",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOHNSON CO. R-VII",
+        "school": "CREST RIDGE ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOHNSON CO. R-VII",
+        "school": "CREST RIDGE HIGH",
+        "percentage": "91.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "STAPLETON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "NORTH MIDDLE",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "COLUMBIA ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "KELSEY NORMAN ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "CECIL FLOYD ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "MCKINLEY ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "IRVING ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "SOUTH MIDDLE",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "EAST MIDDLE",
+        "percentage": "80.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "EASTMORLAND ELEM.",
+        "percentage": "77.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "EMERSON ELEM.",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "DUENWEG ELEM.",
+        "percentage": "74.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "JOPLIN HIGH",
+        "percentage": "73.2",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "JEFFERSON ELEM.",
+        "percentage": "70",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "ROYAL HEIGHTS ELEM.",
+        "percentage": "62.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "JOPLIN SCHOOLS",
+        "school": "WEST CENTRAL ELEM.",
+        "percentage": "54.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "JUNCTION HILL C-12",
+        "school": "JUNCTION HILL ELEM.",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "JAMES ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "LINCOLN COLLEGE PREP.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "TRAILWOODS ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "WENDELL PHILLIPS ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "BORDER STAR MONTESSORI",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "SWINNEY ELEMENTARY",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "JOHN T. HARTMAN ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "PITCHER ELEM.",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "ROGERS ELEMENTARY",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "WHITTIER ELEM.",
+        "percentage": "82.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "GLADSTONE ELEM.",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "C. A. FRANKLIN ELEM.",
+        "percentage": "72.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "PHILLIS WHEATLEY ELEM.",
+        "percentage": "65",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "ATTUCKS ELEM.",
+        "percentage": "59.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "PASEO ACAD. OF PERFORMING ARTS",
+        "percentage": "59.3",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "HOLLIDAY MONTESSORI",
+        "percentage": "58.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "EAST HIGH SCHOOL",
+        "percentage": "57.1",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "FOREIGN LANGUAGE ACADEMY",
+        "percentage": "57.1",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "GARFIELD ELEM.",
+        "percentage": "53.6",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "PRIMITIVO GARCIA ELEM.",
+        "percentage": "47.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "AFRICAN CENT COLLEGE PREP ACAD",
+        "percentage": "45.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "CONTRACT",
+        "percentage": "42.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "LONGFELLOW ELEM.",
+        "percentage": "41.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "CENTRAL ACADEMY OF EXCELLENCE",
+        "percentage": "39.3",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "B. BANNEKER ELEM.",
+        "percentage": "36.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "GEORGE MELCHER ELEM.",
+        "percentage": "33.6",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "SATCHEL PAIGE ELEM.",
+        "percentage": "30.7",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "M. L. KING ELEMENTARY",
+        "percentage": "22.9",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "NORTHEAST HIGH",
+        "percentage": "20",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "TROOST ELEM.",
+        "percentage": "17.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "AC PREP ELEMENTARY",
+        "percentage": "14.3",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KANSAS CITY 33",
+        "school": "SOUTHWEST EARLY COLLEGE CAMPUS",
+        "percentage": "13.1",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "HAWTHORNE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "DOGWOOD ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "KEARNEY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "SOUTHVIEW ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "KEARNEY MIDDLE",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "KEARNEY JR. HIGH",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEARNEY R-I",
+        "school": "KEARNEY HIGH",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KELSO C-7",
+        "school": "KELSO ELEM.",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KENNETT 39",
+        "school": "H. BYRON MASTERSON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KENNETT 39",
+        "school": "SOUTH ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KENNETT 39",
+        "school": "KENNETT MIDDLE",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KENNETT 39",
+        "school": "KENNETT HIGH",
+        "percentage": "73.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KEYTESVILLE R-III",
+        "school": "KEYTESVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KEYTESVILLE R-III",
+        "school": "KEYTESVILLE HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KING CITY R-I",
+        "school": "KING CITY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KING CITY R-I",
+        "school": "KING CITY HIGH",
+        "percentage": "93.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSTON 42",
+        "school": "KINGSTON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSTON K-14",
+        "school": "KINGSTON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSTON K-14",
+        "school": "KINGSTON MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSTON K-14",
+        "school": "KINGSTON PRIMARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSTON K-14",
+        "school": "KINGSTON HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSVILLE R-I",
+        "school": "KINGSVILLE ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KINGSVILLE R-I",
+        "school": "KINGSVILLE HIGH",
+        "percentage": "83.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KIPP ST LOUIS",
+        "school": "KIPP INSPIRE ACADEMY",
+        "percentage": "78.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KIPP: ENDEAVOR ACADEMY",
+        "school": "KIPP: ENDEAVOR ACADEMY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRBYVILLE R-VI",
+        "school": "KIRBYVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRBYVILLE R-VI",
+        "school": "KIRBYVILLE MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKSVILLE R-III",
+        "school": "KIRKSVILLE PRIMARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKSVILLE R-III",
+        "school": "RAY MILLER ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKSVILLE R-III",
+        "school": "KIRKSVILLE SR. HIGH",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKSVILLE R-III",
+        "school": "KIRKSVILLE MIDDLE",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "F. P. TILLMAN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "W. W. KEYSOR ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "WESTCHESTER ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "NIPHER MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "NORTH GLENDALE ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "NORTH KIRKWOOD MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "GEORGE R. ROBINSON ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KIRKWOOD R-VII",
+        "school": "KIRKWOOD SR. HIGH",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOB NOSTER R-VIII",
+        "school": "KNOB NOSTER MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOB NOSTER R-VIII",
+        "school": "WHITEMAN A.F.B. ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOB NOSTER R-VIII",
+        "school": "KNOB NOSTER ELEM.",
+        "percentage": "99",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOB NOSTER R-VIII",
+        "school": "KNOB NOSTER HIGH",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOX CO. R-I",
+        "school": "KNOX CO. HIGH",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "KNOX CO. R-I",
+        "school": "KNOX CO. ELEM.",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LA MONTE R-IV",
+        "school": "LA MONTE ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LA MONTE R-IV",
+        "school": "LA MONTE HIGH",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LA PLATA R-II",
+        "school": "LA PLATA ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LA PLATA R-II",
+        "school": "LA PLATA HIGH",
+        "percentage": "91.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LACLEDE CO. C-5",
+        "school": "JOEL E. BARBER ELEM.",
+        "percentage": "88.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LACLEDE CO. R-I",
+        "school": "EZARD ELEM.",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LACLEDE CO. R-I",
+        "school": "CONWAY HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LACLEDE CO. R-I",
+        "school": "CONWAY JR. HIGH",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "CONWAY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "OLD BONHOMME ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "REED ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "SPOEDE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "LADUE HORTON WATKINS HIGH",
+        "percentage": "96.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LADUE",
+        "school": "LADUE MIDDLE",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAFAYETTE CO. C-1",
+        "school": "LAFAYETTE CO. MIDDLE",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAFAYETTE CO. C-1",
+        "school": "GRANDVIEW ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAFAYETTE CO. C-1",
+        "school": "LAFAYETTE CO. HIGH",
+        "percentage": "91.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAKELAND R-III",
+        "school": "LAKELAND ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAKELAND R-III",
+        "school": "LAKELAND HIGH",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LAMAR R-I",
+        "school": "LAMAR MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAMAR R-I",
+        "school": "LAMAR HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAMAR R-I",
+        "school": "LAMAR ELEM.",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAMAR R-I",
+        "school": "EAST ELEM.",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LAQUEY R-V",
+        "school": "LAQUEY R-V HIGH",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAQUEY R-V",
+        "school": "LAQUEY R-V ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LAQUEY R-V",
+        "school": "LAQUEY R-V MIDDLE",
+        "percentage": "71.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LAREDO R-VII",
+        "school": "LAREDO ELEM.",
+        "percentage": "77.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LATHROP R-II",
+        "school": "LATHROP MIDDLE",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LATHROP R-II",
+        "school": "LATHROP ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LATHROP R-II",
+        "school": "LATHROP HIGH",
+        "percentage": "78.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LAWSON R-XIV",
+        "school": "SOUTHWEST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAWSON R-XIV",
+        "school": "LAWSON MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LAWSON R-XIV",
+        "school": "LAWSON HIGH",
+        "percentage": "95.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "MAPLECREST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "LEBANON SR. HIGH",
+        "percentage": "94.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "LEBANON JR. HIGH",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "HILLCREST SCHOOL",
+        "percentage": "94",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "BOSWELL ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEBANON R-III",
+        "school": "JOE D. ESTHER ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE A. TOLBERT COM. ACADEMY",
+        "school": "LEE A. TOLBERT COM. ACADEMY",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "HAWTHORN HILL ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "HIGHLAND PARK ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "MEADOW LANE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "RICHARDSON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "SUNSET VALLEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "TRAILRIDGE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "CEDAR CREEK ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "MASON ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "SUMMIT LAKES MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "SUMMIT POINTE ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "UNDERWOOD ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "WOODLAND ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "LEE'S SUMMIT WEST HIGH",
+        "percentage": "96.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "LEE'S SUMMIT ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "WESTVIEW ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "GREENWOOD ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "LEE'S SUMMIT SR. HIGH",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "LEE'S SUMMIT NORTH HIGH",
+        "percentage": "91.8",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "LONGVIEW FARM ELEM.",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "HAZEL GROVE ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "PLEASANT LEA ELEM.",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "BERNARD C. CAMPBELL MIDDLE",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "PLEASANT LEA MIDDLE",
+        "percentage": "79.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "PRAIRIE VIEW ELEM.",
+        "percentage": "72.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LEE'S SUMMIT R-VII",
+        "school": "HILLTOP SCHOOL",
+        "percentage": "26.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "LEESVILLE R-IX",
+        "school": "LEESVILLE ELEM.",
+        "percentage": "82.5",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEETON R-X",
+        "school": "LEETON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEETON R-X",
+        "school": "LEETON MIDDLE",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEETON R-X",
+        "school": "LEETON HIGH",
+        "percentage": "77.5",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LEOPOLD R-III",
+        "school": "LEOPOLD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEOPOLD R-III",
+        "school": "LEOPOLD HIGH",
+        "percentage": "95.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LESTERVILLE R-IV",
+        "school": "LESTERVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LESTERVILLE R-IV",
+        "school": "LESTERVILLE HIGH",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LESTERVILLE R-IV",
+        "school": "LESTERVILLE RANCH CAMPUS",
+        "percentage": "58",
+        "grade": "D"
+    },
+    {
+        "year": "2013",
+        "agency": "LEWIS CO. C-1",
+        "school": "HIGHLAND ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEWIS CO. C-1",
+        "school": "HIGHLAND JR.-SR. HIGH",
+        "percentage": "82.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEXINGTON R-V",
+        "school": "LESLIE BELL ELEM.",
+        "percentage": "99",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LEXINGTON R-V",
+        "school": "LEXINGTON MIDDLE",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LEXINGTON R-V",
+        "school": "LEXINGTON HIGH",
+        "percentage": "65.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERAL R-II",
+        "school": "LIBERAL HIGH",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERAL R-II",
+        "school": "LIBERAL MIDDLE",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERAL R-II",
+        "school": "LIBERAL ELEM.",
+        "percentage": "70",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LEWIS AND CLARK ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "ALEXANDER DONIPHAN ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "KELLYBROOK ELEM SCHOOL",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "MANOR HILL ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "SHOAL CREEK ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LIBERTY OAKS ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LILLIAN SCHUMACHER ELEM.",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "FRANKLIN ELEM.",
+        "percentage": "95",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "WARREN HILLS ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LIBERTY MIDDLE SCHOOL",
+        "percentage": "93",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "SOUTH VALLEY JR. HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "SOUTH VALLEY MIDDLE",
+        "percentage": "88",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LIBERTY JR. HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "RIDGEVIEW ELEM.",
+        "percentage": "81.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LIBERTY HIGH",
+        "percentage": "79.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LIBERTY 53",
+        "school": "LIBERTY NORTH HIGH SCHOOL",
+        "percentage": "78.1",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LICKING R-VIII",
+        "school": "LICKING ELEM.",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LICKING R-VIII",
+        "school": "LICKING HIGH",
+        "percentage": "83.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LIFT FOR LIFE ACADEMY",
+        "school": "LIFT FOR LIFE ACADEMY HIGH SCH",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LIFT FOR LIFE ACADEMY",
+        "school": "LIFT FOR LIFE ACADEMY",
+        "percentage": "31.4",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "LINCOLN R-II",
+        "school": "LINCOLN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINCOLN R-II",
+        "school": "LINCOLN HIGH",
+        "percentage": "79.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "TRUMAN MIDDLE SCHOOL",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "CONCORD ELEM. SCHOOL",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "CRESTWOOD ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "LONG ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "SAPPINGTON ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "LINDBERGH SR. HIGH",
+        "percentage": "99.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "KENNERLY ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINDBERGH SCHOOLS",
+        "school": "ROBERT H. SPERRENG MIDDLE",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LINN CO. R-I",
+        "school": "LINN CO. HIGH",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LINN CO. R-I",
+        "school": "LINN CO. ELEM.",
+        "percentage": "70",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LIVINGSTON CO. R-III",
+        "school": "LIVINGSTON CO. ELEM.",
+        "percentage": "96.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LOCKWOOD R-I",
+        "school": "LOCKWOOD ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LOCKWOOD R-I",
+        "school": "LOCKWOOD HIGH",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOGAN-ROGERSVILLE R-VIII",
+        "school": "LOGAN-ROGERSVILLE HIGH",
+        "percentage": "92.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LOGAN-ROGERSVILLE R-VIII",
+        "school": "LOGAN-ROGERSVILLE MIDDLE",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOGAN-ROGERSVILLE R-VIII",
+        "school": "LOGAN-ROGERSVILLE UPPER ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOGAN-ROGERSVILLE R-VIII",
+        "school": "LOGAN-ROGERSVILLE ELEMENTARY",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOGAN-ROGERSVILLE R-VIII",
+        "school": "LOGAN-ROGERSVILLE PRIMARY",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LONE JACK C-6",
+        "school": "LONE JACK PRIMARY",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LONE JACK C-6",
+        "school": "LONE JACK ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LONE JACK C-6",
+        "school": "LONE JACK HIGH",
+        "percentage": "92.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LONEDELL R-XIV",
+        "school": "LONEDELL ELEM.",
+        "percentage": "95.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LOUISIANA R-II",
+        "school": "LOUISIANA ELEM.",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOUISIANA R-II",
+        "school": "LOUISIANA MIDDLE",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LOUISIANA R-II",
+        "school": "LOUISIANA HIGH",
+        "percentage": "72.5",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "LURAY 33",
+        "school": "LURAY ELEM. 4020",
+        "percentage": "86.8",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "LUTIE R-VI",
+        "school": "LUTIE ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "LUTIE R-VI",
+        "school": "LUTIE HIGH",
+        "percentage": "78.9",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MACKS CREEK R-V",
+        "school": "MACKS CREEK ELEM.",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MACKS CREEK R-V",
+        "school": "MACKS CREEK HIGH",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MACON CO. R-I",
+        "school": "MACON SR. HIGH",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MACON CO. R-I",
+        "school": "MACON ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MACON CO. R-I",
+        "school": "MACON MIDDLE",
+        "percentage": "85",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MACON CO. R-IV",
+        "school": "MACON CO. ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MACON CO. R-IV",
+        "school": "MACON CO. HIGH",
+        "percentage": "92.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MADISON C-3",
+        "school": "MADISON HIGH",
+        "percentage": "88.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MADISON C-3",
+        "school": "MADISON ELEM.",
+        "percentage": "69.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MALDEN R-I",
+        "school": "MALDEN LOWER ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MALDEN R-I",
+        "school": "MALDEN HIGH",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MALTA BEND R-V",
+        "school": "MALTA BEND HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MALTA BEND R-V",
+        "school": "MALTA BEND ELEM.",
+        "percentage": "81.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MANES R-V",
+        "school": "MANES ELEM.",
+        "percentage": "96.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MANSFIELD R-IV",
+        "school": "MANSFIELD JR. HIGH",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MANSFIELD R-IV",
+        "school": "MANSFIELD HIGH",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MANSFIELD R-IV",
+        "school": "WILDER ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MAPLEWOOD-RICHMOND HEIGHTS",
+        "school": "MRH EARLY CHILDHOOD CENTER",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MAPLEWOOD-RICHMOND HEIGHTS",
+        "school": "MRH ELEMENTARY",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MAPLEWOOD-RICHMOND HEIGHTS",
+        "school": "MAPLEWOOD-RICHMOND HGTS. HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MAPLEWOOD-RICHMOND HEIGHTS",
+        "school": "MRH MIDDLE",
+        "percentage": "76.4",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARCELINE R-V",
+        "school": "WALT DISNEY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARCELINE R-V",
+        "school": "MARCELINE HIGH",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARCELINE R-V",
+        "school": "MARCELINE MIDDLE",
+        "percentage": "90",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIES CO. R-I",
+        "school": "VIENNA ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIES CO. R-I",
+        "school": "VIENNA HIGH",
+        "percentage": "80",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIES CO. R-II",
+        "school": "BELLE ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIES CO. R-II",
+        "school": "BELLE HIGH",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIES CO. R-II",
+        "school": "MARIES CO. MIDDLE",
+        "percentage": "64.3",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARION C. EARLY R-V",
+        "school": "MARION C. EARLY JUNIOR HIGH",
+        "percentage": "NA",
+        "grade": "NA"
+    },
+    {
+        "year": "2013",
+        "agency": "MARION C. EARLY R-V",
+        "school": "MARION C. EARLY ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARION C. EARLY R-V",
+        "school": "MARION C. EARLY HIGH",
+        "percentage": "89.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARION CO. R-II",
+        "school": "MARION CO. ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARION CO. R-II",
+        "school": "MARION CO. HIGH",
+        "percentage": "96.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIONVILLE R-IX",
+        "school": "MARIONVILLE ELEM.",
+        "percentage": "92.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIONVILLE R-IX",
+        "school": "MARIONVILLE HIGH",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARIONVILLE R-IX",
+        "school": "MARIONVILLE MIDDLE",
+        "percentage": "78.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARK TWAIN R-VIII",
+        "school": "MARK TWAIN ELEM.",
+        "percentage": "96.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARQUAND-ZION R-VI",
+        "school": "MARQUAND ELEM.",
+        "percentage": "98.5",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARQUAND-ZION R-VI",
+        "school": "MARQUAND-ZION HIGH",
+        "percentage": "64.6",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "SOUTHEAST ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "NORTHWEST ELEM.",
+        "percentage": "98",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "EASTWOOD ELEM.",
+        "percentage": "96",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "BUEKER MIDDLE",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "MARSHALL SR. HIGH",
+        "percentage": "75.7",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHALL",
+        "school": "BENTON ELEM.",
+        "percentage": "75",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHFIELD R-I",
+        "school": "EDWIN P. HUBBLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHFIELD R-I",
+        "school": "SHOOK ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHFIELD R-I",
+        "school": "MARSHFIELD HIGH",
+        "percentage": "87.9",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHFIELD R-I",
+        "school": "MARSHFIELD JR. HIGH",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARSHFIELD R-I",
+        "school": "DANIEL WEBSTER ELEM.",
+        "percentage": "72",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MARYVILLE R-II",
+        "school": "MARYVILLE MIDDLE",
+        "percentage": "95.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MARYVILLE R-II",
+        "school": "MARYVILLE HIGH",
+        "percentage": "88.2",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MARYVILLE R-II",
+        "school": "EUGENE FIELD ELEM.",
+        "percentage": "84",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MAYSVILLE R-I",
+        "school": "MAYSVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MAYSVILLE R-I",
+        "school": "MAYSVILLE JR.-SR. HIGH",
+        "percentage": "85.4",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "ROCKY COMFORT ELEM.",
+        "percentage": "99.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "NOEL ELEM.",
+        "percentage": "97.9",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "SOUTHWEST CITY ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "PINEVILLE ELEM.",
+        "percentage": "90.7",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "ANDERSON ELEM.",
+        "percentage": "89.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "ANDERSON MIDDLE",
+        "percentage": "88.6",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "WHITE ROCK ELEM.",
+        "percentage": "85.7",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "MCDONALD COUNTY HIGH",
+        "percentage": "84.3",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "PINEVILLE PRIMARY",
+        "percentage": "60",
+        "grade": "C"
+    },
+    {
+        "year": "2013",
+        "agency": "MCDONALD CO. R-I",
+        "school": "NOEL PRIMARY",
+        "percentage": "0",
+        "grade": "F"
+    },
+    {
+        "year": "2013",
+        "agency": "MEADOW HEIGHTS R-II",
+        "school": "MEADOW HEIGHTS ELEM.",
+        "percentage": "91.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEADOW HEIGHTS R-II",
+        "school": "MEADOW HEIGHTS HIGH",
+        "percentage": "87.1",
+        "grade": "B"
+    },
+    {
+        "year": "2013",
+        "agency": "MEADVILLE R-IV",
+        "school": "MEADVILLE ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEADVILLE R-IV",
+        "school": "MEADVILLE HIGH",
+        "percentage": "90.4",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "HAGEMANN ELEM.",
+        "percentage": "100",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "FORDER ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "POINT ELEM.",
+        "percentage": "98.6",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "BEASLEY ELEM.",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "OAKVILLE SR. HIGH",
+        "percentage": "97.1",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": "BIERBAUM ELEM.",
+        "percentage": "94.3",
+        "grade": "A"
+    },
+    {
+        "year": "2013",
+        "agency": "MEHLVILLE R-IX",
+        "school": 
