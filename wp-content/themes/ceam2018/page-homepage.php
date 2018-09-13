@@ -22,7 +22,7 @@
 
         <h1 class="feature__heading"><?php echo get_field( "featured_text" ); ?></h1>
         <p>
-          <a class="feature__button" href="<?php echo get_field( "featured_button_text" ); ?>">
+          <a class="feature__button" href="<?php echo get_field( "featured_button_url" ); ?>">
             <?php echo get_field( "featured_button_text" ); ?>
           </a>
         </p>
