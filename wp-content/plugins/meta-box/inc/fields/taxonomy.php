@@ -58,8 +58,6 @@ class RWMB_Taxonomy_Field extends RWMB_Object_Choice_Field {
 		$field['query_args'] = wp_parse_args( $field['query_args'], array(
 			'hide_empty' => false,
 		) );
-		// Query terms for field options.
-		$field['options'] = self::query( $field );
 
 		// Prevent cloning for taxonomy field.
 		$field['clone'] = false;
@@ -134,6 +132,9 @@ class RWMB_Taxonomy_Field extends RWMB_Object_Choice_Field {
 		$meta = wp_get_object_terms( $object_id, $field['taxonomy'], array(
 			'orderby' => 'term_order',
 		) );
+		if ( is_wp_error( $meta ) ) {
+			return '';
+		}
 		$meta = wp_list_pluck( $meta, 'term_id' );
 
 		return $field['multiple'] ? $meta : reset( $meta );

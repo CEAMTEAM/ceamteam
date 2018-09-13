@@ -5,8 +5,6 @@
   <div class="feature__container">
     <div class="feature__main">
 
-      <?php include "src/svg/ceam-logo.php" ?>
-
       <h1 class="feature__heading"><?php the_title( ); ?></h1>
 
     </div>

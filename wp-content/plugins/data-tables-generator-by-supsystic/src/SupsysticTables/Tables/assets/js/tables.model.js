@@ -667,6 +667,9 @@ var g_stbPreviewTimeoutSet = false;
 						app.initializeTable(table, app.showTable, function(table) {
 							self._afterTablePreview(table);
 							g_stbDoPreview = false;
+							if(app.initExportTable) {
+								app.initExportTable();
+							}
 						});
 					});
 				}

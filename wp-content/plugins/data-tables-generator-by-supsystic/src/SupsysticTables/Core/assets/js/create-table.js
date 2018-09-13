@@ -18,8 +18,8 @@
 				},
 				buttons: {
 					Create: function (event) {
-						var $button = $(event.target),
-							buttonInitHtml = $button.html();
+						var $button = $(event.target);
+						if($button.is('span')) $button = $button.parent();
 
 						if ($input.val().length == 0 || $input.val().length > 255) {
 							$error.find('p').text('Title can\'t be empty or more than 255 characters');
@@ -58,9 +58,6 @@
 							}).fail(function (message) {
 								$error.find('p').text(message);
 								$error.fadeIn();
-							}).always(function () {
-								$button.html(buttonInitHtml);
-								$button.attr('disabled', false);
 							});
 					},
 					Cancel: function () {
@@ -81,6 +78,9 @@
 			if (window.location.hash === '#add') {
 				// To prevent error if data not loaded completely
 				setTimeout(function() {
+					if(typeof(window.editor) != 'undefined') {
+						window.editor.deselectCell();
+					}
 					$dialog.dialog('open');
 				}, 500);
 			}

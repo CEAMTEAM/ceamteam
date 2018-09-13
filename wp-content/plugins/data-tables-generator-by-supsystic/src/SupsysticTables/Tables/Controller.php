@@ -572,4 +572,68 @@ class SupsysticTables_Tables_Controller extends SupsysticTables_Core_BaseControl
 			return $this->ajaxError($e->getMessage());
 		}
 	}
+
+	public function getListForTblAction( Rsc_Http_Request $request)
+	{
+		$data = $request->post->get('data');
+
+		$page = $data['page'];
+		$rowsLimit = $data['rows'];
+		$orderBy = $data['sidx'];
+		$sortOrder = $data['sord'];
+		$search = $data['search'];
+
+		$core = $this->getEnvironment()->getModule('core');
+		$model = $core->getModelsFactory()->get('tables');
+
+		// Get total pages count for current request
+		$totalCount = $model->getTablesCount();
+		$totalPages = 0;
+		if($totalCount > 0) {
+			$totalPages = ceil($totalCount / $rowsLimit);
+		}
+		if($page > $totalPages) {
+			$page = $totalPages;
+		}
+		// Calc limits - to get data only for current set
+		$limitStart = $rowsLimit * $page - $rowsLimit; // do not put $limit*($page - 1)
+		if($limitStart < 0)
+			$limitStart = 0;
+
+		$data = $model->getListTbl(
+			array(
+				'orderBy' => $orderBy,
+				'sortOrder' => $sortOrder,
+				'rowsLimit' => $rowsLimit,
+				'limitStart' => $limitStart,
+				'search' => $search,
+			)
+		);
+
+		$data = $this->_prepareListForTbl($data);
+
+		return $this->ajaxSuccess(array(
+			'page' => $page,
+			'total' => $totalPages,
+			'rows' => $data,
+		));
+
+	}
+
+	public function _prepareListForTbl($data){
+		$config = $this->getEnvironment()->getConfig();
+		$tableShortcode = $config->get('shortcode_name');
+
+		foreach($data as $key=>$row){
+			$id = $row['id'];
+			$shortcode = "[".$tableShortcode." id=".$id."]";
+			$phpcode = htmlspecialchars("<?php echo supsystic_tables_get(".$id."); ?>");
+			$titleUrl = "<a href=".$this->generateUrl('tables', 'view', array( 'id' => $id ) ).">".$row['title']." <i class='fa fa-fw fa-pencil'></i></a>";
+			$data[$key]['shortcode'] = $shortcode;
+			$data[$key]['phpcode'] = $phpcode;
+			$data[$key]['title'] = $titleUrl;
+		}
+		return $data;
+	}
+
 }

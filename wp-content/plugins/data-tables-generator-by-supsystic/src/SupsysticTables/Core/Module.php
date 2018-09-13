@@ -237,6 +237,34 @@ class SupsysticTables_Core_Module extends SupsysticTables_Core_BaseModule
 				->setCachingAllowed($cachingAllowed)
 				->setVersion($pluginVersion)
 		);
+
+		if ($environment->isAction('index')) {
+
+			$locale = $environment->getLangCode2Letter();
+			$ui->add(
+				$ui->createStyle('jqgrid-css')
+					->setHookName($hookName)
+					->setLocalSource('css/libraries/jqGrid/ui.jqgrid.css')
+					->setCachingAllowed($cachingAllowed)
+					->setVersion('4.7.0')
+			);
+			$ui->add(
+				$ui->createScript('jquery-jqGrid')
+					->setHookName($hookName)
+					->setLocalSource('js/libraries/jqGrid/jquery.jqGrid.min.js')
+					->addDependency('jquery')
+					->setCachingAllowed($cachingAllowed)
+					->setVersion($pluginVersion)
+			);
+			$ui->add(
+				$ui->createScript('jquery-jqGrid-locale')
+					->setHookName($hookName)
+					->setLocalSource('js/i18n/grid.locale-'.$locale.'.js')
+					->addDependency('jquery')
+					->setCachingAllowed($cachingAllowed)
+					->setVersion($pluginVersion)
+			);
+		}
     }
 
 	/**

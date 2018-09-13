@@ -40,6 +40,63 @@ class SupsysticTables_Tables_Model_Tables extends SupsysticTables_Core_BaseModel
         return $this->db->get_results($query->build());
     }
 
+	public function getListTbl($params)
+	{
+		$orderBy = isset($params['orderBy']) ? $params['orderBy'] : '';
+		$sortOrder = isset($params['sortOrder']) ? $params['sortOrder'] : '';
+		$rowsLimit = isset($params['rowsLimit']) ? $params['rowsLimit'] : '';
+		$limitStart = isset($params['limitStart']) ? $params['limitStart'] : '';
+		$search = isset($params['search']) ? $params['search'] : '';
+
+		// jqGrid search
+//		$isSearch = $request->get_param('_search');
+//		if($isSearch) {
+//			$searchField = trim($request->get_param('searchField'));
+//			$searchString = trim($request->get_param('searchString'));
+//			if(!empty($searchField) && !empty($searchString)) {
+//				// For some cases - we will need to modify search keys and/or values before put it to the model
+//				$model->addWhere(array(
+//					$this->_prepareSearchField($searchField) => $this->_prepareSearchString($searchString)
+//				));
+//			}
+//		}
+
+
+		$query = $this->getQueryBuilder()->select('*')
+			->from($this->db->prefix . 'supsystic_tbl_tables')
+			->orderBy($orderBy)
+			->order($sortOrder)
+			->limit((int)$rowsLimit)
+			->offset((int)$limitStart);
+
+		// Our custom search
+		if($search && !empty($search) && is_array($search)) {
+			foreach($search as $k => $v) {
+				$v = trim($v);
+				if(empty($v)) continue;
+				if($k == 'text_like') {
+					if(!empty($v)) {
+						$query->where( 'title', 'LIKE', '%'.$v.'%' );
+
+					}
+				} else {
+					$query->where( 'title', '=', '%'.$v.'%' );
+				}
+			}
+		}
+
+		return $this->db->get_results($query->build(), ARRAY_A);
+	}
+
+	public function getTablesCount()
+	{
+		$query = $this->getQueryBuilder()->select('*')
+			->from($this->db->prefix . 'supsystic_tbl_tables');
+
+		$tables =  $this->db->get_results($query->build(), ARRAY_A);
+		return count($tables);
+	}
+
     /**
      * Returns an array of the table columns.
      * @param int $id Table id
@@ -645,7 +702,7 @@ class SupsysticTables_Tables_Model_Tables extends SupsysticTables_Core_BaseModel
             foreach ($rows as $i => $row) {
                 $values = @unserialize($row->data);
                 array_splice($values['cells'], $from);
-                updateRow($row->id, $values);
+                $this->updateRow($row->id, $values);
             }
             unset($rows);
             $offset += $limit;

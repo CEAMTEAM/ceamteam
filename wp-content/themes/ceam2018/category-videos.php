@@ -7,8 +7,6 @@
     <div class="feature__container">
       <div class="feature__main">
 
-        <?php include "src/svg/ceam-logo.php" ?>
-
         <h1 class="feature__heading">VIDEOS</h1>
 
       </div>
@@ -19,8 +17,6 @@
   <div class="feature__layer" style="background-image: url(/wp-content/uploads/2018/07/child-02.jpg);">
     <div class="feature__container">
       <div class="feature__main">
-
-        <?php include "src/svg/ceam-logo.php" ?>
 
         <h1 class="feature__heading">VIDEOS</h1>
 

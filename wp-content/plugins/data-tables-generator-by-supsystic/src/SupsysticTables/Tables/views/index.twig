@@ -3,92 +3,45 @@
 {% block content %}
     <div class="supsystic-item supsystic-item-autoheight">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    {% set columns = [
-                        'ID',
-                        environment.translate('Title'),
-                        environment.translate('Created'),
-                        environment.translate('Shortcode'),
-                        environment.translate('PHP'),
-                        environment.translate('Actions')]
-                    %}
-                    <table id="tables" class="wp-list-table widefat" style="min-width: 100%;">
-                        <thead>
-                        <tr>
-							<th scope="col">
-								<input type="checkbox" id="check_all" name="check_all">
-							</th>
-                            {% for column in columns %}
-                                <th scope="col">{{ column }}</th>
-                            {% endfor %}
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {% for table in tables %}
-                            <tr id="table-{{ table.id }}" data-table-id="{{ table.id }}">
-								<td>
-									<input type="checkbox" class="tableCheckbox" id="check_{{ table.id }}" data-table-id="{{ table.id }}" name="check_{{ table.id }}">
-								</td>
-                                <td>
-                                    {{ table.id }}
-                                </td>
-                                <td>
-                                    <a href="{{ environment.generateUrl('tables', 'view', { 'id': table.id }) }}" data-toggle="tooltip" title="{{ environment.translate('Edit table "%s"') | format(table.title) }}">
-                                        {{ table.title }}
-                                    </a>
-                                    <i class="fa fa-fw fa-pencil"></i>
-                                </td>
-                                <td>
-                                    {{ table.created_at | date('F jS \\@ H:i') }}
-                                </td>
-                                <td>
-                                    <input type="text" class="shortcode" readonly value="[{{ environment.config.get('shortcode_name') }} id='{{ table.id }}']">
-                                </td>
-                                <td>
-                                    <input type="text" class="shortcode" readonly value="{{ "<?php echo supsystic_tables_get(%s); ?>" | format(table.id) }}">
-                                </td>
-                                <td>
-                                    <a class="button button-small"
-                                       href="{{ environment.generateUrl('tables', 'view', { 'id': table.id }) }}">
-                                        <i class="fa fa-fw fa-pencil"></i>
-                                        <!-- /.fa fa-fw fa-pencil -->
-                                    </a>
-                                    <!-- /.button -->
-                                    <a class="button button-small delete-table"
-                                       href="#">
-                                        <i class="fa fa-fw fa-trash-o"></i>
-                                        <!-- /.fa fa-fw fa-pencil -->
-                                    </a>
-                                </td>
-                            </tr>
-                        {% endfor %}
-                        </tbody>
-                    </table>
-                    <!-- /.wp-list-table widefat -->
+            <section>
+                <div class="supsystic-item supsystic-panel">
+                    <div id="containerWrapper">
+                        <ul id="ddtTableTblNavBtnsShell" class="supsystic-bar-controls">
+                            <li title="Delete selected">
+                                <button class="button" id="ddtTableRemoveGroupBtn" disabled data-toolbar-button>
+                                    <i class="fa fa-fw fa-trash-o"></i>
+                                   Delete selected
+                                </button>
+                            </li>
+                            <li title="Export selected">
+                                <button class="button" id="export-group" disabled data-toolbar-button data-dialog="#import_exportProFeatureDialog">
+                                    <i class="fa fa-fw fa-upload"></i>
+                                    Export selected
+                                </button>
+                            </li>
+                            <li title="Import">
+                                <button class="button" id="import-group" data-toolbar-button data-dialog="#import_exportProFeatureDialog">
+                                    <i class="fa fa-fw fa-download"></i>
+                                    Import selected
+                                </button>
+                            </li>
+                            <li title="Search">
+                                <input id="ddtTableTblSearchTxt" type="text" name="tbl_search" placeholder="Search">
+                            </li>
+                        </ul>
+                        <div id="ddtTableTblNavShell" class="supsystic-tbl-pagination-shell"></div>
+                        <div style="clear: both;"></div>
+                        <hr />
+                        <table id="ddtTableTbl"></table>
+                        <div id="ddtTableTblNav"></div>
+                        <div id="ddtTableTblEmptyMsg" style="display: none;">
+                            {#<h3><?php printf(__('You have no Filters for now. <a href="%s" style="font-style: italic;">Create</a> your Filter!', ddt_LANG_CODE), $this->addNewLink)?></h3>#}
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div id="prewiew" style="margin-top: 30px"></div>
                 </div>
-                <!-- /.col-xs-12 -->
-				<div class="col-xs-12">
-					<button class="button group_button" id="delete-group" disabled>
-						<i class="fa fa-fw fa-trash-o"></i>{{ environment.translate('Delete selected') }}
-					</button>
-					<button class="button group_button {% if environment.isPro() == false %}pro-notify{% endif %}"
-						data-dialog="#import_exportProFeatureDialog"
-						data-dtitle="{{ environment.translate('Export') }}"
-						data-dwidth="480"
-					 	id="export-group" disabled>
-							<i class="fa fa-fw fa-upload"></i><span>{{ environment.translate('Export selected') }}</span>
-					</button>
-					<button class="button group_button {% if environment.isPro() == false %}pro-notify{% endif %}"
-						data-dialog="#import_exportProFeatureDialog"
-						data-dtitle="{{ environment.translate('Import') }}"
-						data-dwidth="480"
-					 	id="import-group">
-							<i class="fa fa-fw fa-download"></i><span>{{ environment.translate('Import') }}</span>
-					</button>
-				</div>
-            </div>
-            <!-- /.row -->
+            </section>
         </div>
         <!-- /.container-fluid -->
 

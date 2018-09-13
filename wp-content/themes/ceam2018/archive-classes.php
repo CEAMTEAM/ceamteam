@@ -12,8 +12,6 @@ while($loop1->have_posts()) : $loop1->the_post(); ?>
   <div class="feature__container">
     <div class="feature__main">
 
-      <?php include "src/svg/ceam-logo.php" ?>
-
       <h1 class="feature__heading">Classes</h1>
 
     </div>

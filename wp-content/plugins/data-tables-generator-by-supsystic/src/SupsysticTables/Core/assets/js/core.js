@@ -434,6 +434,7 @@ var g_stbServerSideProcessing = false;
 
                     $table.data('resizeTimer', setTimeout(function() {
                         $table.removeClass('oneColumn oneColumnWithLabels');
+                        $table.css('width', '100%');
                         var tableWidth = $table.width(),
                             wrapperWidth = $table.closest('.supsystic-tables-wrap').width();
                         if (tableWidth > wrapperWidth) {
@@ -826,7 +827,7 @@ var g_stbServerSideProcessing = false;
 						tBody.width(tBodyTable.width());
 						$tableWrap.find('.dataTables_scrollHead, .dataTables_scrollFoot, .dataTables_scrollBody').width(tBodyTable.width() + 1);
 					}
-                    if( tBodyTable.isHorizontallyScrollable ){
+                    if(tBody.isHorizontallyScrollable()){
                         tBody.css({'border-bottom' : 'none'});
                     }else{
                         tBody.removeStyle('border-bottom');

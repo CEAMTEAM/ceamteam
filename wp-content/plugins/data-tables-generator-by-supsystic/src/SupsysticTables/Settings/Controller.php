@@ -18,7 +18,7 @@ class SupsysticTables_Settings_Controller extends SupsysticTables_Core_BaseContr
         try {
             return $this->response(
                 $templates['settings.index'],
-                array('settings' => $settings)
+                array('settings' => $settings, 'wpRoles' => wp_roles()->role_names)
             );
         } catch (Exception $e) {
             return $this->response('error.twig', array('exception' => $e));

@@ -1774,14 +1774,16 @@
             </div>
 
             <div class="row row-tab" id="row-tab-css">
+
+
 {% set defaultCss %}/* Here you can add custom CSS for the current table */
 /* Lean more about CSS: https://en.wikipedia.org/wiki/Cascading_Style_Sheets */
 /*
-To prevent the use of styles to other tables use "#supsystic-table-5" as a base selector
+To prevent the use of styles to other tables use "#supsystic-table-{{ table.id }}" as a base selector
 for example:
-#supsystic-table-5 { ... }
-#supsystic-table-5 tbody { ... }
-#supsystic-table-5 tbody tr { ... }
+#supsystic-table-{{ table.id }} { ... }
+#supsystic-table-{{ table.id }} tbody { ... }
+#supsystic-table-{{ table.id }} tbody tr { ... }
 */
 {% endset %}
                 <div id="css-editor">{% if table.meta.css | length > 0 %}{{ table.meta.css }}{% else %}{{ defaultCss }}{% endif %}</div>

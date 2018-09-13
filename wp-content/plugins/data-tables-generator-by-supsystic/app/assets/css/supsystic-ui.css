@@ -267,7 +267,7 @@ ul.supsystic-bar-controls > li.separator {
     z-index: 10;
 }
 
-.ui-widget-content {
+.ui-dialog.ui-widget-content {
     background: #fff !important;
     padding: 15px 5px !important;
     z-index: 100001;
@@ -635,7 +635,8 @@ h3.nav-tab-wrapper {
 }
 
 .supsystic-plugin .ui-pg-table {
-    color: #a6aaab;
+    /*color: #a6aaab;*/
+    color: black;
 }
 
 .supsystic-plugin .ui-pg-table .ui-pg-input {

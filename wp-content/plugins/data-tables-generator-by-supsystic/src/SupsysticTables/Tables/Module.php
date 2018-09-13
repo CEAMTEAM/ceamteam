@@ -53,6 +53,7 @@ class SupsysticTables_Tables_Module extends SupsysticTables_Core_BaseModule
         $dispatcher = $this->getEnvironment()->getDispatcher();
         $dispatcher->on('after_tables_loaded', array($this, 'onAfterLoaded'));
 		$this->renderTableHistorySection();
+
     }
 
 	public function getDataTablesInPosts() {
@@ -711,6 +712,14 @@ class SupsysticTables_Tables_Module extends SupsysticTables_Core_BaseModule
 
 			if ($environment->isAction('index')) {
 				$ui->add(
+					$ui->createScript('supsystic-tables-tables-index-list')
+						->setHookName($hookName)
+						->setModuleSource($this, 'js/tables.admin.list.js')
+						->setCachingAllowed($cachingAllowed)
+						->setVersion($version)
+						->addDependency('jquery-ui-dialog')
+				);
+				$ui->add(
 					$ui->createScript('supsystic-tables-tables-index')
 						->setHookName($hookName)
 						->setModuleSource($this, 'js/tables.index.js')
@@ -722,6 +731,34 @@ class SupsysticTables_Tables_Module extends SupsysticTables_Core_BaseModule
 					$ui->createStyle('supsystic-tables-tables-index-css')
 						->setHookName($hookName)
 						->setModuleSource($this, 'css/tables.index.css')
+						->setCachingAllowed($cachingAllowed)
+						->setVersion($version)
+				);
+				$ui->add(
+					$ui->createStyle('jquery-slider')
+						->setHookName($hookName)
+						->setLocalSource( 'css/jquery-slider.css')
+						->setCachingAllowed($cachingAllowed)
+						->setVersion($version)
+				);
+				$ui->add(
+					$ui->createStyle('jquery-ui-min')
+						->setHookName($hookName)
+						->setLocalSource('css/jquery-ui.min.css')
+						->setCachingAllowed($cachingAllowed)
+						->setVersion($version)
+				);
+				$ui->add(
+					$ui->createStyle('jquery-ui-structure')
+						->setHookName($hookName)
+						->setLocalSource('css/jquery-ui.structure.min.css')
+						->setCachingAllowed($cachingAllowed)
+						->setVersion($version)
+				);
+				$ui->add(
+					$ui->createStyle('jquery-ui-theme')
+						->setHookName($hookName)
+						->setLocalSource('css/jquery-ui.theme.min.css')
 						->setCachingAllowed($cachingAllowed)
 						->setVersion($version)
 				);

@@ -85,4 +85,5 @@ abstract class SupsysticTables_Core_BaseController extends Rsc_Mvc_Controller
     {
         return $this->getEnvironment()->getModule('core');
     }
+
 }

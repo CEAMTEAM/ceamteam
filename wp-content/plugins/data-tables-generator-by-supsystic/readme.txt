@@ -2,31 +2,31 @@
 Contributors: supsystic.com
 Tags: csv, csv file, csv to table, excel, table, tablesorter, post, data table, table, database, html table, table generator, builder, generator, cells, area chart, bar chart, candlestick chart, canvas, chart, charting, charts, column chart, gauge chart, geo chart, google chart, google visualization api, graph, graphing, graphs, html5, line chart, pie chart, scatter chart, spreadsheet, visualisation, visualise data, visualization, visualize data
 Tested up to: 4.9.8
-Stable tag: 1.8.8
+Stable tag: 1.9.0
 
 Create data tables with charts and graphs. Custom design, navigation, searching and ordering functions. Export to PDF, CSV, Print. Excel spreadsheet
 
 == Description ==
 
-Create and manage tables from admin panel quick, easy and effective. Make data table responsive with interactive charts and graphs, sorting, pagination, filtering and more. [Data Tables by Supsystic](http://supsystic.com/plugins/data-tables-generator-plugin?utm_source=wordpress&utm_medium=description&utm_campaign=datatables "Data Tables WordPress plugin") plugin features:
+Create and manage tables from the admin panel quickly, easily and effectively. Make data tables responsive with interactive charts and graphs, sorting, pagination, filtering and more. [Data Tables by Supsystic](http://supsystic.com/plugins/data-tables-generator-plugin?utm_source=wordpress&utm_medium=description&utm_campaign=datatables "Data Tables WordPress plugin") plugin features:
 
-* No coding require, responsive tables
+* No coding required, responsive tables
 * [FrontEnd Table Editing](http://supsystic.com/product/data-tables-generator-plugin/#examples "FrontEnd Data Table Editing Example")
 * FrontEnd Table export - CSV, Excel, PDF
 * Diagrams, Charts and Graphs
 * Formulas support, HTML tables support for data cells
 * Enable table Caption, Header, Footer
 * "Bold" and "Italic" font style support for the data table cells
-* Change color of the cells and fonts
+* Change cell and font color
 * [Navigation with Searching and Ordering functions](http://supsystic.com/product/data-tables-generator-plugin/#examples "Data Table navigation with Searching and Ordering functions")
 * Various style setting appropriated for any sites type
 * SEO friendly, content of DataTable picked up by search engines
 * Build diagrams from the data table
 * [Google Charts integration](http://supsystic.com/table-with-diagram-example/ "Google Charts WordPress plugin example")
-* [Automatically import from Google Sheets](https://supsystic.com/documentation/synchronization-table-google-sheet/ "Autoupdates from Google Sheets") 
+* [Automatic import from Google Sheetss](https://supsystic.com/documentation/synchronization-table-google-sheet/ "Autoupdates from Google Sheets") 
 * [Data Table Examples](http://supsystic.com/data-tables-examples?utm_source=wordpress&utm_medium=examples&utm_campaign=datatables "Data Table Examples")
 
-Data Tables Generator is a new plugin created by Supsystic, which allows you to process and manage SEO friendly data tables quick and easy. Plugin able to structure information and can be adjusted for every need. Many ways of functional and visual customization of the tables improve site design and let modify it to suit any different individual or task. Searching, ordering and pagination are the functions that help everyone to find the needed information in a second. Intuitive Settings panel and responsive for a regular user Editor saved your time to spend it for other useful things or relaxation.
+Data Tables Generator is a new plugin created by Supsystic. It allows you to process and manage SEO friendly data tables quickly and easily. This plugin can structure information and can be adjusted to fit every need. Many ways of functional and visual customization of the tables improve site design and let you modify it to cater to a particular individual or a specific task. Searching, ordering and pagination are the functions that help everyone find the required information in a matter of seconds. The intuitive Settings panel and the responsive Editor save lots of time that you would much rather allocate for other useful things or relaxation.
 
 HTML tables responsive and awesome on all devices
 
@@ -34,15 +34,15 @@ HTML tables responsive and awesome on all devices
 
 = Data Tables Plugin Support =
 
-If you have any problem or feature request for the Data Tables Generator by Supsystic, please [let us know](http://supsystic.com/contact-us/ "Contact Us")!
+If you have any any problem or a tailored request for the Data Tables Generator by Supsystic, please [let us know](http://supsystic.com/contact-us/ "Contact Us")!
 
-This [guide](https://supsystic.com/make-requests-support-service/ "How to Make Requests to Support Service") helps you to provide the right information about your issue.
+This [guide](https://supsystic.com/make-requests-support-service/ "How to Make Requests to Support Service") helps you provide the right information on your issue.
 
 = Translate Data Table Generator by Supsystic to Your Language =
 
 You have an incredible opportunity to get PRO version of the photo gallery for free. Just make translation of the Data Table Generator by Supsystic plugin!
-[Contact Us](http://supsystic.com/plugins/data-tables-generator-plugin#contact?utm_source=wordpress&utm_medium=contactus&utm_campaign=datatables "Contact Us") if you translate the plugin.
-Avaible data table plugin translations:
+[Contact Us](http://supsystic.com/plugins/data-tables-generator-plugin#contact?utm_source=wordpress&utm_medium=contactus&utm_campaign=datatables "Contact Us") if you are willing to translate the plugin.
+Available data table plugin translations:
 
 * English
 * Bulgarian
@@ -53,7 +53,7 @@ Avaible data table plugin translations:
 * German
 * Greek
 * Hungarian
-* Italiano
+* Italian
 * Persian
 * Polish
 * Portuguese (Brazil)
@@ -109,27 +109,25 @@ How to Create Data Tables in WordPress -
 2. Fill the table.
 3. [Customize the data](https://supsystic.com/docs/data-editor/ "Data Editor") – here you can:
 
-* insert spreadsheet row and column to the table
+* Add a spreadsheet row and column to the table
 * set the font of text – bold and italic
 * choose spreadsheet text and background color
 * specify spreadsheet horizontal and vertical alignment
 
-The following opportunities are available by clicking the right button of mouse (choose the certain cell, column or row and click the right button of mouse) –
-
+The following options are available by clicking the right mouse button (choose the certain cell, column or row and click the right button of mouse) –
 * cancel or restore your actions
 * insert spreadsheet row or column where you want
 * remove spreadsheet row or column
 * enable “Read only” mode for any cells, rows and columns and even for the whole table
 * set the alignment of text
 
-Also you have the ability to change the spreadsheet column / row width – use your mouse, move the cursor on right side of the column boundary / (bottom side of the row boundary) you want until it becomes a resize cursor, and then drag the boundary.
-
+You can also change the spreadsheet column / row width – use your mouse, move the mouse pointer to right side of the column boundary / (bottom side of the row boundary) until a resize pointer appears, and then drag the boundary.
 = Step 3: Customizing of Data Tables by Supsystic =
 
 In order to return to configuration of tables – click the “Settings” button.
 Here you can set all the options of [Data Tables Generator plugin](https://supsystic.com/plugins/data-tables-generator-plugin/ "Data Tables Generator plugin"). Simply navigate the corresponding section of properties – Table Elements, Features, Styling.
 
-Important! After changing the settings of plugin don’t forget to click “Save” button.
+Important! After changing the plugin settings don’t forget to click “Save”.
 
 = Table Elements =
 
@@ -140,9 +138,9 @@ Important! After changing the settings of plugin don’t forget to click “Save
 = Features =
 
 * Auto width
-* Ordering – sort the table by the characteristics that you want.
-* Pagination – enable page control, divide content of the table into discrete pages – lets users tap through a series of related pages.
-* Searching – enable search by the table.
+* Ordering – sort the table by the desired characteristics
+* Pagination – enable page control, divide content of the table into discrete pages to let users tap through a series of related pages.
+* Searching – enable table search.
 * State saving – restore table state on page reload.
 * Responsive Modes
 * CSS Editor
@@ -150,18 +148,18 @@ Important! After changing the settings of plugin don’t forget to click “Save
 * Save Editable Fields
 * Export Tables - CSV, Excel, PDF		
 * Import Tables - CSV, Excel, Google Sheets		
-* Autoupdate from Google Sheets		
+* Auto update from Google Sheets		
 * Diagrams		
 * Table History
 
 = Styling =
 
-* Borders – you can select “Cell” border – adds border around all four sides of each cells or “Row”border – adds border only above and under each row.
+* Borders – you can select “Cell” border – inserts a border around all four sides of each cell or “Row” border – inserts a border only above and under each row.
 * Compact – reduce the amount of white space.
-* Highlighting – enable row highlighting on mouse over.
-* Disable wrapping – disable wrapping of content in the table, so all text in the cells will be on a single line.
-* Highlight the order column – highlight the column that the table data is currently ofdered on.
-* Row striping – for example – you use a table, but the table’s rows are difficult to separate visually, especially when there are many columns (or multiple lines to a row) – add row striping to a table, it will display rows background in two similar shades of color to alternately.
+* Highlighting – enable row highlighting as the mouse pointer hovers over an object.
+* Disable wrapping – disable wrapping of the table content, so all text in the cells will be on a single line.
+* Highlight the order column – highlight the column that the table data is currently ordered by.  
+* Row striping – for example – you use a table, but the table’s rows are difficult to separate visually, especially when there are many columns (or multiple lines to a row) – add row striping to a table, it will display rows background in two similar shades of color.
 
 = Step 4: Preview settings (include charts and graphs preview) =
 
@@ -172,7 +170,7 @@ After you change some settings – with responsive data tables plugin, you can i
 1. On the left navigation menu click “Tables”.
 2. Find the table which you need and copy the shortcode.
 3. Paste the shortcode into your post or page and Data Tables Generator by Supsystic will automatically create table on your page.
-Important! Shortcode must be inserted in a text editor page, and not in the visual.
+Important! Shortcode must be inserted in a text editor page, and not in the visual environment.
 
 = Our plugins =
 
@@ -194,6 +192,22 @@ Important! Shortcode must be inserted in a text editor page, and not in the visu
 
 == Changelog ==
 
+= 1.9.0 / 30.08.2018 =
+ * Hotfix update error
+
+= 1.8.9 / 28.08.2018 =
+ * Fix for rounding up the percent values in editable fields
+ * Added ability to create diagrams for shortcodes of other plugins
+ * Fix creating multiple tables
+ * Changed CRUD for tables list
+ * Fix border-bottom for Fixed Columns
+ * Fixed default css text in editor
+ * Fixed crud bugs
+ * Fix editable fields after export
+ * Fix export to PDF with multiple rows in a cell
+ * Fixed tooltips displaying after search action
+ * Add custom roles for Roles Restrictions Options
+
 = 1.8.8 / 10.08.2018 =
  * Added the ability to create diagrams for cells with formulas and shortcodes
  * Fix for Preview Loader
@@ -202,8 +216,7 @@ Important! Shortcode must be inserted in a text editor page, and not in the visu
  * For Source Option added the ability to Export data from an External DB and use SQL Query
  * Fixed row headers in Editor Tab
  * Added the ability to build a chart based on data from database tables
- * Added posibility to place reduction like 1-4, A-D in part shortcode
- * 
+ * Added posibility to place reduction like 1-4, A-D in part shortcode 
 
 = 1.8.7 / 24.07.2018 =
  * Fix Multisite Installation process
