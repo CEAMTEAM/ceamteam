@@ -92,12 +92,20 @@
     text-transform uppercase
     width 100%
 
-    +below(600px)
+    +below(1000px)
       font-size 5rem
 
     +below(880px)
+      font-size 4rem
+
       +landscape()
-        font-size 5rem
+        font-size 4rem
+    
+    +below(725px)
+      font-size 3rem
+
+    +below(580px)
+      font-size 2rem
 
 .home .feature
   &__container
