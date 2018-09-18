@@ -43,7 +43,9 @@
           </div>
             
           <div class="sideBySideGallery__content">
-            <h2 class="sideBySideGallery__heading"><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
+            <h2 class="sideBySideGallery__heading">
+              <a href="<?php the_permalink(); ?>"><?php the_title()?></a>
+            </h2>
             <h3 class="sideBySideGallery__subheading"><?php the_excerpt() ?></h3>
           </div>
         </div>

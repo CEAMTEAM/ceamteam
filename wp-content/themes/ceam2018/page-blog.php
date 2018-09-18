@@ -38,10 +38,24 @@
         while ( $loop->have_posts() ) : $loop->the_post();?>
 
         <div class="sideBySideGallery">
+
+          <?php if (get_full_image_src()) { ?>
+
           <div class="frame-border">
             <div class="frame-inset" style="background-image: url(<?php echo get_full_image_src(); ?>);"></div>
           </div>
-            
+          <?php } else { ?>
+
+          <div class="frame-border">
+            <div 
+              class="frame-inset" 
+              style="background-image: url('/wp-content/themes/ceam2018/src/svg/ceamLogoColor.svg');
+                     background-size: contain;
+                     background-repeat: no-repeat;">
+            </div>
+          </div>
+          <?php } ?>
+          
           <div class="sideBySideGallery__content">
             <h2 class="sideBySideGallery__heading"><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
             <!-- <h3 class="sideBySideGallery__subheading"><?php echo get_field('board_career'); ?></h3> -->
