@@ -72,9 +72,13 @@
       text-shadow 1px 1px 0 black
       width 100%
 
+      +below(950px)
+        width inherit
+
       &:hover
         background-color gold 
         color white
+
 
     .menu-item-has-children
       position relative
@@ -83,18 +87,27 @@
         background-color accent
         color white
 
+        +below(950px)
+          background-color transparent
+
         > a + .sub-menu,
         > a + .sub-menu .sub-menu
           color ltgrape
           display block
           background-color accent
 
-        > a + .sub-menu .sub-menu a
-          text-indent 1.5rem
+          +below(950px)
+            background-color transparent
+
+      > a + .sub-menu .sub-menu a
+        text-indent 1rem
 
       a
         width 100%
         height 100%
+
+        +below(950px)
+          width inherit
 
     .menu-item
       // li
@@ -115,8 +128,8 @@
       a
         width 400px
 
-        +below(950px)
-          width 100%
+        // +below(950px)
+          // width 100%
 
 // .current-menu-item
 //   &.page-item-4, //home
@@ -128,3 +141,9 @@
 //
 //     a
 //       color: $green
+
+// .nav__container .menu-item-has-children:hover,
+// .nav__container .menu-item-has-children:hover > a + .sub-menu
+//   background-color red
+//   +below(950px)
+//     background-color transparent
