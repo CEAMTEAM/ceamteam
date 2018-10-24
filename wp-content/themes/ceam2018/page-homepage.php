@@ -72,6 +72,39 @@
     </div>
   </div>
 
+  <!--grow section-->
+  <div class="grow__layer">
+    <h2 class="grow__heading">Latest News</h2>
+    <div class="grow__container">
+    <?php
+      $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => 3
+      );
+        
+      // Custom query.
+      $query = new WP_Query( $args );
+        
+      // Check that we have query results.
+      if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+
+        <div class="grow__columns zipper">
+          <div class="grow__pic" style="background-image: url(<?php echo get_full_image_src(); ?>);"></div>
+          <div class="grow__content">
+            <h3 class="grow__subheading"><?php the_title(); ?></h3>
+            <div class="grow__text">
+              <?php the_excerpt(); ?>
+            </div>
+            <p><a href="<?php the_permalink() ?>" class="grow__button">Read more</a></p>
+          </div>
+        </div>
+      <?php wp_reset_postdata(); ?>
+      <?php endwhile; else : endif; ?>
+    </div>
+  </div>
+
+
+
   <div class="gallery__layer bgGrape">
     <h2 class="gallery__heading"><?php echo get_field( "get_involved_heading" ); ?></h2>
     <div class="galler__container">
